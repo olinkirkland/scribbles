@@ -9,5 +9,5 @@ export default defineConfig({
       '@': '/src'
     }
   },
-  base: '/scribbles'
+  base: 'https://olinkirkland.github.io/scribbles'
 });
