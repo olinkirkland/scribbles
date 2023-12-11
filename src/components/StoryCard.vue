@@ -14,10 +14,13 @@
       </ul>
     </div>
     <div class="story-card__footer">
-      <button>
+      <a
+        :href="`/scribbles/${props.story.slug}/${props.story.slug}.pdf`"
+        target="_blank"
+      >
         <i class="fas fa-download"></i>
         <span>Download PDF</span>
-      </button>
+      </a>
     </div>
   </div>
 </template>
@@ -167,7 +170,7 @@ ul.tags {
 
 .story-card__footer {
   display: flex;
-  > button {
+  > a {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -176,7 +179,7 @@ ul.tags {
     border-top: 1px solid var(--primary-2);
     background-color: var(--primary-1);
     color: var(--text-inverted);
-    cursor: pointer;
+    border-radius: 0;
 
     &:not(:last-child) {
       border-right: 1px solid var(--surface-2);
@@ -184,6 +187,10 @@ ul.tags {
 
     &:hover {
       background-color: var(--primary-2);
+      bottom: 0;
+      &::after {
+        content: none;
+      }
     }
   }
 }
