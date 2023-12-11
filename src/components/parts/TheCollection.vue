@@ -1,8 +1,9 @@
 <template>
   <section>
     <div class="collection-container">
+      <!-- todo search -->
       <ul>
-        <li v-for="(item, index) in collection" :key="index">
+        <li v-for="(item, index) in reversedCollection" :key="index">
           <StoryCard :story="item" />
         </li>
       </ul>
@@ -13,6 +14,8 @@
 <script setup lang="ts">
 import collection from '@/data/collection.json';
 import StoryCard from '../StoryCard.vue';
+
+const reversedCollection = collection.reverse();
 </script>
 
 <style lang="scss" scoped>
@@ -29,7 +32,7 @@ section {
     > ul {
       width: 100%;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
       grid-gap: 2rem;
     }
   }

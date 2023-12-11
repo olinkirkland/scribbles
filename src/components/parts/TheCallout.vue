@@ -10,7 +10,7 @@
         and licensed for our use under the Creative Commons Attribution 3.0
         <a href="http://creativecommons.org/licenses/by/3.0" target="_blank"
           >license</a
-        >
+        >.
       </p>
     </div>
   </section>

@@ -2,8 +2,13 @@
   <footer>
     <div class="content">
       <p>
-        Copyright will go here in the future. Download and use and share as much
-        as you want :)
+        Images are from
+        <a href="https://unsplash.com/" target="_blank">Unsplash.com</a>
+        and belong to their respective owners on the site.
+      </p>
+      <p>
+        Written material is by me,
+        <a href="https://olinkirk.land/" target="_blank">Olin Kirkland</a>.
       </p>
     </div>
   </footer>
@@ -14,18 +19,18 @@
 <style lang="scss" scoped>
 footer {
   width: 100%;
-  background-color: var(--surface-3);
+  border-top: 1px solid var(--surface-2);
+  background-color: rgba(0, 0, 0, 0.05);
   > .content {
     display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
     max-width: 96rem;
     padding: 2rem;
     margin: 0 auto;
-    line-height: 2.8rem;
 
     > p {
       width: 100%;
-      text-align: center;
-      color: var(--text-inverted);
     }
   }
 }

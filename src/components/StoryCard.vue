@@ -1,27 +1,30 @@
 <template>
   <div class="story-card">
     <div class="story-card__header">
-      <img :src="`@/data/${props.story.slug}/${props.story.slug}.jpg`" />
+      <img :src="`/scribbles/${props.story.slug}/${props.story.slug}.jpg`" />
       <h2>{{ props.story.title }}</h2>
+      <ul>
+        <li v-for="(tag, index) in badgeTags" :key="index">{{ tag }}</li>
+      </ul>
     </div>
     <div class="story-card__content">
       <p>{{ props.story.description }}</p>
       <ul class="tags">
-        <li v-for="(tag, index) in props.story.tags" :key="index">
-          {{ tag.substring(tag.indexOf(':') + 1) }}
-        </li>
+        <li v-for="(tag, index) in storyTags" :key="index">{{ tag }}</li>
       </ul>
     </div>
     <div class="story-card__footer">
       <button>
         <i class="fas fa-download"></i>
-        <span>Download</span>
+        <span>Download PDF</span>
       </button>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue';
+
 type Story = {
   title: string;
   description: string;
@@ -35,6 +38,16 @@ const props = defineProps({
     required: true
   }
 });
+
+const storyTags = computed(() => {
+  return props.story.tags.filter((tag) => !tag.includes(':'));
+});
+
+const badgeTags = computed(() => {
+  return props.story.tags
+    .filter((tag) => tag.includes(':'))
+    .map((tag) => tag.substring(tag.indexOf(':') + 1));
+});
 </script>
 
 <style lang="scss" scoped>
@@ -43,24 +56,55 @@ const props = defineProps({
   height: 100%;
   flex-direction: column;
   border-radius: 5px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
   overflow: hidden;
   border: 1px solid var(--surface-2);
   transition: all 0.2s;
 
   &:hover {
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   }
 }
 
 .story-card__header {
   width: 100%;
-  padding: 1.6rem;
   border-bottom: 1px solid var(--surface-2);
   text-align: center;
+  overflow: hidden;
+  position: relative;
+  height: 10rem;
+
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
   h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem;
     font-size: 2rem;
+    color: var(--text-inverted);
+    position: absolute;
+  }
+
+  ul {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+
+    > li {
+    }
   }
 }
 
