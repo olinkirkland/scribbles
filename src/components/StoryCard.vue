@@ -44,9 +44,14 @@ const storyTags = computed(() => {
 });
 
 const badgeTags = computed(() => {
+  const badgeTagKeys = ['type', 'game'];
   return props.story.tags
     .filter((tag) => tag.includes(':'))
-    .map((tag) => tag.substring(tag.indexOf(':') + 1));
+    .filter((tag) => {
+      const tagKey = tag.split(':')[0];
+      return badgeTagKeys.includes(tagKey);
+    })
+    .map((tag) => tag.split(':')[1]);
 });
 </script>
 
@@ -72,7 +77,7 @@ const badgeTags = computed(() => {
   text-align: center;
   overflow: hidden;
   position: relative;
-  height: 10rem;
+  height: 12rem;
 
   > img {
     width: 100%;
@@ -84,7 +89,20 @@ const badgeTags = computed(() => {
     left: 0;
   }
 
+  // Darken
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
   h2 {
+    position: absolute;
+    z-index: 1;
     width: 100%;
     height: 100%;
     display: flex;
@@ -93,17 +111,25 @@ const badgeTags = computed(() => {
     padding: 1.6rem;
     font-size: 2rem;
     color: var(--text-inverted);
-    position: absolute;
   }
 
   ul {
     position: absolute;
+    z-index: 1;
     bottom: 0;
     left: 0;
     width: 100%;
     display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.8rem;
 
     > li {
+      background-color: var(--surface-0);
+      font-size: 1.2rem;
+      border-radius: 3px;
+      padding: 4px 6px;
+      text-transform: capitalize;
     }
   }
 }
@@ -132,9 +158,9 @@ ul.tags {
     font-size: 1.4rem;
     line-height: 2rem;
 
-    &::before {
+    &:not(:last-child)::after {
       content: '❖';
-      margin-right: 0.4rem;
+      margin-left: 0.4rem;
     }
   }
 }
