@@ -1,0 +1,66 @@
+[
+  {
+    "title": "A Heist for Hire",
+    "description": "A group of thieves are hired to steal a mysterious gemstone from a secure bank vault guarded by lethal automatons.",
+    "slug": "a-heist-for-hire",
+    "tags": [
+      "game:blades in the dark",
+      "type:one-shot",
+      "series:harrow",
+      "brightstone",
+      "bank",
+      "heist"
+    ]
+  },
+  {
+    "title": "Dark Descent",
+    "description": "A group of thieves are tasked with infiltrating the crypts below the Sanctorium of the Church of Ecstasy and aqcuiring a mysterious amulet.",
+    "slug": "dark-descent",
+    "tags": [
+      "game:blades in the dark",
+      "type:one-shot",
+      "series:harrow",
+      "church of ecstasy",
+      "amulet",
+      "sanctorium"
+    ]
+  },
+  {
+    "title": "The Rowan Affair",
+    "description": "Lady Whitethorn's retainers must retrieve a necklace from to convince her bethrothed—the esteemed Lord Rowan—of her innocence.",
+    "slug": "the-rowan-affair",
+    "tags": [
+      "game:blades in the dark",
+      "type:one-shot",
+      "series:whitethorn",
+      "rowan",
+      "necklace",
+      "lady whitethorn"
+    ]
+  },
+  {
+    "title": "Party at Whitethorn House",
+    "description": "Lady Whitethorn is throwing an extravagant party to elevate her social standing. Her retainers must ensure the party goes off without a hitch.",
+    "slug": "party-at-whitethorn-house",
+    "tags": [
+      "game:blades in the dark",
+      "type:one-shot",
+      "series:whitethorn",
+      "party",
+      "lady whitethorn"
+    ]
+  },
+  {
+    "title": "Stranger Tides",
+    "description": "Pirates hire a crew of scoundrels to steal precious leviathan blood from the belly of a leviathan hunter ship.",
+    "slug": "stranger-tides",
+    "tags": [
+      "game:blades in the dark",
+      "type:one-shot",
+      "series:emissary",
+      "leviathan blood",
+      "pirates",
+      "red mariner"
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+@import 'reset';
+
+:root {
+  // Shades
+  --surface-0: #fdfcf7;
+  --surface-1: #f0eee2;
+  --surface-2: #c8c5bc;
+  --surface-3: #a7a49e;
+
+  // Primary
+  --primary-0: #c53d43;
+  --primary-1: #a31f26;
+  --primary-2: #8c1a20;
+  --primary-3: #6e151a;
+
+  // Text
+  --text: #292836;
+  --text-inverted: #fdfcf7;
+
+  // Colors
+  --red: #f03e3e;
+  --orange: #ff922b;
+  --yellow: #ffd43b;
+  --green: #51cf66;
+  --teal: #20c997;
+  --blue: #339af0;
+  --indigo: #5c7cfa;
+  --purple: #7950f2;
+  --pink: #f06595;
+  --grey: #adb5bd;
+
+  // Shadows
+  --shadow-light: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  --shadow-heavy: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  --shadow-close: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+  // Font
+  --font-family: 'Cambria', serif;
+}
+
+body {
+  background-color: var(--surface-1);
+
+  * {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+  }
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  white-space: nowrap;
+  color: var(--text-inverted);
+  background-color: var(--primary-1);
+  padding: 2px 6px;
+  text-decoration: none;
+  border-radius: 3px;
+  // transition: all 0.2s ease-in-out;
+  bottom: 0;
+  position: relative;
+
+  &:hover {
+    background-color: var(--primary-0);
+    bottom: 2px;
+
+    &::before {
+      content: '';
+      border-radius: 3px;
+      z-index: -1;
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--surface-2);
+    }
+  }
+}
+
+pre {
+  background-color: var(--surface-2);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: var(--shadow-light);
+}
