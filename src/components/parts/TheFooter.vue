@@ -7,8 +7,7 @@
         and belong to their respective owners on the site.
       </p>
       <p>
-        © {{ new Date().getFullYear() }} — 
-        <a href="https://olinkirk.land/" target="_blank">Olin Kirkland</a>
+        Site by <a href="https://olinkirk.land/" target="_blank">Olin Kirkland</a>
       </p>
     </div>
   </footer>
