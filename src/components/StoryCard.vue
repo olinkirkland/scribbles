@@ -1,7 +1,7 @@
 <template>
   <div class="story-card">
     <div class="story-card__header">
-      <img :src="`/scribbles/${props.story.slug}/${props.story.slug}.jpg`" />
+      <img :src="imageUrl" />
       <h2>{{ props.story.title }}</h2>
       <ul>
         <li v-for="(tag, index) in badgeTags" :key="index">{{ tag }}</li>
@@ -56,6 +56,11 @@ const badgeTags = computed(() => {
     })
     .map((tag) => tag.split(':')[1]);
 });
+
+const imageUrl = new URL(
+  `./scribbles/data/${props.story.slug}/${props.story.slug}.jpg`,
+  import.meta.url
+).href;
 </script>
 
 <style lang="scss" scoped>
