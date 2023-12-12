@@ -9,7 +9,7 @@
     </div>
     <div class="story-card__content">
       <p>{{ props.story.description }}</p>
-      <p class="last-modified">{{ lastModified }}</p>
+      <!-- <p class="last-modified">{{ lastModified }}</p> -->
       <!-- <ul class="tags">
         <li v-for="(tag, index) in storyTags" :key="index">{{ tag }}</li>
       </ul> -->
@@ -59,7 +59,6 @@ const props = defineProps({
 // });
 
 const lastModified = computed(() => {
-  // 10 / 23 / 2022 or 10 / 23 (if current year)
   const date = new Date(props.story.lastModified);
   const year = date.getFullYear();
   const month = date.toLocaleString('default', { month: 'short' });
