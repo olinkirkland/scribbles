@@ -58,15 +58,15 @@ const props = defineProps({
 //   return props.story.tags.filter((tag) => !tag.includes(':'));
 // });
 
-const lastModified = computed(() => {
-  const date = new Date(props.story.lastModified);
-  const year = date.getFullYear();
-  const month = date.toLocaleString('default', { month: 'short' });
-  const day = date.getDate();
-  return `${month}. ${day}${
-    year !== new Date().getFullYear() ? ', ' + year : ''
-  }`;
-});
+// const lastModified = computed(() => {
+//   const date = new Date(props.story.lastModified);
+//   const year = date.getFullYear();
+//   const month = date.toLocaleString('default', { month: 'short' });
+//   const day = date.getDate();
+//   return `${month}. ${day}${
+//     year !== new Date().getFullYear() ? ', ' + year : ''
+//   }`;
+// });
 
 const size = computed(() => {
   const sizeInKB = Math.floor(props.story.size / 1024);

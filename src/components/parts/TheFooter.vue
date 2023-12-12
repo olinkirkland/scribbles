@@ -7,7 +7,7 @@
         and belong to their respective owners on the site.
       </p>
       <p>
-        Written material is by me —
+        © {{ new Date().getFullYear() }} — 
         <a href="https://olinkirk.land/" target="_blank">Olin Kirkland</a>
       </p>
     </div>
