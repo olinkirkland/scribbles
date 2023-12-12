@@ -30,7 +30,7 @@ for (const slug of folders) {
 }
 
 // Merge metadata into collection
-for (const item of collection) {
+for (const item of collection.scribbles) {
   if (metadata[item.slug]) {
     item.size = metadata[item.slug].size;
     item.lastModified = metadata[item.slug].lastModified;
@@ -62,6 +62,15 @@ output.on('close', () => {
     'public/scribbles-collection.zip',
     `${dataFolderPath}/scribbles-collection.zip`
   );
+
+  // Update the collection.json file (archive.size, archive.lastModified)
+  const stats = fs.statSync(`${dataFolderPath}/scribbles-collection.zip`);
+  const collection = JSON.parse(fs.readFileSync(collectionFilePath, 'utf8'));
+  collection.archive = {
+    size: stats.size,
+    lastModified: stats.mtime
+  };
+  fs.writeFileSync(collectionFilePath, JSON.stringify(collection, null, 2));
 
   console.log('  Done!');
 });

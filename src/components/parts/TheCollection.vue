@@ -15,7 +15,7 @@
 import collection from '@/data/collection.json';
 import StoryCard from '../StoryCard.vue';
 
-const reversedCollection = collection.reverse();
+const reversedCollection = collection.scribbles.reverse();
 </script>
 
 <style lang="scss" scoped>
