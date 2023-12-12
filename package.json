@@ -1,6 +1,5 @@
 {
   "name": "scribbles",
-  "homepage": "http://olinkirkland.github.io/scribbles",
   "private": true,
   "version": "0.0.0",
   "type": "module",
