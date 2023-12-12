@@ -24,7 +24,7 @@
 import collection from '@/data/collection.json';
 
 const archiveSize = (collection.archive.size / 1024 / 1024).toFixed(2) + ' MB';
-const archiveUrl = './scribbles/data/scribbles-collection.zip';
+const archiveUrl = './data/scribbles-collection.zip';
 </script>
 
 <style lang="scss" scoped>

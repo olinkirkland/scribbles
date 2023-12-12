@@ -76,8 +76,8 @@ const badgeTags = computed(() => {
     .join(' ❖ ');
 });
 
-const imageUrl = `./scribbles/data/${props.story.slug}/${props.story.slug}.jpg`;
-const pdfUrl = `./scribbles/data/${props.story.slug}/${props.story.slug}.pdf`;
+const imageUrl = `./data/${props.story.slug}/${props.story.slug}.jpg`;
+const pdfUrl = `./data/${props.story.slug}/${props.story.slug}.pdf`;
 </script>
 
 <style lang="scss" scoped>
