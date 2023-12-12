@@ -15,7 +15,11 @@
 import collection from '@/data/collection.json';
 import StoryCard from '../StoryCard.vue';
 
-const reversedCollection = collection.scribbles.reverse();
+const reversedCollection = collection.scribbles.reverse().sort((a, b) => {
+  return (
+    new Date(b.lastModified).getTime() - new Date(a.lastModified).getTime()
+  );
+});
 </script>
 
 <style lang="scss" scoped>

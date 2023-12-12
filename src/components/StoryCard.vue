@@ -6,6 +6,7 @@
         <h2>{{ props.story.title }}</h2>
         <p>{{ badgeTags }}</p>
       </div>
+      <p class="new-badge" v-if="isNew">New</p>
     </div>
     <div class="story-card__content">
       <p>{{ props.story.description }}</p>
@@ -85,6 +86,14 @@ const badgeTags = computed(() => {
     .join(' ❖ ');
 });
 
+const isNew = computed(() => {
+  const date = new Date(props.story.lastModified);
+  const now = new Date();
+  const diff = now.getTime() - date.getTime();
+  const diffInDays = Math.floor(diff / (1000 * 3600 * 24));
+  return diffInDays <= 3;
+});
+
 const imageUrl = `./data/${props.story.slug}/${props.story.slug}.jpg`;
 const pdfUrl = `./data/${props.story.slug}/${props.story.slug}.pdf`;
 </script>
@@ -111,7 +120,7 @@ const pdfUrl = `./data/${props.story.slug}/${props.story.slug}.pdf`;
   text-align: center;
   overflow: hidden;
   position: relative;
-  height: 12rem;
+  height: 16rem;
 
   > img {
     width: 100%;
@@ -141,13 +150,14 @@ const pdfUrl = `./data/${props.story.slug}/${props.story.slug}.pdf`;
     height: 100%;
     display: flex;
     flex-direction: column;
+    gap: 0.4rem;
     align-items: center;
     justify-content: center;
     color: var(--text-inverted);
     padding: 0.8rem;
 
     h2 {
-      font-size: 2rem;
+      font-size: 2.4rem;
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     }
 
@@ -158,6 +168,16 @@ const pdfUrl = `./data/${props.story.slug}/${props.story.slug}.pdf`;
   }
 }
 
+p.new-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  border-bottom-left-radius: 5px;
+  background-color: var(--surface-0);
+}
 .last-modified {
   font-size: 1.2rem;
   text-align: right;
@@ -219,7 +239,9 @@ ul.tags {
     }
 
     &:hover {
+      height: 100%;
       background-color: var(--primary-0);
+      border-top: 1px solid var(--primary-1);
       bottom: 0;
       &::after {
         content: none;
