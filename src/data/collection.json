@@ -1,6 +1,14 @@
 {
   "scribbles": [
     {
+      "title": "Setting Primer",
+      "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
+      "slug": "setting-primer",
+      "tags": ["game:blades in the dark", "type:setting"],
+      "size": 116206,
+      "lastModified": "2023-12-08T15:29:43.347Z"
+    },
+    {
       "title": "The Rowan Affair",
       "description": "Lady Whitethorn's retainers must retrieve a necklace from to convince her bethrothed—the esteemed Lord Rowan—of her innocence.",
       "slug": "the-rowan-affair",
@@ -79,6 +87,6 @@
   ],
   "archive": {
     "size": 3450304,
-    "lastModified": "2023-12-12T09:38:29.332Z"
+    "lastModified": "2023-12-12T13:28:44.836Z"
   }
 }
