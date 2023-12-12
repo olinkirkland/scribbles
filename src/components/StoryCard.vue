@@ -108,6 +108,7 @@ const pdfUrl = `./data/${props.story.slug}/${props.story.slug}.pdf`;
   overflow: hidden;
   border: 1px solid var(--surface-2);
   transition: all 0.2s;
+  background-color: var(--surface-0);
 
   &:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
