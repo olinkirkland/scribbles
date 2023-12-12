@@ -10,7 +10,6 @@ createApp(App).mount('#app');
 mixpanel.init('e82e613b6fdaf8a1239aa67e3e05d4d5');
 if (window.location.hostname !== 'localhost') {
   console.warn('Mixpanel tracked the page load!');
-  mixpanel.track('Page load');
 } else {
   console.warn('Accessing from localhost; Mixpanel is disabled.');
 }

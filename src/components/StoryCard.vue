@@ -41,7 +41,7 @@ type Story = {
 };
 
 function trackDownloadClick() {
-  mixpanel.track('Download', {
+  mixpanel.track('download', {
     slug: props.story.slug
   });
   return true;

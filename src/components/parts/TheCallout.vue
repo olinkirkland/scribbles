@@ -14,13 +14,16 @@
       </p>
       <p>
         Want to download the whole collection in a single ZIP file?
-        <a :href="archiveUrl" download>Download ZIP ({{ archiveSize }})</a>
+        <a :href="archiveUrl" download @click="trackDownloadClick"
+          >Download ZIP ({{ archiveSize }})</a
+        >
       </p>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
+import mixpanel from 'mixpanel-browser';
 import collection from '@/data/collection.json';
 
 const archiveSize = (collection.archive.size / 1024 / 1024).toFixed(2) + ' MB';
@@ -32,6 +35,13 @@ const archiveUrl = './data/scribbles-collection.zip';
 //   month: 'long',
 //   day: 'numeric'
 // });
+
+function trackDownloadClick() {
+  mixpanel.track('download', {
+    slug: 'scribbles-collection'
+  });
+  return true;
+}
 </script>
 
 <style lang="scss" scoped>
