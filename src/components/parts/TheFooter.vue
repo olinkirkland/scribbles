@@ -7,8 +7,8 @@
         and belong to their respective owners on the site.
       </p>
       <p>
-        Written material is by me,
-        <a href="https://olinkirk.land/" target="_blank">Olin Kirkland</a>.
+        Written material is by me —
+        <a href="https://olinkirk.land/" target="_blank">Olin Kirkland</a>
       </p>
     </div>
   </footer>
