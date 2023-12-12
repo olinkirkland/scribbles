@@ -2,24 +2,26 @@
   <div class="story-card">
     <div class="story-card__header">
       <img :src="imageUrl" />
-      <h2>{{ props.story.title }}</h2>
-      <ul>
-        <li v-for="(tag, index) in badgeTags" :key="index">{{ tag }}</li>
-      </ul>
+      <div class="story-card__header__text">
+        <h2>{{ props.story.title }}</h2>
+        <p>{{ badgeTags }}</p>
+      </div>
     </div>
     <div class="story-card__content">
       <p>{{ props.story.description }}</p>
-      <ul class="tags">
+      <p class="last-modified">Last updated on {{ lastModified }}</p>
+      <!-- <ul class="tags">
         <li v-for="(tag, index) in storyTags" :key="index">{{ tag }}</li>
-      </ul>
+      </ul> -->
+
+      <!-- <a :href="pdfUrl" target="_blank">
+        <span>Open in new tab</span>
+      </a> -->
     </div>
     <div class="story-card__footer">
-      <a
-        :href="`/scribbles/data/${props.story.slug}/${props.story.slug}.pdf`"
-        target="_blank"
-      >
+      <a :href="pdfUrl" download>
         <i class="fas fa-download"></i>
-        <span>Download PDF</span>
+        <span>Download PDF ({{ size }})</span>
       </a>
     </div>
   </div>
@@ -33,6 +35,8 @@ type Story = {
   description: string;
   slug: string;
   tags: string[];
+  lastModified: string;
+  size: number;
 };
 
 const props = defineProps({
@@ -42,8 +46,22 @@ const props = defineProps({
   }
 });
 
-const storyTags = computed(() => {
-  return props.story.tags.filter((tag) => !tag.includes(':'));
+// const storyTags = computed(() => {
+//   return props.story.tags.filter((tag) => !tag.includes(':'));
+// });
+
+const lastModified = computed(() => {
+  const date = new Date(props.story.lastModified);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+});
+
+const size = computed(() => {
+  const sizeInKB = Math.floor(props.story.size / 1024);
+  return sizeInKB + ' KB';
 });
 
 const badgeTags = computed(() => {
@@ -54,13 +72,12 @@ const badgeTags = computed(() => {
       const tagKey = tag.split(':')[0];
       return badgeTagKeys.includes(tagKey);
     })
-    .map((tag) => tag.split(':')[1]);
+    .map((tag) => tag.split(':')[1])
+    .join(' ❖ ');
 });
 
-const imageUrl = new URL(
-  `./scribbles/data/${props.story.slug}/${props.story.slug}.jpg`,
-  import.meta.url
-).href;
+const imageUrl = `./scribbles/data/${props.story.slug}/${props.story.slug}.jpg`;
+const pdfUrl = `./scribbles/data/${props.story.slug}/${props.story.slug}.pdf`;
 </script>
 
 <style lang="scss" scoped>
@@ -108,38 +125,34 @@ const imageUrl = new URL(
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  h2 {
+  > .story-card__header__text {
     position: absolute;
     z-index: 1;
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.6rem;
-    font-size: 2rem;
     color: var(--text-inverted);
-  }
-
-  ul {
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 0.4rem;
     padding: 0.8rem;
 
-    > li {
-      background-color: var(--surface-0);
+    h2 {
+      font-size: 2rem;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+
+    p {
       font-size: 1.2rem;
-      border-radius: 3px;
-      padding: 4px 6px;
       text-transform: capitalize;
     }
   }
+}
+
+p.last-modified {
+  font-size: 1.2rem;
+  color: var(--surface-3);
+  text-align: center;
 }
 
 .story-card__content {
@@ -149,9 +162,12 @@ const imageUrl = new URL(
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
-  > p {
+  > *:not(:last-child) {
     margin-bottom: 1.2rem;
     line-height: 2.2rem;
+  }
+  > a {
+    margin-left: auto;
   }
 }
 
@@ -159,7 +175,7 @@ ul.tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  border: 1px dashed var(--surface-2);
+  background-color: rgba(0, 0, 0, 0.05);
   padding: 1.2rem;
 
   > li {
@@ -175,8 +191,12 @@ ul.tags {
 
 .story-card__footer {
   display: flex;
+  > a:first-child {
+    flex: 1;
+  }
+
   > a {
-    width: 100%;
+    min-width: 8rem;
     display: flex;
     justify-content: center;
     gap: 0.8rem;
@@ -187,11 +207,11 @@ ul.tags {
     border-radius: 0;
 
     &:not(:last-child) {
-      border-right: 1px solid var(--surface-2);
+      border-right: 1px solid var(--primary-2);
     }
 
     &:hover {
-      background-color: var(--primary-2);
+      background-color: var(--primary-0);
       bottom: 0;
       &::after {
         content: none;

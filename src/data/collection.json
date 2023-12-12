@@ -10,7 +10,9 @@
       "rowan",
       "necklace",
       "lady whitethorn"
-    ]
+    ],
+    "size": 104805,
+    "lastModified": "2023-12-08T14:55:39.316Z"
   },
   {
     "title": "Party at Whitethorn House",
@@ -22,7 +24,9 @@
       "series:whitethorn",
       "party",
       "lady whitethorn"
-    ]
+    ],
+    "size": 103499,
+    "lastModified": "2023-12-08T14:54:24.288Z"
   },
   {
     "title": "A Heist for Hire",
@@ -35,7 +39,9 @@
       "brightstone",
       "bank",
       "heist"
-    ]
+    ],
+    "size": 106999,
+    "lastModified": "2023-12-08T14:52:54.346Z"
   },
   {
     "title": "Dark Descent",
@@ -49,7 +55,9 @@
       "amulet",
       "sanctorium",
       "new:true"
-    ]
+    ],
+    "size": 111887,
+    "lastModified": "2023-12-08T14:53:50.537Z"
   },
   {
     "title": "Stranger Tides",
@@ -63,6 +71,8 @@
       "pirates",
       "red mariner",
       "new:true"
-    ]
+    ],
+    "size": 108317,
+    "lastModified": "2023-12-08T14:54:57.282Z"
   }
 ]

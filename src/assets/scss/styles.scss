@@ -54,6 +54,7 @@ body {
 }
 
 a {
+  width: fit-content;
   white-space: nowrap;
   color: var(--text-inverted);
   background-color: var(--primary-1);
