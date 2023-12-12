@@ -15,7 +15,7 @@
     </div>
     <div class="story-card__footer">
       <a
-        :href="`/scribbles/${props.story.slug}/${props.story.slug}.pdf`"
+        :href="`/scribbles/data/${props.story.slug}/${props.story.slug}.pdf`"
         target="_blank"
       >
         <i class="fas fa-download"></i>
