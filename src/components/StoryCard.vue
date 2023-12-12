@@ -44,6 +44,7 @@ function trackDownloadClick() {
   mixpanel.track('Download', {
     slug: props.story.slug
   });
+  return true;
 }
 
 const props = defineProps({
