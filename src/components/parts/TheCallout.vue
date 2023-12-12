@@ -25,6 +25,13 @@ import collection from '@/data/collection.json';
 
 const archiveSize = (collection.archive.size / 1024 / 1024).toFixed(2) + ' MB';
 const archiveUrl = './data/scribbles-collection.zip';
+// const archiveLastModified = new Date(
+//   collection.archive.lastModified
+// ).toLocaleDateString('en-US', {
+//   year: 'numeric',
+//   month: 'long',
+//   day: 'numeric'
+// });
 </script>
 
 <style lang="scss" scoped>

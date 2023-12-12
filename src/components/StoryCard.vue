@@ -9,7 +9,7 @@
     </div>
     <div class="story-card__content">
       <p>{{ props.story.description }}</p>
-      <p class="last-modified">Last updated on {{ lastModified }}</p>
+      <p class="last-modified">{{ lastModified }}</p>
       <!-- <ul class="tags">
         <li v-for="(tag, index) in storyTags" :key="index">{{ tag }}</li>
       </ul> -->
@@ -51,12 +51,14 @@ const props = defineProps({
 // });
 
 const lastModified = computed(() => {
+  // 10 / 23 / 2022 or 10 / 23 (if current year)
   const date = new Date(props.story.lastModified);
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
+  const year = date.getFullYear();
+  const month = date.toLocaleString('default', { month: 'short' });
+  const day = date.getDate();
+  return `${month}. ${day}${
+    year !== new Date().getFullYear() ? ', ' + year : ''
+  }`;
 });
 
 const size = computed(() => {
@@ -149,10 +151,9 @@ const pdfUrl = `./data/${props.story.slug}/${props.story.slug}.pdf`;
   }
 }
 
-p.last-modified {
+.last-modified {
   font-size: 1.2rem;
-  color: var(--surface-3);
-  text-align: center;
+  text-align: right;
 }
 
 .story-card__content {
