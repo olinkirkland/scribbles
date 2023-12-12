@@ -19,7 +19,7 @@
       </a> -->
     </div>
     <div class="story-card__footer">
-      <a :href="pdfUrl" download>
+      <a :href="pdfUrl" download @click="trackDownloadClick">
         <i class="fas fa-download"></i>
         <span>Download PDF ({{ size }})</span>
       </a>
@@ -28,6 +28,7 @@
 </template>
 
 <script setup lang="ts">
+import mixpanel from 'mixpanel-browser';
 import { computed } from 'vue';
 
 type Story = {
@@ -38,6 +39,12 @@ type Story = {
   lastModified: string;
   size: number;
 };
+
+function trackDownloadClick() {
+  mixpanel.track('Download', {
+    slug: props.story.slug
+  });
+}
 
 const props = defineProps({
   story: {
