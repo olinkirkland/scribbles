@@ -4,7 +4,10 @@
       "title": "Setting Primer",
       "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
       "slug": "setting-primer",
-      "tags": ["game:blades in the dark", "type:setting"],
+      "tags": [
+        "game:blades in the dark",
+        "type:setting"
+      ],
       "size": 116206,
       "lastModified": "2023-12-08T15:29:43.347Z"
     },
@@ -20,8 +23,8 @@
         "deathlands",
         "plague"
       ],
-      "size": 108918,
-      "lastModified": "2023-12-12T14:44:47.321Z"
+      "size": 108205,
+      "lastModified": "2023-12-12T15:11:33.971Z"
     },
     {
       "title": "The Rowan Affair",
@@ -99,7 +102,7 @@
     }
   ],
   "archive": {
-    "size": 3573453,
-    "lastModified": "2023-12-12T14:58:36.223Z"
+    "size": 3572741,
+    "lastModified": "2023-12-12T15:13:28.042Z"
   }
 }
