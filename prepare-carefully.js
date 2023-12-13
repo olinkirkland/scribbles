@@ -17,8 +17,8 @@ const metadata = {}; // key: slug, value: metadata object
 
 for (const slug of folders) {
   if (slug === 'scribbles-collection.zip') continue; // skip archive
+  const pdfUrl = `${dataFolderPath}/${slug}/${slug}.pdf`;
   try {
-    const pdfUrl = `${dataFolderPath}/${slug}/${slug}.pdf`;
     const stats = fs.statSync(pdfUrl);
     metadata[slug] = {
       size: stats.size,

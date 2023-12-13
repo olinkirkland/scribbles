@@ -29,6 +29,7 @@
 </template>
 
 <script setup lang="ts">
+import { BASE_URL } from '@/main';
 import mixpanel from 'mixpanel-browser';
 import { computed } from 'vue';
 
@@ -55,20 +56,6 @@ const props = defineProps({
   }
 });
 
-// const storyTags = computed(() => {
-//   return props.story.tags.filter((tag) => !tag.includes(':'));
-// });
-
-// const lastModified = computed(() => {
-//   const date = new Date(props.story.lastModified);
-//   const year = date.getFullYear();
-//   const month = date.toLocaleString('default', { month: 'short' });
-//   const day = date.getDate();
-//   return `${month}. ${day}${
-//     year !== new Date().getFullYear() ? ', ' + year : ''
-//   }`;
-// });
-
 const size = computed(() => {
   const sizeInKB = Math.floor(props.story.size / 1024);
   return sizeInKB + ' KB';
@@ -94,8 +81,8 @@ const isNew = computed(() => {
   return diffInDays <= 3;
 });
 
-const imageUrl = `./data/${props.story.slug}/${props.story.slug}.jpg`;
-const pdfUrl = `./data/${props.story.slug}/${props.story.slug}.pdf`;
+const imageUrl = `${BASE_URL}/data/${props.story.slug}/${props.story.slug}.jpg`;
+const pdfUrl = `${BASE_URL}/data/${props.story.slug}/${props.story.slug}.pdf`;
 </script>
 
 <style lang="scss" scoped>

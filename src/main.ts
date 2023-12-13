@@ -3,6 +3,9 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import './assets/css/styles.css';
 
+export const BASE_URL =
+  window.location.hostname === 'localhost' ? './scribbles/' : './';
+
 createApp(App).mount('#app');
 
 // Initialize Mixpanel
