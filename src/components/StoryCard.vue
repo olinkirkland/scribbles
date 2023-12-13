@@ -81,8 +81,8 @@ const isNew = computed(() => {
   return diffInDays <= 3;
 });
 
-const imageUrl = `${BASE_URL}/data/${props.story.slug}/${props.story.slug}.jpg`;
-const pdfUrl = `${BASE_URL}/data/${props.story.slug}/${props.story.slug}.pdf`;
+const imageUrl = `${BASE_URL}data/${props.story.slug}/${props.story.slug}.jpg`;
+const pdfUrl = `${BASE_URL}data/${props.story.slug}/${props.story.slug}.pdf`;
 </script>
 
 <style lang="scss" scoped>

@@ -25,9 +25,10 @@
 <script setup lang="ts">
 import mixpanel from 'mixpanel-browser';
 import collection from '@/data/collection.json';
+import { BASE_URL } from '@/main';
 
 const archiveSize = (collection.archive.size / 1024 / 1024).toFixed(2) + ' MB';
-const archiveUrl = './data/scribbles-collection.zip';
+const archiveUrl = `${BASE_URL}data/scribbles-collection.zip`;
 // const archiveLastModified = new Date(
 //   collection.archive.lastModified
 // ).toLocaleDateString('en-US', {
