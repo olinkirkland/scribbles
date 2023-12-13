@@ -76,14 +76,21 @@ output.on('close', () => {
 });
 
 archive.on('warning', (err) => {
-  if (err.code === 'ENOENT') {
-    console.log(err);
-  } else {
-    throw err;
-  }
+  console.error(err);
 });
 
 archive.pipe(output);
 
-archive.directory(dataFolderPath, false);
+collection.scribbles.forEach((item) => {
+  if (item.slug === 'scribbles-collection.zip') return; // skip archive
+  archive.file(`${dataFolderPath}/${item.slug}/${item.slug}.pdf`, {
+    name: `${toFileName(item.title)}.pdf`
+  });
+});
+
 archive.finalize();
+
+function toFileName(str) {
+  // Remove all characters that aren't a letter, number, dash, or space
+  return str.replace(/[^A-Za-z0-9- ]/g, '');
+}
