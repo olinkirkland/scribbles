@@ -142,7 +142,7 @@ const pdfUrl = `${BASE_URL}data/${props.story.slug}/${props.story.slug}.pdf`;
     align-items: center;
     justify-content: center;
     color: var(--text-inverted);
-    padding: 0.8rem;
+    padding: 1.2rem;
 
     h2 {
       font-size: 2.4rem;
