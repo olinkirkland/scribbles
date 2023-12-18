@@ -4,10 +4,7 @@
       "title": "Setting Primer",
       "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
       "slug": "setting-primer",
-      "tags": [
-        "game:blades in the dark",
-        "type:setting"
-      ],
+      "tags": ["game:blades in the dark", "type:setting"],
       "size": 116206,
       "lastModified": "2023-12-08T15:29:43.347Z"
     },
@@ -25,6 +22,22 @@
       ],
       "size": 108113,
       "lastModified": "2023-12-13T09:31:40.851Z"
+    },
+    {
+      "title": "Devil's Sacrament",
+      "description": "The witches of the Cat's Tail Coven must prevent a cult from unleashing a demon in the heart of Doskvol.",
+      "slug": "devils-sacrament",
+      "tags": [
+        "game:blades in the dark",
+        "type:two-shot",
+        "series:witches",
+        "witches",
+        "demon",
+        "ritual",
+        "veil"
+      ],
+      "size": 110307,
+      "lastModified": "2023-12-18T10:31:51.449Z"
     },
     {
       "title": "The Rowan Affair",
@@ -102,7 +115,7 @@
     }
   ],
   "archive": {
-    "size": 687296,
-    "lastModified": "2023-12-14T14:03:16.646Z"
+    "size": 786571,
+    "lastModified": "2023-12-18T10:40:01.299Z"
   }
 }
