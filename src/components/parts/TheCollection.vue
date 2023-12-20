@@ -39,7 +39,8 @@ import collection from '@/data/collection.json';
 import { computed, ref } from 'vue';
 import StoryCard from '../StoryCard.vue';
 
-const searchInput = ref();
+const initialSearch = new URLSearchParams(window.location.search).get('s');
+const searchInput = ref(initialSearch ? decodeURIComponent(initialSearch) : '');
 
 function search(str: string) {
   searchInput.value = str;
@@ -73,6 +74,7 @@ const filteredItems = computed(() => {
   return reversedCollection.filter((item: any) => {
     return (
       item.title.toLowerCase().includes(searchStr) ||
+      item.slug.toLowerCase().includes(searchStr) ||
       item.tags.some((tag: string) => {
         return tag.toLowerCase().includes(searchStr);
       })
