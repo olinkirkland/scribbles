@@ -17,17 +17,9 @@
 <script setup lang="ts">
 import { ModalController } from '@/controllers/modal-controller';
 import { BASE_URL } from '@/main';
-// import mixpanel from 'mixpanel-browser';
 import { computed } from 'vue';
 import ScribbleModal from '@/components/modals/scribble-modal.vue';
 import { Scribble } from './parts/the-collection.vue';
-
-// function trackDownloadClick() {
-//   mixpanel.track('download', {
-//     slug: props.scribble.slug
-//   });
-//   return true;
-// }
 
 const props = defineProps({
   scribble: {
@@ -35,11 +27,6 @@ const props = defineProps({
     required: true
   }
 });
-
-// const size = computed(() => {
-//   const sizeInKB = Math.floor(props.scribble.size / 1024);
-//   return sizeInKB + ' KB';
-// });
 
 const badgeTags = computed(() => {
   const badgeTagKeys = ['type', 'game'];
@@ -54,7 +41,7 @@ const badgeTags = computed(() => {
 });
 
 const isNew = computed(() => {
-  const date = new Date(props.scribble.lastModified);
+  const date = new Date(props.scribble.createdAt);
   const now = new Date();
   const diff = now.getTime() - date.getTime();
   const diffInDays = Math.floor(diff / (1000 * 3600 * 24));
@@ -62,7 +49,6 @@ const isNew = computed(() => {
 });
 
 const imageUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.jpg`;
-// const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pdf`;
 
 function openScribbleModal() {
   ModalController.open(ScribbleModal, { scribble: props.scribble });
@@ -150,10 +136,6 @@ p.new-badge {
   text-transform: uppercase;
   border-bottom-left-radius: 5px;
   background-color: var(--surface-0);
-}
-.last-modified {
-  font-size: 1.2rem;
-  text-align: right;
 }
 
 .scribble-card__content {

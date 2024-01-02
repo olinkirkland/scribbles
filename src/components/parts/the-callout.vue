@@ -1,52 +1,51 @@
 <template>
   <section>
-    <div class="content">
+    <div class="content" v-if="!isCalloutHidden">
+      <p><strong>Before you continue!</strong></p>
       <p>
         These works are based on
-        <a href="http://www.bladesinthedark.com" target="_blank"
+        <a class="link" href="http://www.bladesinthedark.com" target="_blank"
           >Blades in the Dark</a
         >
         — a product of One Seven Design, developed and authored by John Harper,
         and licensed for our use under the Creative Commons Attribution 3.0
-        <a href="http://creativecommons.org/licenses/by/3.0" target="_blank"
+        <a
+          href="http://creativecommons.org/licenses/by/3.0"
+          class="link"
+          target="_blank"
           >license</a
         >
       </p>
-      <p>
-        Want to download the whole collection in a single ZIP file?
-        <a :href="archiveUrl" download @click="trackDownloadClick"
-          >Download ZIP ({{ archiveSize }})</a
-        >
-      </p>
+      <button v-if="!isCalloutHidden" @click="hideCalloutAndSave">
+        <span>OK, hide this message</span>
+      </button>
     </div>
+    <button
+      class="show-attribution link"
+      @click="isCalloutHidden = false"
+      v-if="isCalloutHidden"
+    >
+      <span>Show attribution</span>
+    </button>
   </section>
 </template>
 
 <script setup lang="ts">
-import mixpanel from 'mixpanel-browser';
-import collection from '@/data/collection.json';
-import { BASE_URL } from '@/main';
+import { ref } from 'vue';
 
-const archiveSize = (collection.archive.size / 1024 / 1024).toFixed(2) + ' MB';
-const archiveUrl = `${BASE_URL}data/scribbles-collection.zip`;
-// const archiveLastModified = new Date(
-//   collection.archive.lastModified
-// ).toLocaleDateString('en-US', {
-//   year: 'numeric',
-//   month: 'long',
-//   day: 'numeric'
-// });
+const isCalloutHidden = ref(localStorage.getItem('hide-callout') || false);
 
-function trackDownloadClick() {
-  mixpanel.track('download', {
-    slug: 'scribbles-collection'
-  });
-  return true;
+function hideCalloutAndSave() {
+  isCalloutHidden.value = true;
+  localStorage.setItem('hide-callout', 'true');
 }
 </script>
 
 <style lang="scss" scoped>
 section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   box-shadow: inset 0 3px 15px rgba(0, 0, 0, 0.1),
     inset 0 -3px 15px rgba(0, 0, 0, 0.1);
@@ -58,7 +57,21 @@ section {
     padding: 2rem;
     margin: 0 auto;
     color: var(--text-0);
-    line-height: 2.4rem;
+    line-height: 1.6;
+  }
+}
+
+button.show-attribution {
+  position: absolute;
+  background: none;
+  color: var(--text-inverted);
+  top: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+
+  &:hover {
+    bottom: unset;
   }
 }
 </style>

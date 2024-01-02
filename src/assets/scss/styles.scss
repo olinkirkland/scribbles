@@ -53,8 +53,14 @@ body {
   min-height: 100vh;
 }
 
-a,
-button {
+a.link,
+button.link {
+  color: var(--primary-1);
+  text-decoration: underline;
+}
+
+a:not(.link),
+button:not(.link) {
   width: fit-content;
   white-space: nowrap;
   color: var(--text-inverted);
@@ -70,18 +76,7 @@ button {
   &:hover {
     background-color: var(--primary-0);
     bottom: 2px;
-
-    &::before {
-      content: '';
-      border-radius: 3px;
-      z-index: -1;
-      position: absolute;
-      top: 2px;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: var(--surface-2);
-    }
+    box-shadow: 0 2px 0 0 var(--surface-2);
   }
 }
 
@@ -134,7 +129,28 @@ input[type='text'] {
   .modal-container > .modal {
     max-height: none;
     max-width: none;
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 4rem);
+    height: calc(100% - 4rem);
+  }
+
+  a,
+  button {
+    padding: 0.8rem 1.6rem;
+
+    &:hover {
+      bottom: 0;
+      box-shadow: none;
+    }
+  }
+
+  p > a,
+  p > button {
+    padding: 0;
+    background: none;
+    text-decoration: underline;
+    color: var(--primary-1);
+    &:hover {
+      background: none;
+    }
   }
 }

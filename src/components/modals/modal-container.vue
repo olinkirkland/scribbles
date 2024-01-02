@@ -38,7 +38,7 @@ function onClickModalContainerBackground() {
   width: 100%;
   height: 100vh;
   max-height: -webkit-fill-available;
-  position: absolute;
+  position: fixed;
   top: 0;
 
   display: flex;

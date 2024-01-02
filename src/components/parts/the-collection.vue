@@ -1,6 +1,13 @@
 <template>
   <section>
     <div class="collection-container">
+      <p class="bundle">
+        Want to download the whole collection in a single ZIP file?
+        <a :href="archiveUrl" download @click="trackDownloadClick"
+          >Download ZIP ({{ archiveSize }})</a
+        >
+      </p>
+
       <!-- Search -->
       <div class="search">
         <input type="text" placeholder="Search" v-model="searchInput" />
@@ -18,15 +25,15 @@
       <h2 v-else>{{ filteredItems.length }} scribbles</h2>
 
       <!-- Tags -->
-      <ul class="tags">
+      <!-- <ul class="tags">
         <li v-for="(tag, index) in tags" :key="index">
           <button @click="search(tag)">{{ tag }}</button>
         </li>
-      </ul>
+      </ul> -->
 
       <!-- Collection -->
       <ul class="collection">
-        <li v-for="(item, index) in filteredItems" :key="index">
+        <li v-for="item in filteredItems" :key="item.slug">
           <ScribbleCard :scribble="item" />
         </li>
       </ul>
@@ -38,6 +45,11 @@
 import collection from '@/data/collection.json';
 import { computed, ref } from 'vue';
 import ScribbleCard from '../scribble-card.vue';
+import { BASE_URL } from '@/main';
+import mixpanel from 'mixpanel-browser';
+
+const archiveSize = (collection.archive.size / 1024 / 1024).toFixed(2) + ' MB';
+const archiveUrl = `${BASE_URL}data/scribbles-collection.zip`;
 
 export type Scribble = {
   title: string;
@@ -63,21 +75,28 @@ const reversedCollection = collection.scribbles.reverse().sort((a, b) => {
   );
 });
 
-const tags = computed(() => {
-  return reversedCollection
-    .reduce((acc: any, curr: any) => {
-      // Unique tags
-      const uniqueTags = curr.tags.filter((tag: string) => {
-        return !acc.includes(tag);
-      });
-      return [...acc, ...uniqueTags];
-    }, [])
-    .sort()
-    .filter((tag: string) => {
-      if (tag === 'game:blades in the dark') return false;
-      return tag.includes(':');
-    });
-});
+function trackDownloadClick() {
+  mixpanel.track('download', {
+    slug: 'scribbles-collection'
+  });
+  return true;
+}
+
+// const tags = computed(() => {
+//   return reversedCollection
+//     .reduce((acc: any, curr: any) => {
+//       // Unique tags
+//       const uniqueTags = curr.tags.filter((tag: string) => {
+//         return !acc.includes(tag);
+//       });
+//       return [...acc, ...uniqueTags];
+//     }, [])
+//     .sort()
+//     .filter((tag: string) => {
+//       if (tag === 'game:blades in the dark') return false;
+//       return tag.includes(':');
+//     });
+// });
 
 const filteredItems = computed(() => {
   if (!searchInput.value) return reversedCollection;
@@ -125,6 +144,7 @@ section {
         transform: translateY(-50%);
         cursor: pointer;
         background-color: var(--surface-2);
+        padding: 0;
 
         display: flex;
         justify-content: center;
@@ -170,6 +190,12 @@ section {
   section > .collection-container > ul.collection {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.bundle {
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
 }
 
 @media screen and (max-width: 576px) {
