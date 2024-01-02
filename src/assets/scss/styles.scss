@@ -143,8 +143,8 @@ input[type='text'] {
     }
   }
 
-  p > a,
-  p > button {
+  p > a:not(.link),
+  p > button:not(.link) {
     padding: 0;
     background: none;
     text-decoration: underline;
