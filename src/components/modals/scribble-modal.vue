@@ -1,13 +1,9 @@
 <template>
-  <card-container class="modal">
-    <template #content>
-      <div>
-        <code class="language-javascript">
-          {{ props }}
-        </code>
-      </div>
-    </template>
-  </card-container>
+  <div class="modal">
+    <code class="language-javascript">
+      {{ JSON.stringify(props.scribble, null, 2) }}
+    </code>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -21,4 +17,10 @@ const props = defineProps({
 });
 </script>
 
-<style type="scss" scoped></style>
+<style type="scss" scoped>
+.modal {
+  background-color: var(--surface-0);
+  color: var(--text);
+  padding: 1.6rem;
+}
+</style>

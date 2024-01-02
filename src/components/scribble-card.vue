@@ -65,7 +65,7 @@ const imageUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.
 // const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pdf`;
 
 function openScribbleModal() {
-  ModalController.open(ScribbleModal, props.scribble);
+  ModalController.open(ScribbleModal, { scribble: props.scribble });
 }
 </script>
 
