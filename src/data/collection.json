@@ -4,10 +4,13 @@
       "title": "Setting Primer",
       "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
       "slug": "setting-primer",
-      "tags": ["game:blades in the dark", "type:setting"],
+      "tags": [
+        "game:blades in the dark",
+        "type:setting"
+      ],
       "size": 116206,
-      "lastModified": "2023-12-12T13:25:26.630Z",
-      "createdAt": "2023-12-20T12:44:50.325Z",
+      "lastModified": "2023-12-08T15:29:43.347Z",
+      "createdAt": "2023-12-13T08:53:57.683Z",
       "pageCount": 2
     },
     {
@@ -23,8 +26,8 @@
         "plague"
       ],
       "size": 108113,
-      "lastModified": "2023-12-13T10:37:37.170Z",
-      "createdAt": "2023-12-13T10:37:37.211Z",
+      "lastModified": "2023-12-13T09:31:40.851Z",
+      "createdAt": "2023-12-13T08:54:12.153Z",
       "pageCount": 1
     },
     {
@@ -41,8 +44,8 @@
         "veil"
       ],
       "size": 109820,
-      "lastModified": "2023-12-18T12:32:05.330Z",
-      "createdAt": "2023-12-18T12:32:05.367Z",
+      "lastModified": "2023-12-18T12:33:23.453Z",
+      "createdAt": "2023-12-13T10:08:01.817Z",
       "pageCount": 1
     },
     {
@@ -58,8 +61,8 @@
         "lady whitethorn"
       ],
       "size": 104805,
-      "lastModified": "2023-12-08T14:55:32.007Z",
-      "createdAt": "2023-12-13T09:32:33.864Z",
+      "lastModified": "2023-12-08T14:55:39.316Z",
+      "createdAt": "2023-12-13T08:54:06.930Z",
       "pageCount": 1
     },
     {
@@ -74,8 +77,8 @@
         "lady whitethorn"
       ],
       "size": 103499,
-      "lastModified": "2023-12-08T14:54:16.320Z",
-      "createdAt": "2023-12-13T09:32:45.896Z",
+      "lastModified": "2023-12-08T14:54:24.288Z",
+      "createdAt": "2023-12-13T08:53:50.747Z",
       "pageCount": 1
     },
     {
@@ -91,8 +94,8 @@
         "heist"
       ],
       "size": 106999,
-      "lastModified": "2023-12-08T14:52:46.564Z",
-      "createdAt": "2023-12-13T09:32:54.208Z",
+      "lastModified": "2023-12-08T14:52:54.346Z",
+      "createdAt": "2023-12-13T08:53:39.308Z",
       "pageCount": 1
     },
     {
@@ -108,8 +111,8 @@
         "sanctorium"
       ],
       "size": 111887,
-      "lastModified": "2023-12-08T14:53:42.480Z",
-      "createdAt": "2023-12-13T09:32:49.753Z",
+      "lastModified": "2023-12-08T14:53:50.537Z",
+      "createdAt": "2023-12-13T08:53:45.931Z",
       "pageCount": 1
     },
     {
@@ -125,13 +128,13 @@
         "red mariner"
       ],
       "size": 108317,
-      "lastModified": "2023-12-08T14:55:02.581Z",
-      "createdAt": "2023-12-13T09:32:37.928Z",
+      "lastModified": "2023-12-08T14:54:57.282Z",
+      "createdAt": "2023-12-13T08:54:02.583Z",
       "pageCount": 1
     }
   ],
   "archive": {
     "size": 786074,
-    "lastModified": "2024-01-02T10:45:55.506Z"
+    "lastModified": "2024-01-02T15:58:01.816Z"
   }
 }

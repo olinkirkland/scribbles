@@ -133,8 +133,8 @@ input[type='text'] {
     height: calc(100% - 4rem);
   }
 
-  a,
-  button {
+  a:not(.link),
+  button:not(.link) {
     padding: 0.8rem 1.6rem;
 
     &:hover {

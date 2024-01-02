@@ -25,8 +25,10 @@ for (const slug of folders) {
   try {
     const stats = fs.statSync(pdfUrl);
     metadata[slug] = {
-      size: stats.size
+      size: stats.size,
+      lastModified: stats.mtime
     };
+
     console.log(`  ├── ${slug}.pdf`);
   } catch (error) {
     console.log(`No PDF file found at ${pdfUrl}`);
@@ -45,8 +47,8 @@ for (const slug of folders) {
   const docUrl = `${dataFolderPath}/${slug}/${slug}.docx`;
   try {
     const stats = fs.statSync(docUrl);
-    metadata[slug].createdAt = stats.ctime;
-    metadata[slug].lastModified = stats.mtime;
+    // console.log(stats);
+    metadata[slug].createdAt = stats.birthtime;
     console.log(`  └── ${slug}.docx`);
   } catch (error) {
     console.log(`No DOCX file found at ${docUrl}`);
