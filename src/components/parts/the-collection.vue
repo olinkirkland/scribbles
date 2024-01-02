@@ -27,7 +27,7 @@
       <!-- Collection -->
       <ul class="collection">
         <li v-for="(item, index) in filteredItems" :key="index">
-          <StoryCard :story="item" />
+          <ScribbleCard :scribble="item" />
         </li>
       </ul>
     </div>
@@ -37,7 +37,18 @@
 <script setup lang="ts">
 import collection from '@/data/collection.json';
 import { computed, ref } from 'vue';
-import StoryCard from '../StoryCard.vue';
+import ScribbleCard from '../scribble-card.vue';
+
+export type Scribble = {
+  title: string;
+  description: string;
+  slug: string;
+  tags: string[];
+  createdAt: string;
+  lastModified: string;
+  pageCount: number;
+  size: number;
+};
 
 const initialSearch = new URLSearchParams(window.location.search).get('s');
 const searchInput = ref(initialSearch ? decodeURIComponent(initialSearch) : '');

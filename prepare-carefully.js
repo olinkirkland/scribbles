@@ -1,5 +1,6 @@
 import archiver from 'archiver';
 import fs from 'fs';
+import { PDFDocument } from 'pdf-lib';
 
 /**
  * This script generates metadata for each PDF file in the data folder.
@@ -15,24 +16,56 @@ const folders = fs.readdirSync(dataFolderPath);
 const collection = JSON.parse(fs.readFileSync(collectionFilePath, 'utf8'));
 const metadata = {}; // key: slug, value: metadata object
 
+const ignoredFiles = ['_work-in-progress', 'scribbles-collection.zip'];
+
 for (const slug of folders) {
-  if (slug === 'scribbles-collection.zip') continue; // skip archive
+  if (ignoredFiles.includes(slug)) continue; // skip ignored files
+  console.log(`${slug}`);
   const pdfUrl = `${dataFolderPath}/${slug}/${slug}.pdf`;
   try {
     const stats = fs.statSync(pdfUrl);
     metadata[slug] = {
-      size: stats.size,
-      lastModified: stats.mtime
+      size: stats.size
     };
+    console.log(`  ├── ${slug}.pdf`);
   } catch (error) {
     console.log(`No PDF file found at ${pdfUrl}`);
   }
+
+  try {
+    const file = fs.readFileSync(pdfUrl);
+    const loadPdf = await PDFDocument.load(file.buffer);
+    const pdf = await loadPdf;
+    const pageCount = pdf.getPageCount();
+    metadata[slug].pageCount = pageCount;
+  } catch (error) {
+    console.log(error);
+  }
+
+  const docUrl = `${dataFolderPath}/${slug}/${slug}.docx`;
+  try {
+    const stats = fs.statSync(docUrl);
+    metadata[slug].createdAt = stats.ctime;
+    metadata[slug].lastModified = stats.mtime;
+    console.log(`  └── ${slug}.docx`);
+  } catch (error) {
+    console.log(`No DOCX file found at ${docUrl}`);
+  }
+
+  const stats = metadata[slug];
+
+  console.log(`  ${stats.size} bytes`);
+  console.log(`  ${stats.pageCount} pages`);
+  console.log(`  created: ${stats.createdAt.toDateString()}`);
+  console.log(`  updated: ${stats.lastModified.toDateString()}`);
 }
 
 // Merge metadata into collection
 for (const item of collection.scribbles) {
   if (metadata[item.slug]) {
     item.size = metadata[item.slug].size;
+    item.pageCount = metadata[item.slug].pageCount;
+    item.createdAt = metadata[item.slug].createdAt;
     item.lastModified = metadata[item.slug].lastModified;
   }
 }

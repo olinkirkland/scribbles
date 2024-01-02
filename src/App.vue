@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import TheCallout from './components/parts/TheCallout.vue';
-import TheCollection from './components/parts/TheCollection.vue';
-import TheFooter from './components/parts/TheFooter.vue';
-import TheHero from './components/parts/TheHero.vue';
+import ModalContainer from './components/modals/modal-container.vue';
+import TheCallout from './components/parts/the-callout.vue';
+import TheCollection from './components/parts/the-collection.vue';
+import TheFooter from './components/parts/the-footer.vue';
+import TheHero from './components/parts/the-hero.vue';
 </script>
 
 <template>
@@ -10,4 +11,5 @@ import TheHero from './components/parts/TheHero.vue';
   <TheCallout />
   <TheCollection />
   <TheFooter />
+  <ModalContainer />
 </template>

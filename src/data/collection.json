@@ -6,7 +6,9 @@
       "slug": "setting-primer",
       "tags": ["game:blades in the dark", "type:setting"],
       "size": 116206,
-      "lastModified": "2023-12-08T15:29:43.347Z"
+      "lastModified": "2023-12-12T13:25:26.630Z",
+      "createdAt": "2023-12-20T12:44:50.325Z",
+      "pageCount": 2
     },
     {
       "title": "Witch Way to the Deathlands?",
@@ -21,7 +23,9 @@
         "plague"
       ],
       "size": 108113,
-      "lastModified": "2023-12-13T09:31:40.851Z"
+      "lastModified": "2023-12-13T10:37:37.170Z",
+      "createdAt": "2023-12-13T10:37:37.211Z",
+      "pageCount": 1
     },
     {
       "title": "Devil's Sacrament",
@@ -36,8 +40,10 @@
         "ritual",
         "veil"
       ],
-      "size": 110307,
-      "lastModified": "2023-12-18T10:31:51.449Z"
+      "size": 109820,
+      "lastModified": "2023-12-18T12:32:05.330Z",
+      "createdAt": "2023-12-18T12:32:05.367Z",
+      "pageCount": 1
     },
     {
       "title": "The Rowan Affair",
@@ -52,7 +58,9 @@
         "lady whitethorn"
       ],
       "size": 104805,
-      "lastModified": "2023-12-08T14:55:39.316Z"
+      "lastModified": "2023-12-08T14:55:32.007Z",
+      "createdAt": "2023-12-13T09:32:33.864Z",
+      "pageCount": 1
     },
     {
       "title": "Party at Whitethorn House",
@@ -66,7 +74,9 @@
         "lady whitethorn"
       ],
       "size": 103499,
-      "lastModified": "2023-12-08T14:54:24.288Z"
+      "lastModified": "2023-12-08T14:54:16.320Z",
+      "createdAt": "2023-12-13T09:32:45.896Z",
+      "pageCount": 1
     },
     {
       "title": "A Heist for Hire",
@@ -81,7 +91,9 @@
         "heist"
       ],
       "size": 106999,
-      "lastModified": "2023-12-08T14:52:54.346Z"
+      "lastModified": "2023-12-08T14:52:46.564Z",
+      "createdAt": "2023-12-13T09:32:54.208Z",
+      "pageCount": 1
     },
     {
       "title": "Dark Descent",
@@ -96,7 +108,9 @@
         "sanctorium"
       ],
       "size": 111887,
-      "lastModified": "2023-12-08T14:53:50.537Z"
+      "lastModified": "2023-12-08T14:53:42.480Z",
+      "createdAt": "2023-12-13T09:32:49.753Z",
+      "pageCount": 1
     },
     {
       "title": "Stranger Tides",
@@ -111,11 +125,13 @@
         "red mariner"
       ],
       "size": 108317,
-      "lastModified": "2023-12-08T14:54:57.282Z"
+      "lastModified": "2023-12-08T14:55:02.581Z",
+      "createdAt": "2023-12-13T09:32:37.928Z",
+      "pageCount": 1
     }
   ],
   "archive": {
-    "size": 786571,
-    "lastModified": "2023-12-18T10:40:01.299Z"
+    "size": 786074,
+    "lastModified": "2024-01-02T10:45:55.506Z"
   }
 }

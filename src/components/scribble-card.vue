@@ -1,69 +1,49 @@
 <template>
-  <div class="story-card">
-    <div class="story-card__header">
+  <div class="scribble-card" @click="openScribbleModal">
+    <div class="scribble-card__header">
       <img :src="imageUrl" />
-      <div class="story-card__header__text">
-        <h2>{{ props.story.title }}</h2>
+      <div class="scribble-card__header__text">
+        <h2>{{ props.scribble.title }}</h2>
         <p>{{ badgeTags }}</p>
       </div>
       <p class="new-badge" v-if="isNew">New</p>
     </div>
-    <div class="story-card__content">
-      <p>{{ props.story.description }}</p>
-      <!-- <p class="last-modified">{{ lastModified }}</p> -->
-      <!-- <ul class="tags">
-        <li v-for="(tag, index) in storyTags" :key="index">{{ tag }}</li>
-      </ul> -->
-
-      <!-- <a :href="pdfUrl" target="_blank">
-        <span>Open in new tab</span>
-      </a> -->
-    </div>
-    <div class="story-card__footer">
-      <a :href="pdfUrl" download @click="trackDownloadClick">
-        <i class="fas fa-download"></i>
-        <span>Download PDF ({{ size }})</span>
-      </a>
+    <div class="scribble-card__content">
+      <p>{{ props.scribble.description }}</p>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { ModalController } from '@/controllers/modal-controller';
 import { BASE_URL } from '@/main';
-import mixpanel from 'mixpanel-browser';
+// import mixpanel from 'mixpanel-browser';
 import { computed } from 'vue';
+import ScribbleModal from '@/components/modals/scribble-modal.vue';
+import { Scribble } from './parts/the-collection.vue';
 
-type Story = {
-  title: string;
-  description: string;
-  slug: string;
-  tags: string[];
-  lastModified: string;
-  size: number;
-};
-
-function trackDownloadClick() {
-  mixpanel.track('download', {
-    slug: props.story.slug
-  });
-  return true;
-}
+// function trackDownloadClick() {
+//   mixpanel.track('download', {
+//     slug: props.scribble.slug
+//   });
+//   return true;
+// }
 
 const props = defineProps({
-  story: {
-    type: Object as () => Story,
+  scribble: {
+    type: Object as () => Scribble,
     required: true
   }
 });
 
-const size = computed(() => {
-  const sizeInKB = Math.floor(props.story.size / 1024);
-  return sizeInKB + ' KB';
-});
+// const size = computed(() => {
+//   const sizeInKB = Math.floor(props.scribble.size / 1024);
+//   return sizeInKB + ' KB';
+// });
 
 const badgeTags = computed(() => {
   const badgeTagKeys = ['type', 'game'];
-  return props.story.tags
+  return props.scribble.tags
     .filter((tag) => tag.includes(':'))
     .filter((tag) => {
       const tagKey = tag.split(':')[0];
@@ -74,19 +54,23 @@ const badgeTags = computed(() => {
 });
 
 const isNew = computed(() => {
-  const date = new Date(props.story.lastModified);
+  const date = new Date(props.scribble.lastModified);
   const now = new Date();
   const diff = now.getTime() - date.getTime();
   const diffInDays = Math.floor(diff / (1000 * 3600 * 24));
   return diffInDays <= 3;
 });
 
-const imageUrl = `${BASE_URL}data/${props.story.slug}/${props.story.slug}.jpg`;
-const pdfUrl = `${BASE_URL}data/${props.story.slug}/${props.story.slug}.pdf`;
+const imageUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.jpg`;
+// const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pdf`;
+
+function openScribbleModal() {
+  ModalController.open(ScribbleModal, props.scribble);
+}
 </script>
 
 <style lang="scss" scoped>
-.story-card {
+.scribble-card {
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -96,13 +80,14 @@ const pdfUrl = `${BASE_URL}data/${props.story.slug}/${props.story.slug}.pdf`;
   border: 1px solid var(--surface-2);
   transition: all 0.2s;
   background-color: var(--surface-0);
+  cursor: pointer;
 
   &:hover {
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
   }
 }
 
-.story-card__header {
+.scribble-card__header {
   width: 100%;
   border-bottom: 1px solid var(--surface-2);
   text-align: center;
@@ -131,7 +116,7 @@ const pdfUrl = `${BASE_URL}data/${props.story.slug}/${props.story.slug}.pdf`;
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  > .story-card__header__text {
+  > .scribble-card__header__text {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -171,7 +156,7 @@ p.new-badge {
   text-align: right;
 }
 
-.story-card__content {
+.scribble-card__content {
   padding: 1.6rem;
   flex: 1;
   display: flex;
@@ -205,7 +190,7 @@ ul.tags {
   }
 }
 
-.story-card__footer {
+.scribble-card__footer {
   display: flex;
   > a:first-child {
     flex: 1;
