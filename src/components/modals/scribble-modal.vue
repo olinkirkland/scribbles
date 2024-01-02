@@ -121,7 +121,7 @@ function trackDownloadOrView(str: string) {
 
 function closeAndSearch(str: string) {
   ModalController.close();
-  window.location.href = `/?s=${str}`;
+  window.location.href = `/scribbles/?s=${str}`;
 }
 
 const imageUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.jpg`;
