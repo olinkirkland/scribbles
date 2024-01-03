@@ -1,6 +1,24 @@
 {
   "scribbles": [
     {
+      "title": "Lawman on the Line",
+      "description": "Extract an undercover operative from a gang of former Bluecoats on a high-speed train.",
+      "slug": "lawman-on-the-line",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "bluecoat",
+        "train",
+        "gray cloaks",
+        "inspector",
+        "deathlands"
+      ],
+      "size": 108414,
+      "pageCount": 1,
+      "createdAt": "Invalid Date",
+      "lastModified": "Invalid Date"
+    },
+    {
       "title": "Setting Primer",
       "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
       "slug": "setting-primer",
@@ -8,8 +26,8 @@
         "game:blades in the dark",
         "type:setting"
       ],
-      "size": 116206,
-      "lastModified": "Tue Dec 12 2023",
+      "size": 116184,
+      "lastModified": "Wed Jan 03 2024",
       "createdAt": "Mon Dec 11 2023",
       "pageCount": 2
     },
@@ -25,8 +43,8 @@
         "deathlands",
         "plague"
       ],
-      "size": 108113,
-      "lastModified": "Wed Dec 13 2023",
+      "size": 108153,
+      "lastModified": "Wed Jan 03 2024",
       "createdAt": "Tue Dec 12 2023",
       "pageCount": 1
     },
@@ -127,14 +145,14 @@
         "pirates",
         "red mariner"
       ],
-      "size": 108317,
-      "lastModified": "Tue Dec 12 2023",
+      "size": 108323,
+      "lastModified": "Wed Jan 03 2024",
       "createdAt": "Mon Dec 11 2023",
       "pageCount": 1
     }
   ],
   "archive": {
-    "size": 786074,
-    "lastModified": "2024-01-03T08:21:04.438Z"
+    "size": 884243,
+    "lastModified": "2024-01-03T12:45:59.064Z"
   }
 }

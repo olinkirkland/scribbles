@@ -139,7 +139,7 @@ function getGitFileDates(filePath) {
       return new Date(date).toDateString();
     });
   } catch (error) {
-    console.error('Error:', error.message);
+    console.error(error);
     return [];
   }
 }
