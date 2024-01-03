@@ -3,7 +3,7 @@
     <div class="collection-container">
       <p class="bundle">
         Want to download the whole collection in a single ZIP file?
-        <a :href="archiveUrl" download @click="trackDownloadClick"
+        <a class="link" :href="archiveUrl" download @click="trackDownloadClick"
           >Download ZIP ({{ archiveSize }})</a
         >
       </p>

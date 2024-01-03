@@ -65,7 +65,7 @@ button:not(.link) {
   white-space: nowrap;
   color: var(--text-inverted);
   background-color: var(--primary-1);
-  padding: 2px 6px;
+  padding: 0.8rem 1.6rem;
   text-decoration: none;
   border-radius: 3px;
   // transition: all 0.2s ease-in-out;
@@ -75,8 +75,6 @@ button:not(.link) {
 
   &:hover {
     background-color: var(--primary-0);
-    bottom: 2px;
-    box-shadow: 0 2px 0 0 var(--surface-2);
   }
 }
 
@@ -124,6 +122,17 @@ input[type='text'] {
   }
 }
 
+button.close {
+  width: 3.2rem !important;
+  height: 3.2rem !important;
+  background-color: transparent !important;
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
+
 // Media query for phones
 @media (max-width: 768px) {
   .modal-container > .modal {
@@ -131,16 +140,6 @@ input[type='text'] {
     max-width: none;
     width: calc(100% - 4rem);
     height: calc(100% - 4rem);
-  }
-
-  a:not(.link),
-  button:not(.link) {
-    padding: 0.8rem 1.6rem;
-
-    &:hover {
-      bottom: 0;
-      box-shadow: none;
-    }
   }
 
   p > a:not(.link),

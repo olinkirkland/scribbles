@@ -191,6 +191,7 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
         display: flex;
         flex-wrap: wrap;
         gap: 0.4rem;
+        margin-bottom: 2rem;
 
         > li {
           display: flex;
@@ -246,10 +247,10 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
       height: 100%;
       .modal__content__header > button.close {
         position: absolute;
-        height: 2.4rem;
+        color: var(--text-inverted);
         top: 0;
         right: 0;
-        margin: 2.4rem;
+        margin: 3.2rem;
         background: none;
 
         &:hover {
