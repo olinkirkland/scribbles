@@ -1,4 +1,5 @@
 import archiver from 'archiver';
+import { execSync } from 'child_process';
 import fs from 'fs';
 import { PDFDocument } from 'pdf-lib';
 
@@ -21,14 +22,19 @@ const ignoredFiles = ['_work-in-progress', 'scribbles-collection.zip'];
 for (const slug of folders) {
   if (ignoredFiles.includes(slug)) continue; // skip ignored files
   console.log(`${slug}`);
+
+  // PDF
   const pdfUrl = `${dataFolderPath}/${slug}/${slug}.pdf`;
   try {
+    const fileDates = getGitFileDates(pdfUrl);
+    const lastModified = fileDates[0];
+    const createdAt = fileDates[fileDates.length - 1];
     const stats = fs.statSync(pdfUrl);
     metadata[slug] = {
       size: stats.size,
-      lastModified: stats.mtime
+      createdAt: createdAt,
+      lastModified: lastModified
     };
-
     console.log(`  ├── ${slug}.pdf`);
   } catch (error) {
     console.log(`No PDF file found at ${pdfUrl}`);
@@ -44,23 +50,16 @@ for (const slug of folders) {
     console.log(error);
   }
 
+  // DOCX
   const docUrl = `${dataFolderPath}/${slug}/${slug}.docx`;
   try {
-    const stats = fs.statSync(docUrl);
-    // console.log(stats);
-    metadata[slug].createdAt = stats.birthtime;
     console.log(`  └── ${slug}.docx`);
   } catch (error) {
     console.log(`No DOCX file found at ${docUrl}`);
   }
-
-  const stats = metadata[slug];
-
-  console.log(`  ${stats.size} bytes`);
-  console.log(`  ${stats.pageCount} pages`);
-  console.log(`  created: ${stats.createdAt.toDateString()}`);
-  console.log(`  updated: ${stats.lastModified.toDateString()}`);
 }
+
+console.table(metadata);
 
 // Merge metadata into collection
 for (const item of collection.scribbles) {
@@ -128,4 +127,19 @@ archive.finalize();
 function toFileName(str) {
   // Remove all characters that aren't a letter, number, dash, or space
   return str.replace(/[^A-Za-z0-9- ]/g, '');
+}
+
+function getGitFileDates(filePath) {
+  try {
+    const command = `git log --follow --format="%ad" -- "${filePath}"`;
+    const result = execSync(command, { encoding: 'utf-8' });
+    const dates = result.trim().split('\n');
+    if (dates.length === 0) return null;
+    return dates.map((date) => {
+      return new Date(date).toDateString();
+    });
+  } catch (error) {
+    console.error('Error:', error.message);
+    return [];
+  }
 }

@@ -9,8 +9,8 @@
         "type:setting"
       ],
       "size": 116206,
-      "lastModified": "2023-12-08T15:29:43.347Z",
-      "createdAt": "2023-12-13T08:53:57.683Z",
+      "lastModified": "Tue Dec 12 2023",
+      "createdAt": "Mon Dec 11 2023",
       "pageCount": 2
     },
     {
@@ -26,8 +26,8 @@
         "plague"
       ],
       "size": 108113,
-      "lastModified": "2023-12-13T09:31:40.851Z",
-      "createdAt": "2023-12-13T08:54:12.153Z",
+      "lastModified": "Wed Dec 13 2023",
+      "createdAt": "Tue Dec 12 2023",
       "pageCount": 1
     },
     {
@@ -44,8 +44,8 @@
         "veil"
       ],
       "size": 109820,
-      "lastModified": "2023-12-18T12:33:23.453Z",
-      "createdAt": "2023-12-13T10:08:01.817Z",
+      "lastModified": "Mon Dec 18 2023",
+      "createdAt": "Mon Dec 18 2023",
       "pageCount": 1
     },
     {
@@ -61,8 +61,8 @@
         "lady whitethorn"
       ],
       "size": 104805,
-      "lastModified": "2023-12-08T14:55:39.316Z",
-      "createdAt": "2023-12-13T08:54:06.930Z",
+      "lastModified": "Tue Dec 12 2023",
+      "createdAt": "Mon Dec 11 2023",
       "pageCount": 1
     },
     {
@@ -77,8 +77,8 @@
         "lady whitethorn"
       ],
       "size": 103499,
-      "lastModified": "2023-12-08T14:54:24.288Z",
-      "createdAt": "2023-12-13T08:53:50.747Z",
+      "lastModified": "Tue Dec 12 2023",
+      "createdAt": "Mon Dec 11 2023",
       "pageCount": 1
     },
     {
@@ -94,8 +94,8 @@
         "heist"
       ],
       "size": 106999,
-      "lastModified": "2023-12-08T14:52:54.346Z",
-      "createdAt": "2023-12-13T08:53:39.308Z",
+      "lastModified": "Tue Dec 12 2023",
+      "createdAt": "Mon Dec 11 2023",
       "pageCount": 1
     },
     {
@@ -111,8 +111,8 @@
         "sanctorium"
       ],
       "size": 111887,
-      "lastModified": "2023-12-08T14:53:50.537Z",
-      "createdAt": "2023-12-13T08:53:45.931Z",
+      "lastModified": "Tue Dec 12 2023",
+      "createdAt": "Mon Dec 11 2023",
       "pageCount": 1
     },
     {
@@ -128,13 +128,13 @@
         "red mariner"
       ],
       "size": 108317,
-      "lastModified": "2023-12-08T14:54:57.282Z",
-      "createdAt": "2023-12-13T08:54:02.583Z",
+      "lastModified": "Tue Dec 12 2023",
+      "createdAt": "Mon Dec 11 2023",
       "pageCount": 1
     }
   ],
   "archive": {
     "size": 786074,
-    "lastModified": "2024-01-02T15:58:01.816Z"
+    "lastModified": "2024-01-03T08:21:04.438Z"
   }
 }
