@@ -15,8 +15,8 @@
       ],
       "size": 108414,
       "pageCount": 1,
-      "createdAt": "Invalid Date",
-      "lastModified": "Invalid Date"
+      "createdAt": "2024-01-03T12:46:27.000Z",
+      "lastModified": "2024-01-03T12:46:27.000Z"
     },
     {
       "title": "Setting Primer",
@@ -27,8 +27,8 @@
         "type:setting"
       ],
       "size": 116184,
-      "lastModified": "Wed Jan 03 2024",
-      "createdAt": "Mon Dec 11 2023",
+      "lastModified": "2024-01-03T09:13:25.000Z",
+      "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 2
     },
     {
@@ -44,8 +44,8 @@
         "plague"
       ],
       "size": 108153,
-      "lastModified": "Wed Jan 03 2024",
-      "createdAt": "Tue Dec 12 2023",
+      "lastModified": "2024-01-03T09:13:25.000Z",
+      "createdAt": "2023-12-12T15:03:20.000Z",
       "pageCount": 1
     },
     {
@@ -62,8 +62,8 @@
         "veil"
       ],
       "size": 109820,
-      "lastModified": "Mon Dec 18 2023",
-      "createdAt": "Mon Dec 18 2023",
+      "lastModified": "2023-12-18T13:30:45.000Z",
+      "createdAt": "2023-12-18T10:40:21.000Z",
       "pageCount": 1
     },
     {
@@ -79,8 +79,8 @@
         "lady whitethorn"
       ],
       "size": 104805,
-      "lastModified": "Tue Dec 12 2023",
-      "createdAt": "Mon Dec 11 2023",
+      "lastModified": "2023-12-12T08:16:46.000Z",
+      "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     },
     {
@@ -95,8 +95,8 @@
         "lady whitethorn"
       ],
       "size": 103499,
-      "lastModified": "Tue Dec 12 2023",
-      "createdAt": "Mon Dec 11 2023",
+      "lastModified": "2023-12-12T08:16:46.000Z",
+      "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     },
     {
@@ -112,8 +112,8 @@
         "heist"
       ],
       "size": 106999,
-      "lastModified": "Tue Dec 12 2023",
-      "createdAt": "Mon Dec 11 2023",
+      "lastModified": "2023-12-12T08:16:46.000Z",
+      "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     },
     {
@@ -129,8 +129,8 @@
         "sanctorium"
       ],
       "size": 111887,
-      "lastModified": "Tue Dec 12 2023",
-      "createdAt": "Mon Dec 11 2023",
+      "lastModified": "2023-12-12T08:16:46.000Z",
+      "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     },
     {
@@ -146,13 +146,13 @@
         "red mariner"
       ],
       "size": 108323,
-      "lastModified": "Wed Jan 03 2024",
-      "createdAt": "Mon Dec 11 2023",
+      "lastModified": "2024-01-03T11:05:15.000Z",
+      "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     }
   ],
   "archive": {
     "size": 884243,
-    "lastModified": "2024-01-03T12:45:59.064Z"
+    "lastModified": "2024-01-03T12:48:34.026Z"
   }
 }

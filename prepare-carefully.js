@@ -136,7 +136,7 @@ function getGitFileDates(filePath) {
     const dates = result.trim().split('\n');
     if (dates.length === 0) return null;
     return dates.map((date) => {
-      return new Date(date).toDateString();
+      return new Date(date);
     });
   } catch (error) {
     console.error(error);
