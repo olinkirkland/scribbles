@@ -44,7 +44,7 @@
           </a>
         </div>
         <div class="dates">
-          <!-- <p>{{ createdAt }}</p> -->
+          <p>{{ createdAt }}</p>
           <p>{{ lastModified }}</p>
         </div>
       </div>
@@ -68,10 +68,10 @@ const props = defineProps({
 
 const scribble = computed(() => props.scribble);
 
-// const createdAt = computed(() => {
-//   const date = new Date(scribble.value.createdAt);
-//   return 'Created: ' + date.toLocaleDateString();
-// });
+const createdAt = computed(() => {
+  const date = new Date(scribble.value.createdAt);
+  return 'Created: ' + date.toLocaleDateString();
+});
 
 const lastModified = computed(() => {
   const date = new Date(scribble.value.lastModified);
