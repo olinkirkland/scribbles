@@ -6,7 +6,7 @@
         <h2>{{ props.scribble.title }}</h2>
         <p>{{ badgeTags }}</p>
       </div>
-      <p class="new-badge" v-if="isNew">New</p>
+      <p class="new-badge" v-if="isNew">New!</p>
     </div>
     <div class="scribble-card__content">
       <p>{{ props.scribble.description }}</p>

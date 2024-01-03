@@ -9,8 +9,10 @@
         <div>
           <h2>{{ scribble.title }}</h2>
           <div class="badge-tags">
-            <p>{{ badgeTags }}</p>
-            <p class="new-badge" v-if="isNew">New</p>
+            <p>
+              <span class="new-badge" v-if="isNew">New!</span>
+              {{ badgeTags }}
+            </p>
           </div>
         </div>
         <button class="close" @click="ModalController.close()">
@@ -294,5 +296,10 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
       height: 40%;
     }
   }
+}
+
+.new-badge {
+  font-weight: bold;
+  color: var(--primary-0);
 }
 </style>
