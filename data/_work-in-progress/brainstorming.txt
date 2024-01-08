@@ -10,3 +10,6 @@ FETCH
 SABOTAGE
 ESCAPE
 
+- A modern art gallery where the players have to steal something from an adjacent room or vault?
+  - Scene where players have to make astute commentary on art to blend in.
+  - Roll 1d6 for "type of art" which they then have to describe (sway?)
