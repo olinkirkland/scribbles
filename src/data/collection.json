@@ -1,6 +1,24 @@
 {
   "scribbles": [
     {
+      "title": "Portrait of a Whisper",
+      "description": "The leader of the Red Sashes has hired a group of scoundrels to steal a painting from the home of the Gondoliers' chief Whisper.",
+      "slug": "portrait-of-a-whisper",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:emissary",
+        "red sashes",
+        "gondoliers",
+        "painting",
+        "whisper"
+      ],
+      "size": 106155,
+      "pageCount": 1,
+      "createdAt": null,
+      "lastModified": null
+    },
+    {
       "title": "Lawman on the Line",
       "description": "Extract an undercover operative from a gang of former Bluecoats on a high-speed train.",
       "slug": "lawman-on-the-line",
@@ -16,7 +34,7 @@
       "size": 98089,
       "pageCount": 1,
       "createdAt": "2024-01-03T12:46:27.000Z",
-      "lastModified": "2024-01-03T12:57:14.000Z"
+      "lastModified": "2024-01-08T11:08:08.000Z"
     },
     {
       "title": "Setting Primer",
@@ -152,7 +170,7 @@
     }
   ],
   "archive": {
-    "size": 874328,
-    "lastModified": "2024-01-08T11:07:59.547Z"
+    "size": 970446,
+    "lastModified": "2024-01-08T13:41:45.471Z"
   }
 }
