@@ -13,10 +13,10 @@
         "inspector",
         "deathlands"
       ],
-      "size": 108414,
+      "size": 98089,
       "pageCount": 1,
       "createdAt": "2024-01-03T12:46:27.000Z",
-      "lastModified": "2024-01-03T12:46:27.000Z"
+      "lastModified": "2024-01-03T12:57:14.000Z"
     },
     {
       "title": "Setting Primer",
@@ -152,7 +152,7 @@
     }
   ],
   "archive": {
-    "size": 884243,
-    "lastModified": "2024-01-03T12:48:34.026Z"
+    "size": 874328,
+    "lastModified": "2024-01-08T11:07:59.547Z"
   }
 }
