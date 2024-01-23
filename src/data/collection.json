@@ -19,6 +19,24 @@
       "lastModified": "2024-01-10T14:01:11.000Z"
     },
     {
+      "title": "Cabinet of Curiosities",
+      "description": "Anton Scurlock desires a peculiar creature that's on display at a traveling circus to add to his taxidermy collection.",
+      "slug": "cabinet-of-curiosities",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "animal",
+        "scurlock",
+        "circus",
+        "curiosities",
+        "taxidermy"
+      ],
+      "size": 105336,
+      "pageCount": 1,
+      "createdAt": null,
+      "lastModified": null
+    },
+    {
       "title": "Lawman on the Line",
       "description": "Extract an undercover operative from a gang of former Bluecoats on a high-speed train.",
       "slug": "lawman-on-the-line",
@@ -170,7 +188,7 @@
     }
   ],
   "archive": {
-    "size": 975515,
-    "lastModified": "2024-01-23T08:30:00.420Z"
+    "size": 1070012,
+    "lastModified": "2024-01-23T08:50:41.166Z"
   }
 }
