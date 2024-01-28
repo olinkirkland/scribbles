@@ -70,9 +70,7 @@ function search(str: string) {
 }
 
 const reversedCollection = collection.scribbles.reverse().sort((a, b) => {
-  return (
-    new Date(b.lastModified).getTime() - new Date(a.lastModified).getTime()
-  );
+  return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
 });
 
 function trackDownloadClick() {
