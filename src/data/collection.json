@@ -79,8 +79,8 @@
         "deathlands",
         "plague"
       ],
-      "size": 108153,
-      "lastModified": "2024-01-03T09:13:25.000Z",
+      "size": 107284,
+      "lastModified": "2024-01-27T21:14:31.000Z",
       "createdAt": "2023-12-12T15:03:20.000Z",
       "pageCount": 1
     },
@@ -97,8 +97,8 @@
         "ritual",
         "veil"
       ],
-      "size": 109820,
-      "lastModified": "2023-12-18T13:30:45.000Z",
+      "size": 112108,
+      "lastModified": "2024-01-27T21:14:31.000Z",
       "createdAt": "2023-12-18T10:40:21.000Z",
       "pageCount": 1
     },
@@ -130,8 +130,8 @@
         "party",
         "lady whitethorn"
       ],
-      "size": 103499,
-      "lastModified": "2023-12-12T08:16:46.000Z",
+      "size": 103186,
+      "lastModified": "2024-01-27T21:14:31.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     },
@@ -164,8 +164,8 @@
         "amulet",
         "sanctorium"
       ],
-      "size": 111887,
-      "lastModified": "2023-12-12T08:16:46.000Z",
+      "size": 113480,
+      "lastModified": "2024-01-27T21:14:31.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     },
@@ -188,7 +188,7 @@
     }
   ],
   "archive": {
-    "size": 1074763,
-    "lastModified": "2024-01-23T09:35:35.100Z"
+    "size": 1077054,
+    "lastModified": "2024-01-29T15:36:00.060Z"
   }
 }
