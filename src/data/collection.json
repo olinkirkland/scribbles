@@ -1,6 +1,24 @@
 {
   "scribbles": [
     {
+      "title": "Tower of the Mechanist",
+      "description": "Prevent the Mechanist from building a private army of powerful automatons.",
+      "slug": "tower-of-the-mechanist",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:mechanist",
+        "mechanist",
+        "automatons",
+        "sentinels",
+        "ministry of preservation"
+      ],
+      "size": 120132,
+      "pageCount": 1,
+      "createdAt": "2024-01-29T15:32:58.000Z",
+      "lastModified": "2024-01-29T15:35:07.000Z"
+    },
+    {
       "title": "Portrait of a Whisper",
       "description": "The leader of the Red Sashes hires a group of scoundrels to steal a painting from the chief Whisper of the Gondoliers.",
       "slug": "portrait-of-a-whisper",
@@ -188,7 +206,7 @@
     }
   ],
   "archive": {
-    "size": 1077054,
-    "lastModified": "2024-01-29T15:36:00.060Z"
+    "size": 1185549,
+    "lastModified": "2024-01-29T15:44:07.244Z"
   }
 }
