@@ -1,6 +1,20 @@
 {
   "scribbles": [
     {
+      "title": "Forge of the Dead",
+      "description": "The Lampblacks employ scoundrels to disrupt the Red Sashes drug production. Things take a supernatural turn when the source of a key ingredient is discovered.",
+      "slug": "forge-of-the-dead",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:lampblacks",
+        "lampblacks",
+        "red sashes",
+        "drug",
+        "ghosts"
+      ]
+    },
+    {
       "title": "Tower of the Mechanist",
       "description": "Prevent the Mechanist from building a private army of powerful automatons.",
       "slug": "tower-of-the-mechanist",
@@ -76,10 +90,7 @@
       "title": "Setting Primer",
       "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
       "slug": "setting-primer",
-      "tags": [
-        "game:blades in the dark",
-        "type:setting"
-      ],
+      "tags": ["game:blades in the dark", "type:setting"],
       "size": 121130,
       "lastModified": "2024-01-23T09:34:18.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
