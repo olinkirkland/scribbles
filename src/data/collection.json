@@ -12,7 +12,11 @@
         "red sashes",
         "drug",
         "ghosts"
-      ]
+      ],
+      "size": 111666,
+      "pageCount": 1,
+      "createdAt": "2024-02-05T12:34:45.000Z",
+      "lastModified": "2024-02-05T12:34:45.000Z"
     },
     {
       "title": "Tower of the Mechanist",
@@ -90,7 +94,10 @@
       "title": "Setting Primer",
       "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
       "slug": "setting-primer",
-      "tags": ["game:blades in the dark", "type:setting"],
+      "tags": [
+        "game:blades in the dark",
+        "type:setting"
+      ],
       "size": 121130,
       "lastModified": "2024-01-23T09:34:18.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
@@ -217,7 +224,7 @@
     }
   ],
   "archive": {
-    "size": 1185549,
-    "lastModified": "2024-01-29T15:44:07.244Z"
+    "size": 1287008,
+    "lastModified": "2024-02-05T12:34:59.433Z"
   }
 }
