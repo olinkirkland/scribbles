@@ -1,6 +1,42 @@
 {
   "scribbles": [
     {
+      "title": "Forge of the Dead",
+      "description": "The Lampblacks employ scoundrels to disrupt the Red Sashes mysterious drug production.",
+      "slug": "forge-of-the-dead",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:lampblacks",
+        "lampblacks",
+        "red sashes",
+        "drug",
+        "ghosts"
+      ],
+      "size": 111666,
+      "pageCount": 1,
+      "createdAt": "2024-02-05T12:34:45.000Z",
+      "lastModified": "2024-02-05T12:34:45.000Z"
+    },
+    {
+      "title": "Tower of the Mechanist",
+      "description": "Prevent the Mechanist from building a private army of powerful automatons.",
+      "slug": "tower-of-the-mechanist",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:mechanist",
+        "mechanist",
+        "automatons",
+        "sentinels",
+        "ministry of preservation"
+      ],
+      "size": 120132,
+      "pageCount": 1,
+      "createdAt": "2024-01-29T15:32:58.000Z",
+      "lastModified": "2024-01-29T15:35:07.000Z"
+    },
+    {
       "title": "Portrait of a Whisper",
       "description": "The leader of the Red Sashes hires a group of scoundrels to steal a painting from the chief Whisper of the Gondoliers.",
       "slug": "portrait-of-a-whisper",
@@ -79,8 +115,8 @@
         "deathlands",
         "plague"
       ],
-      "size": 108153,
-      "lastModified": "2024-01-03T09:13:25.000Z",
+      "size": 107284,
+      "lastModified": "2024-01-27T21:14:31.000Z",
       "createdAt": "2023-12-12T15:03:20.000Z",
       "pageCount": 1
     },
@@ -97,8 +133,8 @@
         "ritual",
         "veil"
       ],
-      "size": 109820,
-      "lastModified": "2023-12-18T13:30:45.000Z",
+      "size": 112108,
+      "lastModified": "2024-01-27T21:14:31.000Z",
       "createdAt": "2023-12-18T10:40:21.000Z",
       "pageCount": 1
     },
@@ -130,8 +166,8 @@
         "party",
         "lady whitethorn"
       ],
-      "size": 103499,
-      "lastModified": "2023-12-12T08:16:46.000Z",
+      "size": 103186,
+      "lastModified": "2024-01-27T21:14:31.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     },
@@ -164,8 +200,8 @@
         "amulet",
         "sanctorium"
       ],
-      "size": 111887,
-      "lastModified": "2023-12-12T08:16:46.000Z",
+      "size": 113480,
+      "lastModified": "2024-01-27T21:14:31.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     },
@@ -188,7 +224,7 @@
     }
   ],
   "archive": {
-    "size": 1074763,
-    "lastModified": "2024-01-23T09:35:35.100Z"
+    "size": 1287008,
+    "lastModified": "2024-02-05T12:34:59.433Z"
   }
 }
