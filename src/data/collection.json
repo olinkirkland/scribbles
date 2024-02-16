@@ -11,7 +11,11 @@
         "artifact",
         "museum",
         "silver nails"
-      ]
+      ],
+      "size": 106969,
+      "pageCount": 1,
+      "createdAt": "2024-02-16T14:05:23.000Z",
+      "lastModified": "2024-02-16T14:05:23.000Z"
     },
     {
       "title": "Forge of the Dead",
@@ -107,7 +111,10 @@
       "title": "Setting Primer",
       "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
       "slug": "setting-primer",
-      "tags": ["game:blades in the dark", "type:setting"],
+      "tags": [
+        "game:blades in the dark",
+        "type:setting"
+      ],
       "size": 121130,
       "lastModified": "2024-01-23T09:34:18.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
@@ -234,7 +241,7 @@
     }
   ],
   "archive": {
-    "size": 1287008,
-    "lastModified": "2024-02-06T22:07:37.300Z"
+    "size": 1383933,
+    "lastModified": "2024-02-16T14:05:36.662Z"
   }
 }
