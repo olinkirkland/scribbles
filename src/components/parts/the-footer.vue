@@ -27,12 +27,32 @@
         <a class="link" href="https://olinkirk.land/" target="_blank"
           >Olin Kirkland</a
         >
+        ❖ Download the template and write your own:
+        <a
+          class="link"
+          :href="templateUrl"
+          download
+          @click="trackTemplateDownloadClick"
+          >scenario-template.docx</a
+        >
       </p>
     </div>
   </footer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { BASE_URL } from '@/main';
+import mixpanel from 'mixpanel-browser';
+
+const templateUrl = `${BASE_URL}data/_work-in-progress/scenario-template.docx`;
+
+function trackTemplateDownloadClick() {
+  mixpanel.track('download', {
+    slug: 'template'
+  });
+  return true;
+}
+</script>
 
 <style lang="scss" scoped>
 footer {
