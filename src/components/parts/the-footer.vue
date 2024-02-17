@@ -44,7 +44,7 @@
 import { BASE_URL } from '@/main';
 import mixpanel from 'mixpanel-browser';
 
-const templateUrl = `${BASE_URL}data/_work-in-progress/scenario-template.docx`;
+const templateUrl = `${BASE_URL}data/scenario-template.docx`;
 
 function trackTemplateDownloadClick() {
   mixpanel.track('download', {
