@@ -1,6 +1,22 @@
 {
   "scribbles": [
     {
+      "title": "Forget Me Not",
+      "description": "Chef Roselle needs one last ingredient to brew a potion that will restore her memory.",
+      "slug": "forget-me-not",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:roselle",
+        "roselle",
+        "potion",
+        "memory",
+        "brightstone",
+        "greenhouse"
+      ]
+    },
+
+    {
       "title": "Heritage Pavilion",
       "description": "A Severosi mercenary group hires a crew of scoundrels to steal a valuable artifact from the Imperial Museum.",
       "slug": "heritage-pavilion",
@@ -111,10 +127,7 @@
       "title": "Setting Primer",
       "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
       "slug": "setting-primer",
-      "tags": [
-        "game:blades in the dark",
-        "type:setting"
-      ],
+      "tags": ["game:blades in the dark", "type:setting"],
       "size": 121130,
       "lastModified": "2024-01-23T09:34:18.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
