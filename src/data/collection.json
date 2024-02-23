@@ -13,9 +13,12 @@
         "memory",
         "brightstone",
         "greenhouse"
-      ]
+      ],
+      "size": 97500,
+      "pageCount": 1,
+      "createdAt": "2024-02-23T13:59:13.000Z",
+      "lastModified": "2024-02-23T13:59:13.000Z"
     },
-
     {
       "title": "Heritage Pavilion",
       "description": "A Severosi mercenary group hires a crew of scoundrels to steal a valuable artifact from the Imperial Museum.",
@@ -28,10 +31,10 @@
         "museum",
         "silver nails"
       ],
-      "size": 106969,
+      "size": 106357,
       "pageCount": 1,
       "createdAt": "2024-02-16T14:05:23.000Z",
-      "lastModified": "2024-02-16T14:05:23.000Z"
+      "lastModified": "2024-02-19T09:31:59.000Z"
     },
     {
       "title": "Forge of the Dead",
@@ -127,7 +130,10 @@
       "title": "Setting Primer",
       "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
       "slug": "setting-primer",
-      "tags": ["game:blades in the dark", "type:setting"],
+      "tags": [
+        "game:blades in the dark",
+        "type:setting"
+      ],
       "size": 121130,
       "lastModified": "2024-01-23T09:34:18.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
@@ -254,7 +260,7 @@
     }
   ],
   "archive": {
-    "size": 1383933,
-    "lastModified": "2024-02-16T14:05:36.662Z"
+    "size": 1471270,
+    "lastModified": "2024-02-23T14:00:46.207Z"
   }
 }

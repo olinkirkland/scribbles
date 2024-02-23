@@ -17,7 +17,11 @@ const folders = fs.readdirSync(dataFolderPath);
 const collection = JSON.parse(fs.readFileSync(collectionFilePath, 'utf8'));
 const metadata = {}; // key: slug, value: metadata object
 
-const ignoredFiles = ['_work-in-progress', 'scribbles-collection.zip'];
+const ignoredFiles = [
+  '_work-in-progress',
+  'scribbles-collection.zip',
+  'scenario-template.docx'
+];
 
 for (const slug of folders) {
   if (ignoredFiles.includes(slug)) continue; // skip ignored files
