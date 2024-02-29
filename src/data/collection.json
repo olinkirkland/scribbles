@@ -132,7 +132,9 @@
       "slug": "setting-primer",
       "tags": [
         "game:blades in the dark",
-        "type:setting"
+        "type:setting",
+        "setting",
+        "overview"
       ],
       "size": 121130,
       "lastModified": "2024-01-23T09:34:18.000Z",
@@ -140,9 +142,9 @@
       "pageCount": 2
     },
     {
-      "title": "Witch Way to the Deathlands?",
+      "title": "The Witching Hour",
       "description": "The High Priestess of the Cat's Tail Coven has sent her most trusted witches to the Deathlands to find a cure for a horrific plague.",
-      "slug": "witch-way",
+      "slug": "the-witching-hour",
       "tags": [
         "game:blades in the dark",
         "type:two-shot",
@@ -151,8 +153,8 @@
         "deathlands",
         "plague"
       ],
-      "size": 107284,
-      "lastModified": "2024-01-27T21:14:31.000Z",
+      "size": 130077,
+      "lastModified": "2024-02-29T22:25:10.000Z",
       "createdAt": "2023-12-12T15:03:20.000Z",
       "pageCount": 1
     },
@@ -200,7 +202,9 @@
         "type:one-shot",
         "series:whitethorn",
         "party",
-        "lady whitethorn"
+        "lady whitethorn",
+        "socialite",
+        "nobility"
       ],
       "size": 103186,
       "lastModified": "2024-01-27T21:14:31.000Z",
@@ -217,7 +221,8 @@
         "series:harrow",
         "brightstone",
         "bank",
-        "heist"
+        "heist",
+        "gemstone"
       ],
       "size": 106999,
       "lastModified": "2023-12-12T08:16:46.000Z",
@@ -234,7 +239,8 @@
         "series:harrow",
         "church of ecstasy",
         "amulet",
-        "sanctorium"
+        "sanctorium",
+        "crypt"
       ],
       "size": 113480,
       "lastModified": "2024-01-27T21:14:31.000Z",
@@ -251,7 +257,8 @@
         "series:emissary",
         "leviathan blood",
         "pirates",
-        "red mariner"
+        "red mariner",
+        "ship"
       ],
       "size": 108323,
       "lastModified": "2024-01-03T11:05:15.000Z",
@@ -260,7 +267,7 @@
     }
   ],
   "archive": {
-    "size": 1471270,
-    "lastModified": "2024-02-29T17:37:43.602Z"
+    "size": 1485192,
+    "lastModified": "2024-02-29T22:25:51.782Z"
   }
 }
