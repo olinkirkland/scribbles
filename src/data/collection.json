@@ -1,6 +1,23 @@
 {
   "scribbles": [
     {
+      "title": "The Butcher's Bill",
+      "description": "Infiltrate the Billhooks' slaughterhouse and steal a piece of leverage for the Broker.",
+      "slug": "the-butchers-bill",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:billhooks",
+        "billhooks",
+        "slaughterhouse",
+        "broker"
+      ],
+      "size": 133172,
+      "pageCount": 1,
+      "createdAt": "2024-03-03T16:53:34.000Z",
+      "lastModified": "2024-03-03T16:53:34.000Z"
+    },
+    {
       "title": "Forget Me Not",
       "description": "Chef Roselle needs one last ingredient to brew a potion that will restore her memory.",
       "slug": "forget-me-not",
@@ -267,7 +284,7 @@
     }
   ],
   "archive": {
-    "size": 1485192,
-    "lastModified": "2024-02-29T22:25:51.782Z"
+    "size": 1597677,
+    "lastModified": "2024-03-03T16:55:08.528Z"
   }
 }
