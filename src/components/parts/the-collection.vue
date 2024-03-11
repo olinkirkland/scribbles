@@ -2,7 +2,7 @@
   <section>
     <div class="collection-container">
       <p class="bundle">
-        Want to download the whole collection in a single ZIP file?
+        Want the whole collection?
         <a class="link" :href="archiveUrl" download @click="trackDownloadClick"
           >Download ZIP ({{ archiveSize }})</a
         >
@@ -193,7 +193,11 @@ section {
 .bundle {
   text-align: center;
   line-height: 1.6;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
+
+  a {
+    white-space: nowrap;
+  }
 }
 
 @media screen and (max-width: 576px) {

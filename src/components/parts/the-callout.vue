@@ -1,22 +1,40 @@
 <template>
   <section>
     <div class="content" v-if="!isCalloutHidden">
-      <p><strong>Before you continue!</strong></p>
       <p>
         These works are based on
         <a class="link" href="http://www.bladesinthedark.com" target="_blank"
           >Blades in the Dark</a
         >
         — a product of One Seven Design, developed and authored by John Harper,
-        and licensed for our use under the Creative Commons Attribution 3.0
+        and licensed for my use under the Creative Commons Attribution 3.0
         <a
           href="http://creativecommons.org/licenses/by/3.0"
           class="link"
           target="_blank"
           >license</a
-        >
+        >.
       </p>
-      <button v-if="!isCalloutHidden" @click="hideCalloutAndSave">
+      <p>
+        My TTRPG writing is free to download, edit, and share under the Creative
+        Commons Attribution 4.0
+        <a
+          class="link"
+          href="https://creativecommons.org/licenses/by/4.0/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >license</a
+        >
+        as long as you give me and the original work attribution. You can also
+        download my template from the footer to use this layout for your own
+        scribbles!
+      </p>
+      <p>Olin</p>
+      <button
+        v-if="!isCalloutHidden"
+        @click="hideCalloutAndSave"
+        class="hide-attribution"
+      >
         <span>OK, hide this message</span>
       </button>
     </div>
@@ -72,6 +90,13 @@ button.show-attribution {
 
   &:hover {
     bottom: unset;
+  }
+}
+
+// When screen is less than 768px
+@media (max-width: 768px) {
+  section > .content > button.hide-attribution {
+    width: 100%;
   }
 }
 </style>

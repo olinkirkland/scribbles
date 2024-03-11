@@ -38,6 +38,13 @@
   --font-family: 'Cambria', serif;
 }
 
+button {
+  i {
+    font-size: 1.4rem;
+    margin-right: 0.4rem;
+  }
+}
+
 body {
   background-color: var(--surface-1);
 
@@ -57,6 +64,7 @@ a.link,
 button.link {
   color: var(--primary-1);
   text-decoration: underline;
+  white-space: nowrap;
 }
 
 a:not(.link),
@@ -152,4 +160,15 @@ button.close {
       background: none;
     }
   }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.align-right {
+  text-align: right;
 }
