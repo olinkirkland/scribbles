@@ -1,6 +1,24 @@
 {
   "scribbles": [
     {
+      "title": "Symphony of Secrets",
+      "description": "Swap out Tabitha Slane's harp for a fake before her next concert to expose her as a fraud.",
+      "slug": "symphony-of-secrets",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:slane",
+        "slane",
+        "harp",
+        "fraud",
+        "concert"
+      ],
+      "size": 106279,
+      "pageCount": 1,
+      "createdAt": "2024-03-11T17:28:37.000Z",
+      "lastModified": "2024-03-11T17:32:50.000Z"
+    },
+    {
       "title": "The Butcher's Bill",
       "description": "Infiltrate the Billhooks' slaughterhouse and steal a piece of leverage for the Broker.",
       "slug": "the-butchers-bill",
@@ -13,9 +31,9 @@
         "broker"
       ],
       "size": 129216,
-    "pageCount": 1,
+      "pageCount": 1,
       "createdAt": "2024-03-03T16:53:34.000Z",
-      "lastModified": "2024-03-03T16:53:34.000Z"
+      "lastModified": "2024-03-03T17:05:46.000Z"
     },
     {
       "title": "Forget Me Not",
@@ -284,7 +302,7 @@
     }
   ],
   "archive": {
-    "size": 1595712,
-    "lastModified": "2024-03-03T17:05:36.900Z"
+    "size": 1690958,
+    "lastModified": "2024-03-11T17:35:19.080Z"
   }
 }
