@@ -145,6 +145,7 @@ p.new-badge {
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
+
   > *:not(:last-child) {
     margin-bottom: 1.2rem;
     line-height: 2.2rem;

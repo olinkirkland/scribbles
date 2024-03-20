@@ -22,7 +22,7 @@
       <div class="modal__content__body">
         <p class="description">
           <span class="pages">{{ pageCount }}—</span>
-          {{ scribble.description }}
+          <span :v-html="scribble.description"></span>
         </p>
         <ul class="tag-list">
           <li v-for="tag in tagList" :key="tag" @click="closeAndSearch(tag)">

@@ -2,7 +2,7 @@
   "scribbles": [
     {
       "title": "On a Knife's Edge",
-      "description": "The Dimmer Sisters hire a crew to steal a dagger from Quarla, Duskvol's most notorious blade-smith. Illustrated by u/perryphery.",
+      "description": "Steal a dagger from Quarla, Duskvol's most notorious blade-smith. Illustrated by u/perryphery.",
       "slug": "on-a-knifes-edge",
       "downloads": [
         {
@@ -20,7 +20,11 @@
         "bladesmith",
         "illustrated",
         "perryphery"
-      ]
+      ],
+      "size": 542576,
+      "pageCount": 3,
+      "createdAt": "2024-03-20T12:28:04.000Z",
+      "lastModified": "2024-03-20T12:28:04.000Z"
     },
     {
       "title": "Symphony of Secrets",
@@ -281,8 +285,8 @@
         "heist",
         "gemstone"
       ],
-      "size": 106999,
-      "lastModified": "2023-12-12T08:16:46.000Z",
+      "size": 120109,
+      "lastModified": "2024-03-14T23:08:09.000Z",
       "createdAt": "2023-12-11T13:28:37.000Z",
       "pageCount": 1
     },
@@ -324,7 +328,7 @@
     }
   ],
   "archive": {
-    "size": 1704557,
-    "lastModified": "2024-03-11T22:38:48.185Z"
+    "size": 2218359,
+    "lastModified": "2024-03-20T12:30:24.054Z"
   }
 }
