@@ -1,6 +1,28 @@
 {
   "scribbles": [
     {
+      "title": "On a Knife's Edge",
+      "description": "The Dimmer Sisters hire a crew to steal a dagger from Quarla, Duskvol's most notorious blade-smith. Illustrated by u/perryphery.",
+      "slug": "on-a-knifes-edge",
+      "downloads": [
+        {
+          "type": "image",
+          "name": "on-a-knifes-edge.webp"
+        }
+      ],
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:quarla",
+        "dimmer sisters",
+        "quarla",
+        "dagger",
+        "bladesmith",
+        "illustrated",
+        "perryphery"
+      ]
+    },
+    {
       "title": "Symphony of Secrets",
       "description": "Swap out Tabitha Slane's harp for a fake before her next concert to expose her as a fraud.",
       "slug": "symphony-of-secrets",
@@ -182,7 +204,7 @@
       "slug": "the-witching-hour",
       "tags": [
         "game:blades in the dark",
-        "type:two-shot",
+        "type:one-shot",
         "series:witches",
         "witches",
         "deathlands",
@@ -199,7 +221,7 @@
       "slug": "devils-sacrament",
       "tags": [
         "game:blades in the dark",
-        "type:two-shot",
+        "type:one-shot",
         "series:witches",
         "witches",
         "demon",
