@@ -150,6 +150,7 @@ section {
 
         > i {
           font-size: 1.2rem;
+          margin-right: 0;
         }
 
         &:hover {
