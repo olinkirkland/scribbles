@@ -1,6 +1,25 @@
 {
   "scribbles": [
     {
+      "title": "The Red Keep",
+      "description": "Steal an astronomical device for the Deathlands Scavengers from an ancient castle in the Deathlands.",
+      "slug": "the-red-keep",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:scavengers",
+        "deathlands",
+        "scavengers",
+        "castle",
+        "astrolabe",
+        "demon"
+      ],
+      "size": 97248,
+      "pageCount": 1,
+      "createdAt": null,
+      "lastModified": null
+    },
+    {
       "title": "On a Knife's Edge",
       "description": "The Dimmer Sisters hire a crew to steal a dagger from Quarla, Duskvol's most notorious blade-smith.",
       "slug": "on-a-knifes-edge",
@@ -328,7 +347,7 @@
     }
   ],
   "archive": {
-    "size": 2218891,
-    "lastModified": "2024-03-20T13:53:36.926Z"
+    "size": 2306352,
+    "lastModified": "2024-04-12T12:34:45.474Z"
   }
 }
