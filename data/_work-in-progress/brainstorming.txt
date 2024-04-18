@@ -95,8 +95,6 @@ A cursory glance
 
 Skeletons leading to a vault
 
-A trapped room - electric floor
-
 The Cleaners (from Max Payne 2)
 - Ruthless Hitmen with mysterious leadership
 
@@ -106,11 +104,4 @@ library
 
 Nightmare before ____ (Holiday)
 
-Red Mask Inn
-- Redd Traskin: A welcoming face behind the bar, always ready with a drink and a story about his culinary adventures. He recently took over the bar from his daughter after she had a traumatic paranormal encounter.
-  Lurking beneath is a demon known as The Hunger that ensnares creatures with harrowing dreams, then cooks and eats them while they're helpless.
-- Nara Traskin: Introduced as Redd's daughter, but there's something off about how she moves and speaks. Glassy-eyed, he dismisses her to have had a traumatic encounter
-  with a ghost as a child, but she was actually possessed by the ghost in the story he tells, and only recently. She's the former owner of the bar.
-- Brent and Raida Haskill: Craftspeople from the Imperial City.
-
-WHO hires the crew? For WHAT? A summoning circle requires some sort of materials, and someone wants those materials.
+Knight at the Museum
