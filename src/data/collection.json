@@ -1,6 +1,21 @@
 {
   "scribbles": [
     {
+      "title": "Something Borrowed, Something Blue",
+      "description": "Liberate a family heirloom from a former lover on the day of his wedding.",
+      "slug": "something-borrowed",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:byrd",
+        "byrd",
+        "heirloom",
+        "wedding",
+        "hedge",
+        "garden"
+      ]
+    },
+    {
       "title": "The Red Keep",
       "description": "Steal an astronomical device for the Deathlands Scavengers from an ancient castle.",
       "slug": "the-red-keep",
