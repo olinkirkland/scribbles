@@ -43,6 +43,13 @@
             Download ({{ size }})
           </a>
         </div>
+        <a
+          :href="`/scribbles/?d=${scribble.slug}`"
+          class="link share"
+          target="_blank"
+          @click="trackDownloadOrView('share')"
+          >Share a direct link</a
+        >
         <div class="dates">
           <!-- <p>{{ createdAt }}</p> -->
           <p>{{ lastModified }}</p>
@@ -132,9 +139,8 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
 
 <style lang="scss" scoped>
 .modal {
-  background-color: var(--surface-0);
-  color: var(--text);
-  border-radius: 5px;
+  background-color: var(--light-0);
+  color: var(--dark-2);
   display: flex;
   overflow: hidden;
   align-items: flex-start;
@@ -201,8 +207,8 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
 
           width: fit-content;
           text-transform: capitalize;
-          background-color: var(--text);
-          color: var(--text-inverted);
+          background-color: var(--light-1);
+          color: var(--dark-2);
           border-radius: 99px;
           padding: 0.4rem 1rem;
 
@@ -249,7 +255,7 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
       height: 100%;
       .modal__content__header > button.close {
         position: absolute;
-        color: var(--text-inverted);
+        color: var(--light-0);
         top: 0;
         right: 0;
         margin: 3.2rem;
@@ -261,7 +267,7 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
         }
 
         i {
-          font-size: 2.4rem;
+          font-size: 2rem;
         }
       }
 

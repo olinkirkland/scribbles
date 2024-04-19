@@ -1,21 +1,26 @@
 @import 'reset';
 
+// Import font from ../fonts/FrederickatheGreat-Regular.ttf
+@font-face {
+  font-family: 'FrederickatheGreat-Regular';
+  src: url('../fonts/FrederickatheGreat-Regular.ttf') format('truetype');
+}
+
 :root {
   // Shades
-  --surface-0: #fdfcf7;
-  --surface-1: #f0eee2;
-  --surface-2: #c8c5bc;
-  --surface-3: #a7a49e;
+  --light-0: #fdfcf7;
+  --light-1: #f0eee2;
+  --light-2: #c8c5bc;
+
+  // Text
+  --dark-0: #2f3033;
+  --dark-1: #202022;
+  --dark-2: #151517;
 
   // Primary
   --primary-0: #c53d43;
-  --primary-1: #a31f26;
-  --primary-2: #8c1a20;
-  --primary-3: #6e151a;
-
-  // Text
-  --text: #292836;
-  --text-inverted: #fdfcf7;
+  --primary-1: #be282f;
+  --primary-2: #77171c;
 
   // Colors
   --red: #f03e3e;
@@ -36,6 +41,7 @@
 
   // Font
   --font-family: 'Cambria', serif;
+  --title-font-family: 'FrederickatheGreat-Regular', serif;
 }
 
 button {
@@ -46,7 +52,7 @@ button {
 }
 
 body {
-  background-color: var(--surface-1);
+  background-color: var(--light-0);
 
   * {
     font-family: var(--font-family);
@@ -62,7 +68,7 @@ body {
 
 a.link,
 button.link {
-  color: var(--primary-1);
+  color: var(--primary-0);
   text-decoration: underline;
   white-space: nowrap;
 }
@@ -71,7 +77,7 @@ a:not(.link),
 button:not(.link) {
   width: fit-content;
   white-space: nowrap;
-  color: var(--text-inverted);
+  color: var(--light-0);
   background-color: var(--primary-1);
   padding: 0.8rem 1.6rem;
   text-decoration: none;
@@ -87,14 +93,15 @@ button:not(.link) {
 }
 
 pre {
-  background-color: var(--surface-2);
+  background-color: var(--dark-2);
+  color: var(--light-0);
   padding: 1rem;
   border-radius: 5px;
   box-shadow: var(--shadow-light);
 }
 
 input[type='text'] {
-  border: 1px solid var(--surface-2);
+  border: 1px solid var(--light-2);
   border-radius: 5px;
   padding: 1.2rem;
   transition: all 0.2s ease-in-out;
@@ -134,7 +141,7 @@ button.close {
   width: 3.2rem !important;
   height: 3.2rem !important;
   background-color: transparent !important;
-  color: var(--text);
+  color: var(--dark-2);
   display: flex;
   justify-content: center;
   align-items: center;

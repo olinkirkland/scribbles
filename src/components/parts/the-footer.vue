@@ -9,6 +9,15 @@
         and belong to their respective owners on the site.
       </p>
       <p>
+        The <a
+          href="https://www.tartworkshop.com/font/fredericka-the-greatest/"
+          class="link"
+          target="_blank"
+          >Fredericka the Great</a
+        >
+        font is by Tart Workshop and is used under the Open Font License.
+      </p>
+      <p>
         These works are based on
         <a class="link" href="http://www.bladesinthedark.com" target="_blank"
           >Blades in the Dark</a

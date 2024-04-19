@@ -19,10 +19,15 @@
           <i class="fas fa-times"></i>
         </button>
       </div>
-      <h2 v-if="searchInput">
-        {{ filteredItems.length }} scribbles match "{{ searchInput }}"
+      <h2 class="search-results">
+        {{ filteredItems.length }} results
+        {{
+          searchInput
+            ? `match
+        "${searchInput}"`
+            : ''
+        }}
       </h2>
-      <h2 v-else>{{ filteredItems.length }} scribbles</h2>
 
       <!-- Tags -->
       <!-- <ul class="tags">
@@ -42,11 +47,13 @@
 </template>
 
 <script setup lang="ts">
+import { ModalController } from '@/controllers/modal-controller';
 import collection from '@/data/collection.json';
-import { computed, ref } from 'vue';
-import ScribbleCard from '../scribble-card.vue';
 import { BASE_URL } from '@/main';
 import mixpanel from 'mixpanel-browser';
+import { computed, ref } from 'vue';
+import ScribbleModal from '../modals/scribble-modal.vue';
+import ScribbleCard from '../scribble-card.vue';
 
 const archiveSize = (collection.archive.size / 1024 / 1024).toFixed(2) + ' MB';
 const archiveUrl = `${BASE_URL}data/scribbles-collection.zip`;
@@ -61,9 +68,24 @@ export type Scribble = {
   pageCount: number;
   size: number;
 };
+const searchInput = ref('');
 
+// Direct link to a specific modal?
+const directLink = new URLSearchParams(window.location.search).get('d');
+if (directLink) {
+  console.log('directLink', directLink);
+  const slug = decodeURIComponent(directLink);
+  const scribble = collection.scribbles.find((s) => s.slug === slug);
+  if (scribble)
+    requestAnimationFrame(() => {
+      ModalController.open(ScribbleModal, { scribble });
+    });
+  else window.location.href = BASE_URL;
+}
+
+// Initial search?
 const initialSearch = new URLSearchParams(window.location.search).get('s');
-const searchInput = ref(initialSearch ? decodeURIComponent(initialSearch) : '');
+if (initialSearch) search(decodeURIComponent(initialSearch));
 
 function search(str: string) {
   searchInput.value = str;
@@ -127,11 +149,14 @@ section {
     > .search {
       position: relative;
       width: 100%;
+      max-width: 40rem;
+      margin: 0 auto;
       margin-bottom: 1.2rem;
 
       > input {
         width: 100%;
       }
+
       > button.clear {
         position: absolute;
         right: 1.2rem;
@@ -141,7 +166,7 @@ section {
         width: 2rem;
         transform: translateY(-50%);
         cursor: pointer;
-        background-color: var(--surface-2);
+        background-color: var(--light-2);
         padding: 0;
 
         display: flex;
@@ -164,7 +189,8 @@ section {
 
     > h2 {
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.6rem;
+      text-transform: uppercase;
       margin-bottom: 1.2rem;
     }
 
@@ -180,7 +206,7 @@ section {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-gap: 2rem;
+      grid-gap: 0.8rem;
     }
   }
 }
