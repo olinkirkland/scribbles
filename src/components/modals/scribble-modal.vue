@@ -40,19 +40,23 @@
             target="_blank"
             @click="trackDownloadOrView('download')"
           >
+            <i class="fas fa-download"></i>
             Download ({{ size }})
           </a>
         </div>
-        <a
-          :href="`/scribbles/?d=${scribble.slug}`"
-          class="link share"
-          target="_blank"
-          @click="trackDownloadOrView('share')"
-          >Share a direct link</a
-        >
-        <div class="dates">
-          <!-- <p>{{ createdAt }}</p> -->
-          <p>{{ lastModified }}</p>
+        <div class="row details">
+          <a
+            :href="`/scribbles/?d=${scribble.slug}`"
+            class="link share"
+            target="_blank"
+            @click="trackDownloadOrView('share')"
+          >
+            Share a direct link
+          </a>
+          <div class="dates">
+            <!-- <p>{{ createdAt }}</p> -->
+            <p>{{ lastModified }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -80,9 +84,24 @@ const scribble = computed(() => props.scribble);
 //   return 'Created: ' + date.toLocaleDateString();
 // });
 
+const months = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec'
+];
+
 const lastModified = computed(() => {
   const date = new Date(scribble.value.lastModified);
-  return 'Last modified: ' + date.toLocaleDateString();
+  return 'Updated ' + months[date.getMonth()] + '. ' + date.getFullYear();
 });
 const tagList = computed(() => {
   return scribble.value.tags.filter((tag) => !tag.includes(':'));
@@ -166,7 +185,7 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
       align-items: flex-start;
 
       h2 {
-        font-size: 3.2rem;
+        font-size: 2.4rem;
       }
 
       .badge-tags > p {
@@ -180,9 +199,8 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
       .dates {
         display: flex;
         gap: 2rem;
-        * {
-          font-size: 1.2rem;
-        }
+        font-style: italic;
+        opacity: 0.6;
       }
 
       .pages {
@@ -193,6 +211,15 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
       .controls {
         display: flex;
         gap: 0.4rem;
+        a {
+          text-align: center;
+          &:first-child {
+            width: 40%;
+          }
+          &:last-child {
+            width: 60%;
+          }
+        }
       }
 
       ul.tag-list {
@@ -281,10 +308,6 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
           display: flex;
           align-items: flex-end;
 
-          // Move the buttons to the bottom
-          order: 3;
-          margin-bottom: 0;
-
           a {
             width: 100%;
             text-align: center;
@@ -307,5 +330,10 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
 .new-badge {
   font-weight: bold;
   color: var(--primary-0);
+}
+
+.row.details {
+  display: flex;
+  justify-content: space-between;
 }
 </style>
