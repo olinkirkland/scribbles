@@ -89,7 +89,7 @@ A drug empire under an aristocrat's mansion
 
 "People either survive in the jungle, or exist in a zoo."
 
-"Now, to conclude ourthis sordid little affair."
+"Now, to conclude our/this sordid little affair."
 
 A cursory glance
 
@@ -105,3 +105,5 @@ library
 Nightmare before ____ (Holiday)
 
 Knight at the Museum
+
+hags & harpies

@@ -1,7 +1,10 @@
 <template>
   <section>
     <div class="content" :class="{ hide: isCalloutHidden }">
-      <h2>🙥 <strong>Attribution</strong> 🙧</h2>
+      <h2>
+        <span class="decoration">🙥&nbsp;</span><strong>Attribution</strong>
+        <span class="decoration">&nbsp;🙧</span>
+      </h2>
       <div class="grid">
         <p>
           These works are based on
@@ -161,6 +164,10 @@ button.show-attribution {
     > .grid {
       grid-template-columns: 1fr;
     }
+  }
+
+  .decoration {
+    display: none;
   }
 }
 </style>
