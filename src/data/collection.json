@@ -1,6 +1,20 @@
 {
   "scribbles": [
     {
+      "title": "Water Under the Bridge",
+      "description": "Stop a mad scholar from meddling with a Spirit Well in the South Bridge Vaults.",
+      "slug": "water-under-the-bridge",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:bridge",
+        "south bridge",
+        "vaults",
+        "spirit well",
+        "reconciled"
+      ]
+    },
+    {
       "title": "Something Borrowed, Something Blue",
       "description": "Liberate a family heirloom from a former lover on the day of his wedding.",
       "slug": "something-borrowed",
