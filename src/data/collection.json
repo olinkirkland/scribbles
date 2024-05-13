@@ -1,6 +1,20 @@
 {
   "scribbles": [
     {
+      "title": "A Murder of Crows",
+      "description": "Infiltrate a Hive warehouse to discover the names of traitors within the Crow's organization that are working to bring down the gang's leader, Lyssa.",
+      "slug": "a-murder-of-crows",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:crows-foot",
+        "crows",
+        "lyssa",
+        "hive",
+        "warehouse"
+      ]
+    },
+    {
       "title": "Water Under the Bridge",
       "description": "Stop a mad scholar from meddling with a Spirit Well in the South Bridge Vaults.",
       "slug": "water-under-the-bridge",
