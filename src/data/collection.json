@@ -1,6 +1,19 @@
 {
   "scribbles": [
     {
+      "title": "Duskwall Memories: Academia & Labor",
+      "description": "Scenes from Duskwall's Academia and Labor backgrounds, with worldbuilding questions.",
+      "slug": "duskwall-memories-1",
+      "tags": [
+        "game:blades in the dark",
+        "type:memories",
+        "worldbuilding",
+        "scenes",
+        "academia",
+        "labor"
+      ]
+    },
+    {
       "title": "A Murder of Crows",
       "description": "Infiltrate a Hive warehouse to discover the names of traitors within the Crow's organization that are working to bring down the gang's leader, Lyssa.",
       "slug": "a-murder-of-crows",
