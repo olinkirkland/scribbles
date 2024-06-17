@@ -11,7 +11,11 @@
         "scenes",
         "academia",
         "labor"
-      ]
+      ],
+      "size": 101720,
+      "pageCount": 1,
+      "createdAt": "2024-06-17T12:44:37.000Z",
+      "lastModified": "2024-06-17T12:44:37.000Z"
     },
     {
       "title": "A Murder of Crows",
@@ -415,7 +419,7 @@
     }
   ],
   "archive": {
-    "size": 2617014,
-    "lastModified": "2024-05-14T10:00:31.880Z"
+    "size": 2708277,
+    "lastModified": "2024-06-17T12:45:19.507Z"
   }
 }
