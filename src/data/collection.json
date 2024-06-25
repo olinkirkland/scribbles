@@ -1,6 +1,19 @@
 {
   "scribbles": [
     {
+      "title": "Duskwall Memories: Law & Trade",
+      "description": "Scenes from Duskwall's Law and Trade backgrounds, with worldbuilding questions.",
+      "slug": "duskwall-memories-2",
+      "tags": [
+        "game:blades in the dark",
+        "type:memories",
+        "worldbuilding",
+        "scenes",
+        "law",
+        "trade"
+      ]
+    },
+    {
       "title": "Duskwall Memories: Academia & Labor",
       "description": "Scenes from Duskwall's Academia and Labor backgrounds, with worldbuilding questions.",
       "slug": "duskwall-memories-1",
