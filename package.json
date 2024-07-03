@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run prepare && npm run build && gh-pages -d dist",
+    "prepare": "node scripts/prepare-carefully.js && node scripts/write-markdown.js"
   },
   "dependencies": {
     "archiver": "^6.0.1",
