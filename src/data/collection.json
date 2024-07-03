@@ -1,6 +1,23 @@
 {
   "scribbles": [
     {
+      "title": "Heavy Medal",
+      "description": "Retrieve a sentimental Skov pendant from the Governor's Fortress in Whitecrown.",
+      "slug": "heavy-medal",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:skov",
+        "skov",
+        "mulder",
+        "pendant",
+        "medal",
+        "fortress",
+        "whitecrown"
+      ]
+    },
+
+    {
       "title": "Duskwall Memories: Law & Trade",
       "description": "Scenes from Duskwall's Law and Trade backgrounds, with worldbuilding questions.",
       "slug": "duskwall-memories-2",
