@@ -14,9 +14,12 @@
         "medal",
         "fortress",
         "whitecrown"
-      ]
+      ],
+      "size": 120105,
+      "pageCount": 1,
+      "createdAt": "2024-07-03T08:10:51.000Z",
+      "lastModified": "2024-07-03T08:10:51.000Z"
     },
-
     {
       "title": "Duskwall Memories: Law & Trade",
       "description": "Scenes from Duskwall's Law and Trade backgrounds, with worldbuilding questions.",
@@ -453,7 +456,7 @@
     }
   ],
   "archive": {
-    "size": 2797548,
-    "lastModified": "2024-06-25T07:22:40.627Z"
+    "size": 2905401,
+    "lastModified": "2024-07-03T08:11:14.421Z"
   }
 }
