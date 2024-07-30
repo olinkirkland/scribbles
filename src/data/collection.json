@@ -1,6 +1,23 @@
 {
   "scribbles": [
     {
+      "title": "Duskwall Memories: Military & Nobility",
+      "description": "Scenes from Duskwall's Military & Nobility backgrounds, with worldbuilding questions.",
+      "slug": "duskwall-memories-3",
+      "tags": [
+        "game:blades in the dark",
+        "type:memories",
+        "worldbuilding",
+        "scenes",
+        "military",
+        "nobility"
+      ],
+      "size": 99936,
+      "pageCount": 1,
+      "createdAt": "2024-07-30T09:41:08.000Z",
+      "lastModified": "2024-07-30T09:41:08.000Z"
+    },
+    {
       "title": "Heavy Medal",
       "description": "Retrieve a sentimental Skov pendant from the Governor's Fortress in Whitecrown.",
       "slug": "heavy-medal",
@@ -456,7 +473,7 @@
     }
   ],
   "archive": {
-    "size": 2905102,
-    "lastModified": "2024-07-29T12:48:20.570Z"
+    "size": 2994585,
+    "lastModified": "2024-07-30T09:44:49.582Z"
   }
 }
