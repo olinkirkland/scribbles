@@ -50,7 +50,7 @@ const isNew = computed(() => {
   const now = new Date();
   const diff = now.getTime() - date.getTime();
   const diffInDays = Math.floor(diff / (1000 * 3600 * 24));
-  return diffInDays <= 3;
+  return diffInDays <= 7;
 });
 
 const imageUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.jpg`;
