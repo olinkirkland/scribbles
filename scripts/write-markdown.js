@@ -44,4 +44,4 @@ scribbles.forEach((scribble) => {
 
 // Write it to a file
 fs.writeFileSync(commentFilePath, lines.join('\n\n'));
-console.log('Done!');
+console.log('  Done!');

@@ -1,10 +1,12 @@
-*Scenes from Duskwall's Military & Nobility backgrounds, with worldbuilding questions.*
+*Smuggle a shipment of contraband to a contact in the Lost District.*
 
-[Get the PDF here!](https://olinkirk.land/scribbles/?d=duskwall-memories-3)
+[Get the PDF here!](https://olinkirk.land/scribbles/?d=smugglers-slip)
 
 Here's my [website](https://olinkirk.land/scribbles) where you can download up-to-date, free PDFs of all the scenarios I've written.
 
 Download, play, and share my work however you see fit.
+
+[❖ Smuggler's Slip](https://olinkirk.land/scribbles/?d=smugglers-slip)
 
 [❖ Duskwall Memories: Military & Nobility](https://olinkirk.land/scribbles/?d=duskwall-memories-3)
 
