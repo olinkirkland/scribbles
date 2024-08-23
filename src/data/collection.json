@@ -1,6 +1,24 @@
 {
   "scribbles": [
     {
+      "title": "Smuggler's Slip",
+      "description": "Smuggle a shipment of contraband to a contact in the Lost District.",
+      "slug": "smugglers-slip",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:stovetop",
+        "lost district",
+        "smugglers",
+        "canals",
+        "deathlands"
+      ],
+      "size": 115439,
+      "pageCount": 1,
+      "createdAt": null,
+      "lastModified": null
+    },
+    {
       "title": "Duskwall Memories: Military & Nobility",
       "description": "Scenes from Duskwall's Military & Nobility backgrounds, with worldbuilding questions.",
       "slug": "duskwall-memories-3",
@@ -96,7 +114,7 @@
       "tags": [
         "game:blades in the dark",
         "type:one-shot",
-        "series:bridge",
+        "series:stovetop",
         "south bridge",
         "vaults",
         "spirit well",
@@ -473,7 +491,7 @@
     }
   ],
   "archive": {
-    "size": 2994585,
-    "lastModified": "2024-08-05T12:20:35.494Z"
+    "size": 3098373,
+    "lastModified": "2024-08-23T09:16:23.051Z"
   }
 }
