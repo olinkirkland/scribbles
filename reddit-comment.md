@@ -1,10 +1,12 @@
-*Smuggle a shipment of contraband to a contact in the Lost District.*
+*Scenes from Duskwall's Underworld background and bonus Strange scenes, with worldbuilding questions.*
 
-[Get the PDF here!](https://olinkirk.land/scribbles/?d=smugglers-slip)
+[Get the PDF here!](https://olinkirk.land/scribbles/?d=duskwall-memories-4)
 
 Here's my [website](https://olinkirk.land/scribbles) where you can download up-to-date, free PDFs of all the scenarios I've written.
 
 Download, play, and share my work however you see fit.
+
+[❖ Duskwall Memories: Underworld & Strange](https://olinkirk.land/scribbles/?d=duskwall-memories-4)
 
 [❖ Smuggler's Slip](https://olinkirk.land/scribbles/?d=smugglers-slip)
 

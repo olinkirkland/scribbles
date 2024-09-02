@@ -11,7 +11,11 @@
         "scenes",
         "underworld",
         "strange"
-      ]
+      ],
+      "size": 98638,
+      "pageCount": 1,
+      "createdAt": "2024-09-02T09:39:55.000Z",
+      "lastModified": "2024-09-02T09:39:55.000Z"
     },
     {
       "title": "Smuggler's Slip",
@@ -504,7 +508,7 @@
     }
   ],
   "archive": {
-    "size": 3098373,
-    "lastModified": "2024-08-23T09:23:03.524Z"
+    "size": 3187045,
+    "lastModified": "2024-09-02T09:41:09.271Z"
   }
 }
