@@ -1,6 +1,19 @@
 {
   "scribbles": [
     {
+      "title": "Duskwall Memories: Underworld & Strange",
+      "description": "Scenes from Duskwall's Underworld background and bonus Strange scenes, with worldbuilding questions.",
+      "slug": "duskwall-memories-4",
+      "tags": [
+        "game:blades in the dark",
+        "type:memories",
+        "worldbuilding",
+        "scenes",
+        "underworld",
+        "strange"
+      ]
+    },
+    {
       "title": "Smuggler's Slip",
       "description": "Smuggle a shipment of contraband to a contact in the Lost District.",
       "slug": "smugglers-slip",
