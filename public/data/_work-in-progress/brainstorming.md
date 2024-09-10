@@ -15,7 +15,6 @@
 - Footprints of water or blood
 - "See anything you like? It's so rare the dead get to choose."
 - Mortician "Dr. Metzger"
-- **"Heavy Medal"**: A score about a heist involving a soldier's medal at an ammunitions factory
 - Music box
 - **"Smoke & Mirrors"**: A score about a heist involving a magician's secrets at a theater
 - Haunted Library
@@ -29,8 +28,6 @@
 - Pearls at first glance, but actually: Human teeth!
 - Creature with antlers - rebirth?
 - A room of clocks on the walls, all stopped at the same time
-- A room of mirrors, all shattered
-- A room of mirrors, all reflecting the same person
 - **Puddle Jumper** (name of a ship)
 - Tomas (person's name)
 - "Its gifts come with a price - and you won't know it's been paid until it's too late."
