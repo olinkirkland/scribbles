@@ -57,3 +57,10 @@
 - Shrinking as you go further down a hallway, or otherwise changing shape, color, etc. (Hair growth?)
 - A field of tall corn/stalks that is hard to see through
 - A grimoire
+- A room of dozens sculptures of a man, subsequent in age. Representing a stillborn child, demanded by a wealthy noble who lost her child but imagines how it grew.
+- crates like washing machines, tumbling items within
+- A Soul escaped from the Spirit Wardens crematorium
+- The Wardens send Souls through a device called "The Frame" that presumably recycles them into energy to sustain the Emperor
+- Energy from a Soul is a lot more pure than that from leviathans
+- "Are you Unresolved? Why aren't you in uniform?"
+- A rich married couple who's hiring crews to fuck with each other's business ventures
