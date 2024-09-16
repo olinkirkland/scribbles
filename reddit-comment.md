@@ -1,10 +1,12 @@
-*Scenes from Duskwall's Underworld background and bonus Strange scenes, with worldbuilding questions.*
+*You've been hired to retrieve a family heirloom from the mysterious Hyle Hall in Coalridge. Getting in should be easy, whether you make it out of the haunted estate is another matter.*
 
-[Get the PDF here!](https://olinkirk.land/scribbles/?d=duskwall-memories-4)
+[Get the PDF here!](https://olinkirk.land/scribbles/?d=the-haunting-of-hyle-hall)
 
 Here's my [website](https://olinkirk.land/scribbles) where you can download up-to-date, free PDFs of all the scenarios I've written.
 
 Download, play, and share my work however you see fit.
+
+[❖ The Haunting of Hyle Hall](https://olinkirk.land/scribbles/?d=the-haunting-of-hyle-hall)
 
 [❖ Duskwall Memories: Underworld & Strange](https://olinkirk.land/scribbles/?d=duskwall-memories-4)
 
@@ -61,5 +63,3 @@ Download, play, and share my work however you see fit.
 [❖ The Rowan Affair](https://olinkirk.land/scribbles/?d=the-rowan-affair)
 
 [❖ Setting Primer](https://olinkirk.land/scribbles/?d=setting-primer)
-
-[❖ The Haunting of Hyle Hall](https://olinkirk.land/scribbles/?d=the-haunting-of-hyle-hall)
