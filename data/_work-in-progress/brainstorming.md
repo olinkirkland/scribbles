@@ -1,0 +1,66 @@
+- Creepy recurring poem or song
+- Music-themed tattoo by an artist collective
+- Music tied to magic
+  - Awful machine made by an anti-magic faction generates sounds that prevent or corrupt attuning and weaken ghosts
+- Infiltrate a party (the party has a theme like animals or masks)
+- Snake
+- Book with notes in the margins warning **NOT TO READ IT!**
+- A secluded cabin in a snowy place
+- An abbey (religious community) led by a Mother Superior
+- One shot for an isolated Skov tribe breaking into a leviathan hunter ship to rescue one of their members
+- Break-out
+- Volcano
+- Iruvian sand shark
+- Customs for the dead
+- Footprints of water or blood
+- "See anything you like? It's so rare the dead get to choose."
+- Mortician "Dr. Metzger"
+- Music box
+- **"Smoke & Mirrors"**: A score about a heist involving a magician's secrets at a theater
+- Haunted Library
+- "Smartest man in the world - until you stroke his ego, then he's the same as all the rest."
+- Beautiful people in a creepy backwoods bar
+- Portals that only appear in certain places at certain times (tears)
+  - Project clock: Finding the next location of a portal
+- A bird with "artistically" broken wings
+- Famous demon hunter "tall tales"
+- A path that you can't leave - you always end up back where you started
+- Pearls at first glance, but actually: Human teeth!
+- Creature with antlers - rebirth?
+- A room of clocks on the walls, all stopped at the same time
+- **Puddle Jumper** (name of a ship)
+- Tomas (person's name)
+- "Its gifts come with a price - and you won't know it's been paid until it's too late."
+- "At last, all will be made proper and good."
+- Easel covered by a sheet
+- Explod-y enemy
+- **The Citadel** (a city name)
+- A murder mystery in a steampunk city under siege
+- Other worlds and times like Norby
+- Banksy in Duskvol
+- Ley Lines
+- Money handoff
+- A drug empire under an aristocrat's mansion
+- "People either survive in the jungle, or exist in a zoo."
+- "Now, to conclude our/this sordid little affair."
+- A cursory glance
+- Skeletons leading to a vault
+- **The Cleaners** (from Max Payne 2)
+  - Ruthless hitmen with mysterious leadership
+- Library
+- "Overcharged" Electrician who was scammed/tricked out of money/goods
+- Nightmare before ____ (Holiday)
+- Knight at the Museum
+- Hags & harpies
+- Hester Plum
+- A Doll House
+- Shrinking as you go further down a hallway, or otherwise changing shape, color, etc. (Hair growth?)
+- A field of tall corn/stalks that is hard to see through
+- A grimoire
+- A room of dozens sculptures of a man, subsequent in age. Representing a stillborn child, demanded by a wealthy noble who lost her child but imagines how it grew.
+- crates like washing machines, tumbling items within
+- A Soul escaped from the Spirit Wardens crematorium
+- The Wardens send Souls through a device called "The Frame" that presumably recycles them into energy to sustain the Emperor
+- Energy from a Soul is a lot more pure than that from leviathans
+- "Are you Unresolved? Why aren't you in uniform?"
+- A rich married couple who's hiring crews to fuck with each other's business ventures
