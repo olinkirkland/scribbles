@@ -2,7 +2,7 @@
   "scribbles": [
     {
       "title": "The Haunting of Hyle Hall",
-      "description": "You've been hired to retrieve a family heirloom from the mysterious Hyle Hall in Coalridge. Getting in should be easy, whether you make it out of the haunted estate is another matter.",
+      "description": "Entering the abandoned old Hyle estate should be easy, whether you make it out with the family heirloom is another matter.",
       "slug": "the-haunting-of-hyle-hall",
       "tags": [
         "game:blades in the dark",
@@ -528,6 +528,6 @@
   ],
   "archive": {
     "size": 3277878,
-    "lastModified": "2024-09-16T07:58:33.958Z"
+    "lastModified": "2024-09-16T07:59:04.615Z"
   }
 }
