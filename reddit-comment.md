@@ -1,4 +1,4 @@
-*You've been hired to retrieve a family heirloom from the mysterious Hyle Hall in Coalridge. Getting in should be easy, whether you make it out of the haunted estate is another matter.*
+*Entering the abandoned old Hyle estate should be easy, whether you make it out with the family heirloom is another matter.*
 
 [Get the PDF here!](https://olinkirk.land/scribbles/?d=the-haunting-of-hyle-hall)
 

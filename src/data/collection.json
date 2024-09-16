@@ -2,7 +2,7 @@
   "scribbles": [
     {
       "title": "The Haunting of Hyle Hall",
-      "description": "Entering the abandoned old Hyle estate should be easy, whether you make it out with the family heirloom is another matter.",
+      "description": "Entering the abandoned old Hyle estate should be easy. Making it out is another matter.",
       "slug": "the-haunting-of-hyle-hall",
       "tags": [
         "game:blades in the dark",
@@ -528,6 +528,6 @@
   ],
   "archive": {
     "size": 3277878,
-    "lastModified": "2024-09-16T07:59:04.615Z"
+    "lastModified": "2024-09-16T08:04:49.156Z"
   }
 }
