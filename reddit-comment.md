@@ -61,3 +61,5 @@ Download, play, and share my work however you see fit.
 [❖ The Rowan Affair](https://olinkirk.land/scribbles/?d=the-rowan-affair)
 
 [❖ Setting Primer](https://olinkirk.land/scribbles/?d=setting-primer)
+
+[❖ The Haunting of Hyle Hall](https://olinkirk.land/scribbles/?d=the-haunting-of-hyle-hall)
