@@ -64,3 +64,25 @@
 - Energy from a Soul is a lot more pure than that from leviathans
 - "Are you Unresolved? Why aren't you in uniform?"
 - A rich married couple who's hiring crews to fuck with each other's business ventures
+- Steal from a colonial governor who is passing through: he's heavily guarded
+- “Tampering with the property of the X is not without consequence as you’ll soon discover”
+- Knocking down a lightning tower to allow ghosts out? Or in? For that faction of possessed people
+- “Constellations” scenario title
+  - help an astronomer?
+  - Steal an astronomy tool?
+  - Related to witchcraft
+  - Astrolabe?
+- “I Hunger…” (verb)
+- The Borrowers
+- Renn fair/battle reenactors
+- Bookcases hide a secret passage
+- A human hanging from the ceiling, like Spider-Man sticking to it w its fingertips 
+- Guards favorite beverage
+- Serrated blade trap
+- A fighting arena with strange creatures
+- Creature with bulbous sacs containing victims corpses
+- Door hot or cold to the touch
+- Parmesan or maple syrup reserves
+- A hanged person in a dark cell
+- Someone’s birthday presents at a gaudy mansion
+- Great escape
