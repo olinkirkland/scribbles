@@ -86,3 +86,5 @@
 - A hanged person in a dark cell
 - Someone’s birthday presents at a gaudy mansion
 - Great escape
+- Bulbous sacs on an insect, with floating people or animals within
+- 
