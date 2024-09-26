@@ -86,3 +86,5 @@
 - A hanged person in a dark cell
 - Someone’s birthday presents at a gaudy mansion
 - Great escape
+- "I been all over the world, and I ain't ever seen no demons, no ghosts. No magic. Till now."
+- "You keep dancin' with the devil, one day he's gonna follow you home."
