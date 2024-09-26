@@ -88,3 +88,5 @@
 - Great escape
 - "I been all over the world, and I ain't ever seen no demons, no ghosts. No magic. Till now."
 - "You keep dancin' with the devil, one day he's gonna follow you home."
+- Bulbous sacs on an insect, with floating people or animals within
+- 
