@@ -93,4 +93,6 @@
 - Spirit photography https://en.wikipedia.org/wiki/Spirit_photography
 - Daisy Fellowes: socialite, acclaimed beauty, novelist and poet, editor of the Sharper & Bizzare women's magazine, fashion icon, and heiress to the Singed sewing machine fortune. 
 - Accused of collaboration during [war], Emmeline de Castéja spent five months in the prison at [jail].
-- 
+- "Aleister Crowley"
+- Parapsychology https://en.wikipedia.org/wiki/Parapsychology; Joseph Banks Rhine (founder)
+- The Canterville Ghost https://en.wikipedia.org/wiki/The_Canterville_Ghost
