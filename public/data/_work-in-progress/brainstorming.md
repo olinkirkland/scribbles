@@ -89,4 +89,8 @@
 - "I been all over the world, and I ain't ever seen no demons, no ghosts. No magic. Till now."
 - "You keep dancin' with the devil, one day he's gonna follow you home."
 - Bulbous sacs on an insect, with floating people or animals within
+- Parapsychology
+- Spirit photography https://en.wikipedia.org/wiki/Spirit_photography
+- Daisy Fellowes: socialite, acclaimed beauty, novelist and poet, editor of the Sharper & Bizzare women's magazine, fashion icon, and heiress to the Singed sewing machine fortune. 
+- Accused of collaboration during [war], Emmeline de Castéja spent five months in the prison at [jail].
 - 
