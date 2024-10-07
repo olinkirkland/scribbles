@@ -1,6 +1,20 @@
 {
   "scribbles": [
     {
+      "title": "Curse of the Red Mariner",
+      "description": "A routine score becomes a nightmare aboard this quarantined Leviathan hunter ship.",
+      "slug": "curse-of-the-red-mariner",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:emissary",
+        "leviathan",
+        "red mariner",
+        "ship",
+        "quarantine"
+      ]
+    },
+    {
       "title": "The Haunting of Hyle Hall",
       "description": "You've been hired to retrieve a family heirloom from the haunted Hyle Hall in Coalridge.",
       "slug": "the-haunting-of-hyle-hall",
