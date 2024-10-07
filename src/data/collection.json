@@ -12,7 +12,11 @@
         "red mariner",
         "ship",
         "quarantine"
-      ]
+      ],
+      "size": 119337,
+      "pageCount": 1,
+      "createdAt": "2024-10-07T09:57:44.000Z",
+      "lastModified": "2024-10-07T09:57:44.000Z"
     },
     {
       "title": "The Haunting of Hyle Hall",
@@ -541,7 +545,7 @@
     }
   ],
   "archive": {
-    "size": 3277763,
-    "lastModified": "2024-09-16T09:03:34.553Z"
+    "size": 3386267,
+    "lastModified": "2024-10-07T09:58:34.343Z"
   }
 }
