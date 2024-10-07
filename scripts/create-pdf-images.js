@@ -14,8 +14,6 @@ const scribbles = JSON.parse(
   fs.readFileSync(collectionFilePath, 'utf8')
 ).scribbles;
 
-// while (scribbles.length > 1) scribbles.pop();
-
 createImage();
 
 async function createImage() {
