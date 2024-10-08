@@ -1,10 +1,12 @@
-*You've been hired to retrieve a family heirloom from the haunted Hyle Hall in Coalridge.*
+*A routine score becomes a nightmare aboard this quarantined Leviathan hunter ship.*
 
-[Get the PDF here!](https://olinkirk.land/scribbles/?d=the-haunting-of-hyle-hall)
+[Get the PDF here!](https://olinkirk.land/scribbles/?d=curse-of-the-red-mariner)
 
 Here's my [website](https://olinkirk.land/scribbles) where you can download up-to-date, free PDFs of all the scenarios I've written.
 
 Download, play, and share my work however you see fit.
+
+[❖ Curse of the Red Mariner](https://olinkirk.land/scribbles/?d=curse-of-the-red-mariner)
 
 [❖ The Haunting of Hyle Hall](https://olinkirk.land/scribbles/?d=the-haunting-of-hyle-hall)
 

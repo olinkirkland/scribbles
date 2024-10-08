@@ -8,11 +8,12 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "deploy": "npm run prepare && npm run build && gh-pages -d dist",
-    "prepare": "node scripts/prepare-carefully.js && node scripts/write-markdown.js"
+    "prepare": "node scripts/prepare-carefully.js && node scripts/write-markdown.js && node scripts/create-pdf-images.js"
   },
   "dependencies": {
     "archiver": "^6.0.1",
     "pdf-lib": "^1.17.1",
+    "pdf-to-png-converter": "^3.3.0",
     "vue": "^3.3.8"
   },
   "devDependencies": {

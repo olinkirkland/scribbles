@@ -1,6 +1,24 @@
 {
   "scribbles": [
     {
+      "title": "Curse of the Red Mariner",
+      "description": "A routine score becomes a nightmare aboard this quarantined Leviathan hunter ship.",
+      "slug": "curse-of-the-red-mariner",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:emissary",
+        "leviathan",
+        "red mariner",
+        "ship",
+        "quarantine"
+      ],
+      "size": 119337,
+      "pageCount": 1,
+      "createdAt": "2024-10-07T09:57:44.000Z",
+      "lastModified": "2024-10-07T09:57:44.000Z"
+    },
+    {
       "title": "The Haunting of Hyle Hall",
       "description": "You've been hired to retrieve a family heirloom from the haunted Hyle Hall in Coalridge.",
       "slug": "the-haunting-of-hyle-hall",
@@ -527,7 +545,7 @@
     }
   ],
   "archive": {
-    "size": 3277763,
-    "lastModified": "2024-09-16T09:03:34.553Z"
+    "size": 3386267,
+    "lastModified": "2024-10-07T14:02:29.746Z"
   }
 }
