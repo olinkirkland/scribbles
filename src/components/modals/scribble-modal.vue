@@ -44,6 +44,20 @@
             Download ({{ size }})
           </a>
         </div>
+        <div class="controls">
+          <a :href="pdfUrl" target="_blank" @click="trackDownloadOrView('view')"
+            >View PDF</a
+          >
+          <a
+            :href="pdfUrl"
+            download
+            target="_blank"
+            @click="trackDownloadOrView('download')"
+          >
+            <i class="fas fa-download"></i>
+            Download ({{ size }})
+          </a>
+        </div>
         <div class="row details">
           <a
             :href="`/scribbles/?d=${scribble.slug}`"
