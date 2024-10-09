@@ -23,6 +23,7 @@ const ignoredFiles = [
   'scenario-template.docx'
 ];
 
+// Generate metadata for each folder
 for (const slug of folders) {
   if (ignoredFiles.includes(slug)) continue; // skip ignored files
   console.log(`${slug}`);
@@ -54,12 +55,29 @@ for (const slug of folders) {
     console.log(error);
   }
 
-  // DOCX
+  // Docx
   const docUrl = `${dataFolderPath}/${slug}/${slug}.docx`;
   try {
     console.log(`  └── ${slug}.docx`);
   } catch (error) {
     console.log(`No DOCX file found at ${docUrl}`);
+  }
+
+  // Downloads
+  // Some items in the collection may have a downloads folder with additional files (e.g., images, alternate PDFs)
+  // The collection.json file should include info for each of these in an array 'downloads'
+  const collectionItem = collection.scribbles.find(
+    (item) => item.slug === slug
+  );
+  if (collectionItem.downloads?.length > 0) {
+    // Calculate the size of each download
+    collectionItem.downloads.forEach((download) => {
+      // download; { name, path }
+      const downloadPath = `${dataFolderPath}/${slug}/downloads/${download.path}`;
+      const stats = fs.statSync(downloadPath);
+      download.size = stats.size;
+    });
+    metadata[slug].downloads = collectionItem.downloads;
   }
 }
 
@@ -72,6 +90,7 @@ for (const item of collection.scribbles) {
     item.pageCount = metadata[item.slug].pageCount;
     item.createdAt = metadata[item.slug].createdAt;
     item.lastModified = metadata[item.slug].lastModified;
+    item.downloads = metadata[item.slug].downloads;
   }
 }
 

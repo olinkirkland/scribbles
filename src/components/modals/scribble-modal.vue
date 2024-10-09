@@ -44,33 +44,18 @@
             Download ({{ size }})
           </a>
         </div>
-        <div class="controls">
-          <a :href="pdfUrl" target="_blank" @click="trackDownloadOrView('view')"
-            >View PDF</a
-          >
+        <div
+          class="controls"
+          v-if="scribble.downloads && scribble.downloads.length > 0"
+        >
           <a
-            :href="pdfUrl"
-            download
+            v-for="download in scribble.downloads"
+            :key="download.path"
+            :href="`${BASE_URL}data/${scribble.slug}/downloads/${download.path}`"
             target="_blank"
             @click="trackDownloadOrView('download')"
+            >{{ download.name }}</a
           >
-            <i class="fas fa-download"></i>
-            Download ({{ size }})
-          </a>
-        </div>
-        <div class="row details">
-          <a
-            :href="`/scribbles/?d=${scribble.slug}`"
-            class="link share"
-            target="_blank"
-            @click="trackDownloadOrView('share')"
-          >
-            Share a direct link
-          </a>
-          <div class="dates">
-            <!-- <p>{{ createdAt }}</p> -->
-            <p>{{ lastModified }}</p>
-          </div>
         </div>
       </div>
     </div>

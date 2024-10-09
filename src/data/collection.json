@@ -221,12 +221,6 @@
       "title": "On a Knife's Edge",
       "description": "The Dimmer Sisters hire a crew to steal a dagger from Quarla, Duskvol's most notorious blade-smith.",
       "slug": "on-a-knifes-edge",
-      "downloads": [
-        {
-          "type": "image",
-          "name": "on-a-knifes-edge.webp"
-        }
-      ],
       "tags": [
         "game:blades in the dark",
         "type:one-shot",
@@ -237,6 +231,13 @@
         "bladesmith",
         "illustrated",
         "perryphery"
+      ],
+      "downloads": [
+        {
+          "path": "on-a-knifes-edge__clean.pdf",
+          "name": "Printer-friendly PDF",
+          "size": 217798
+        }
       ],
       "size": 543537,
       "pageCount": 3,
@@ -546,6 +547,6 @@
   ],
   "archive": {
     "size": 3386267,
-    "lastModified": "2024-10-07T14:02:29.746Z"
+    "lastModified": "2024-10-09T11:54:36.492Z"
   }
 }

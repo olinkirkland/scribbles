@@ -67,6 +67,7 @@ export type Scribble = {
   lastModified: string;
   pageCount: number;
   size: number;
+  downloads?: { name: string; path: string; size: number }[];
 };
 const searchInput = ref('');
 
