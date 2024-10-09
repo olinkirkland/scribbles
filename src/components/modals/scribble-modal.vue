@@ -41,11 +41,11 @@
             @click="trackDownloadOrView('download')"
           >
             <i class="fas fa-download"></i>
-            Download ({{ size }})
+            Download PDF ({{ size }})
           </a>
         </div>
         <div
-          class="controls"
+          class="downloads-list"
           v-if="scribble.downloads && scribble.downloads.length > 0"
         >
           <a
@@ -54,8 +54,24 @@
             :href="`${BASE_URL}data/${scribble.slug}/downloads/${download.path}`"
             target="_blank"
             @click="trackDownloadOrView('download')"
-            >{{ download.name }}</a
           >
+            <i class="fas fa-download"></i>
+            {{ download.name }} ({{ Math.floor(download.size / 1024) }} KB)</a
+          >
+        </div>
+        <div class="row details">
+          <a
+            :href="`/scribbles/?d=${scribble.slug}`"
+            class="link share"
+            target="_blank"
+            @click="trackDownloadOrView('share')"
+          >
+            Share a direct link
+          </a>
+          <div class="dates">
+            <!-- <p>{{ createdAt }}</p> -->
+            <p>{{ lastModified }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -209,7 +225,7 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
 
       .controls {
         display: flex;
-        gap: 0.4rem;
+        gap: 0.8rem;
         a {
           text-align: center;
           &:first-child {
@@ -219,6 +235,11 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
             width: 60%;
           }
         }
+      }
+
+      .downloads-list {
+        display: flex;
+        flex-wrap: wrap;
       }
 
       ul.tag-list {
@@ -276,9 +297,13 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
   .modal {
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    overflow: hidden;
 
     > .modal__content {
       height: 100%;
+      width: 100%;
+
       .modal__content__header > button.close {
         position: absolute;
         color: var(--light-0);
@@ -307,11 +332,17 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
           display: flex;
           align-items: flex-end;
 
+          overflow-x: auto;
+
           a {
-            width: 100%;
+            &:first-child,
+            &:last-child {
+              width: 100%;
+            }
             text-align: center;
           }
         }
+
         .dates {
           flex-direction: column;
           gap: 0;

@@ -48,7 +48,7 @@ header.hero {
 @media (max-width: 768px) {
   header.hero {
     h1 {
-      font-size: 4rem;
+      font-size: 3.6rem;
       letter-spacing: 0.6rem;
     }
 
