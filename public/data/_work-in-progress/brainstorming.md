@@ -92,7 +92,6 @@
 
 ### **Artifacts & Items**
 - Bookcases hide a secret passage
-- A grimoire
 - An easel covered by a sheet
 - Serrated blade trap
 - Parmesan or maple syrup reserves
@@ -118,3 +117,4 @@
   - Astrolabe?
 - “I Hunger…” (verb)
 - “Overcharged” Electrician who was scammed/tricked out of money/goods
+- A creature in a waterlogged/flooded basement
