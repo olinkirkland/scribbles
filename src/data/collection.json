@@ -1,6 +1,24 @@
 {
   "scribbles": [
     {
+      "title": "Ghosts in the Machine",
+      "description": "Check out a book from a library in the Deathlands. Just get back out before the library consumes you.",
+      "slug": "ghosts-in-the-machine",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:crowley",
+        "deathlands",
+        "scavengers",
+        "library",
+        "ghosts"
+      ],
+      "size": 107489,
+      "pageCount": 1,
+      "createdAt": "2024-10-23T09:08:11.000Z",
+      "lastModified": "2024-10-23T09:08:11.000Z"
+    },
+    {
       "title": "Curse of the Red Mariner",
       "description": "A routine score becomes a nightmare aboard this quarantined Leviathan hunter ship.",
       "slug": "curse-of-the-red-mariner",
@@ -546,7 +564,7 @@
     }
   ],
   "archive": {
-    "size": 3386267,
-    "lastModified": "2024-10-09T12:27:29.610Z"
+    "size": 3483412,
+    "lastModified": "2024-10-23T09:12:53.568Z"
   }
 }
