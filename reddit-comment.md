@@ -1,10 +1,12 @@
-*A routine score becomes a nightmare aboard this quarantined Leviathan hunter ship.*
+*Check out a book from a library in the Deathlands. Just get back out before the library consumes you.*
 
-[Get the PDF here!](https://olinkirk.land/scribbles/?d=curse-of-the-red-mariner)
+[Get the PDF here!](https://olinkirk.land/scribbles/?d=ghosts-in-the-machine)
 
 Here's my [website](https://olinkirk.land/scribbles) where you can download up-to-date, free PDFs of all the scenarios I've written.
 
 Download, play, and share my work however you see fit.
+
+[❖ Ghosts in the Machine](https://olinkirk.land/scribbles/?d=ghosts-in-the-machine)
 
 [❖ Curse of the Red Mariner](https://olinkirk.land/scribbles/?d=curse-of-the-red-mariner)
 
