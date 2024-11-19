@@ -6,6 +6,37 @@
         <span class="decoration">&nbsp;🙧</span>
       </h2>
       <div class="grid">
+        <div>
+          <div class="row social-buttons">
+            <!-- Bluesky -->
+            <a
+              class="link social"
+              href="https://bsky.app/profile/olins-scribbles.bsky.social"
+              target="_blank"
+            >
+              <span>Bluesky</span>
+            </a>
+            <!-- Instagram -->
+            <a
+              class="link social"
+              href="https://www.instagram.com/olins.scribbles/"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+            <!-- Facebook -->
+            <a
+              class="link social"
+              href="https://www.facebook.com/profile.php?id=61568981033804"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i>
+              <span>Facebook</span>
+            </a>
+          </div>
+        </div>
+
         <p>
           My TTRPG writing is free to download, edit, and share under the
           Creative Commons Attribution 4.0
@@ -90,7 +121,7 @@ section {
       display: grid;
       padding: 2rem;
       padding-top: 0.4rem;
-      gap: 1.6rem;
+      gap: 0.8rem;
       grid-template-columns: repeat(1, 1fr);
     }
 
@@ -145,6 +176,21 @@ button.show-about-me {
 
   &:hover {
     bottom: unset;
+  }
+}
+
+.social-buttons {
+  gap: 0.4rem;
+  width: fit-content;
+  margin: 0 auto;
+  background: var(--light-1);
+  border-radius: 5px;
+
+  > a {
+    padding: 0.2rem 0.8rem;
+    background: none;
+    cursor: pointer;
+    color: var(--dark-0);
   }
 }
 
