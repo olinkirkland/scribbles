@@ -29,6 +29,15 @@
         }}
       </h2>
 
+      <div v-if="searchInput.length > 0" class="copy-search-block">
+        <p>Copy this link to share your search.</p>
+        <input
+          type="text"
+          :value="`${BASE_URL}scribbles?s=${searchInput}`"
+          readonly
+        />
+      </div>
+
       <!-- Tags -->
       <!-- <ul class="tags">
         <li v-for="(tag, index) in tags" :key="index">
@@ -225,6 +234,21 @@ section {
 
   a {
     white-space: nowrap;
+  }
+}
+
+.copy-search-block {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  p {
+    color: var(--light-2);
+  }
+
+  > * {
+    width: fit-content;
   }
 }
 
