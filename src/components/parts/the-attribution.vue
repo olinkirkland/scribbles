@@ -90,7 +90,6 @@ section {
 
   &.hide {
     max-height: 0;
-    transition: max-height 0.8s cubic-bezier(0, 1, 0, 1);
   }
 
   button.collapse {
