@@ -89,6 +89,8 @@ if (directLink) {
   if (scribble)
     requestAnimationFrame(() => {
       ModalController.open(ScribbleModal, { scribble });
+      // Change the URL back to the base URL
+      window.history.pushState({}, document.title, window.location.pathname);
     });
   else window.location.href = BASE_URL;
 }
