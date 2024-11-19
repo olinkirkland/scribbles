@@ -245,6 +245,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  margin-bottom: 0.8rem;
   p {
     color: var(--light-2);
   }
