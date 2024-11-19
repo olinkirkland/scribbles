@@ -33,7 +33,7 @@
         <p>Copy this link to share your search.</p>
         <input
           type="text"
-          :value="`${BASE_URL}scribbles?s=${searchInput}`"
+          :value="`${origin}/scribbles/?s=${searchInput}`"
           readonly
         />
       </div>
@@ -66,6 +66,7 @@ import ScribbleCard from '../scribble-card.vue';
 
 const archiveSize = (collection.archive.size / 1024 / 1024).toFixed(2) + ' MB';
 const archiveUrl = `${BASE_URL}data/scribbles-collection.zip`;
+const origin = window.location.origin;
 
 export type Scribble = {
   title: string;
@@ -245,7 +246,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
   p {
     color: var(--light-2);
   }
