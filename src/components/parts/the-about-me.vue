@@ -135,8 +135,6 @@ section {
 .content {
   position: relative;
   overflow: hidden;
-  max-height: 1000px;
-  transition: max-height 1s ease-in-out;
 
   &.hide {
     max-height: 0;
