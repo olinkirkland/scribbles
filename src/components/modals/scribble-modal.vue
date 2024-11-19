@@ -298,10 +298,11 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 100%;
     overflow: hidden;
 
     > .modal__content {
-      height: 100%;
+      flex: 1;
       width: 100%;
 
       .modal__content__header > button.close {
@@ -309,7 +310,7 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
         color: var(--light-0);
         top: 0;
         right: 0;
-        margin: 3.2rem;
+        padding: 2.8rem !important;
         background: none;
 
         &:hover {
@@ -330,15 +331,22 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
         .controls {
           flex: 1;
           display: flex;
-          align-items: flex-end;
-
-          overflow-x: auto;
+          flex-direction: column;
 
           a {
             &:first-child,
             &:last-child {
               width: 100%;
             }
+            text-align: center;
+          }
+        }
+
+        .downloads-list {
+          flex-wrap: nowrap;
+          flex-direction: column;
+          a {
+            width: 100%;
             text-align: center;
           }
         }
@@ -350,9 +358,11 @@ const pdfUrl = `${BASE_URL}data/${props.scribble.slug}/${props.scribble.slug}.pd
         }
       }
     }
+
     > .modal__image {
       width: 100%;
-      height: 40%;
+      // let it shrink
+      flex-shrink: 1;
     }
   }
 }

@@ -18,9 +18,9 @@
   --dark-2: #151517;
 
   // Primary
-  --primary-0: #c53d43;
-  --primary-1: #be282f;
-  --primary-2: #77171c;
+  --primary-0: #4c496b;
+  --primary-1: #3a3754;
+  --primary-2: #28253d;
 
   // Colors
   --red: #f03e3e;
@@ -41,7 +41,7 @@
 
   // Font
   --font-family: 'Cambria', serif;
-  --title-font-family: 'FrederickatheGreat-Regular', serif;
+  --title-font-family: 'Berkshire Swash', cursive;
 }
 
 button,
@@ -90,6 +90,15 @@ button:not(.link) {
 
   &:hover {
     background-color: var(--primary-0);
+  }
+
+  &.secondary {
+    background-color: var(--light-2);
+    color: var(--dark-0);
+
+    &:hover {
+      background-color: var(--light-1);
+    }
   }
 }
 
@@ -180,4 +189,15 @@ button.close {
 
 .align-right {
   text-align: right;
+}
+
+.books-stripe::after {
+  position: absolute;
+  top: 100%;
+  content: '';
+  background-image: url('../images/books-stripe.webp');
+  display: block;
+  background-size: cover;
+  width: 100%;
+  height: 0.4rem;
 }

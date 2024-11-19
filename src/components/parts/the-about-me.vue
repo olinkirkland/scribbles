@@ -1,26 +1,11 @@
 <template>
   <section>
-    <div class="content" :class="{ hide: isCalloutHidden }">
+    <div class="content" :class="{ hide }">
       <h2>
-        <span class="decoration">🙥&nbsp;</span><strong>Attribution</strong>
+        <span class="decoration">🙥&nbsp;</span><strong>About Me</strong>
         <span class="decoration">&nbsp;🙧</span>
       </h2>
       <div class="grid">
-        <p>
-          These works are based on
-          <a class="link" href="http://www.bladesinthedark.com" target="_blank"
-            >Blades in the Dark</a
-          >
-          — a product of One Seven Design, developed and authored by John
-          Harper, and licensed for my use under the Creative Commons Attribution
-          3.0
-          <a
-            href="http://creativecommons.org/licenses/by/3.0"
-            class="link"
-            target="_blank"
-            >license</a
-          >.
-        </p>
         <p>
           My TTRPG writing is free to download, edit, and share under the
           Creative Commons Attribution 4.0
@@ -43,39 +28,26 @@
           from the footer to use this layout for your own work.
         </p>
       </div>
-      <button @click="hideCalloutAndSave" class="hide-attribution">
-        <span>OK, hide this message</span>
-      </button>
+      <!-- <button class="collapse" @click="onClickClose"></button> -->
     </div>
-    <button
-      class="show-attribution link"
-      @click="isCalloutHidden = false"
-      :class="{ 'zero-opacity': !isCalloutHidden }"
-    >
-      <span>Attribution</span>
-    </button>
   </section>
 </template>
 
 <script setup lang="ts">
 import { BASE_URL } from '@/main';
 import mixpanel from 'mixpanel-browser';
-import { ref } from 'vue';
 
 const templateUrl = `${BASE_URL}data/scenario-template.docx`;
+defineProps<{
+  hide: boolean;
+  onClickClose: () => void;
+}>();
 
 function trackTemplateDownloadClick() {
   mixpanel.track('download', {
     slug: 'template'
   });
   return true;
-}
-
-const isCalloutHidden = ref(localStorage.getItem('hide-callout') || false);
-
-function hideCalloutAndSave() {
-  isCalloutHidden.value = true;
-  localStorage.setItem('hide-callout', 'true');
 }
 </script>
 
@@ -88,6 +60,14 @@ section {
   box-shadow: inset 0 3px 15px rgba(0, 0, 0, 0.1),
     inset 0 -3px 15px rgba(0, 0, 0, 0.1);
 
+  &::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 0.4rem solid var(--primary-1);
+  }
+
   > .content {
     display: flex;
     flex-direction: column;
@@ -98,7 +78,7 @@ section {
 
     > h2 {
       width: 100%;
-      margin-top: 1.2rem;
+      margin-top: 1.6rem;
       color: var(--dark-0);
       text-align: center;
       text-transform: uppercase;
@@ -111,7 +91,7 @@ section {
       padding: 2rem;
       padding-top: 0.4rem;
       gap: 1.6rem;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
 
     button {
@@ -122,15 +102,32 @@ section {
 }
 
 .content {
-  transition: max-height 0.4s ease-out;
+  position: relative;
   overflow: hidden;
-  max-height: 64rem;
+  max-height: 1000px;
+  transition: max-height 1s ease-in-out;
+
   &.hide {
     max-height: 0;
+    transition: max-height 0.8s cubic-bezier(0, 1, 0, 1);
+  }
+
+  button.collapse {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(2.6rem) rotate(45deg);
+    margin: 0;
+    padding: 1rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    text-align: center;
+    color: var(--light-0);
+    background-color: var(--primary-1);
   }
 }
 
-button.show-attribution {
+button.show-about-me {
   position: absolute;
   z-index: 1;
   background: none;
@@ -153,7 +150,7 @@ button.show-attribution {
 
 // When screen is less than 768px
 @media (max-width: 768px) {
-  section > .content > button.hide-attribution {
+  section > .content > button.hide-about-me {
     width: calc(100% - 4rem);
     margin: 2rem;
     margin-top: 0;
