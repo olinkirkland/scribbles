@@ -47,7 +47,7 @@
         <div
           class="downloads-list"
           v-if="scribble.downloads && scribble.downloads.length > 0"
-        >1
+        >
           <a
             v-for="download in scribble.downloads"
             :key="download.path"
