@@ -87,12 +87,9 @@ section {
 .content {
   position: relative;
   overflow: hidden;
-  max-height: 1000px;
-  transition: max-height 1s ease-in-out;
 
   &.hide {
     max-height: 0;
-    transition: max-height 0.8s cubic-bezier(0, 1, 0, 1);
   }
 
   button.collapse {

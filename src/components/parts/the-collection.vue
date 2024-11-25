@@ -31,11 +31,17 @@
 
       <div v-if="searchInput.length > 0" class="copy-search-block">
         <p>Copy this link to share your search.</p>
-        <input
-          type="text"
-          :value="`${BASE_URL}scribbles?s=${searchInput}`"
-          readonly
-        />
+        <div class="copy-with-button" @click="copySearchUrl">
+          <input
+            type="text"
+            :value="`${origin}/scribbles/?s=${searchInput}`"
+            readonly
+          />
+        </div>
+        <div v-if="showCopyToast" class="toast" @click="showCopyToast = false">
+          <i class="fas fa-check"></i>
+          <span>Copied!</span>
+        </div>
       </div>
 
       <!-- Tags -->
@@ -66,6 +72,7 @@ import ScribbleCard from '../scribble-card.vue';
 
 const archiveSize = (collection.archive.size / 1024 / 1024).toFixed(2) + ' MB';
 const archiveUrl = `${BASE_URL}data/scribbles-collection.zip`;
+const origin = window.location.origin;
 
 export type Scribble = {
   title: string;
@@ -103,6 +110,16 @@ function search(str: string) {
   searchInput.value = str;
 }
 
+const showCopyToast = ref(false);
+function copySearchUrl(event: MouseEvent) {
+  const input = event.target as HTMLInputElement;
+  if (!input) return;
+  input.select();
+  navigator.clipboard.writeText(input.value);
+  showCopyToast.value = false;
+  requestAnimationFrame(() => (showCopyToast.value = true));
+}
+
 const reversedCollection = collection.scribbles.reverse().sort((a, b) => {
   return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
 });
@@ -133,6 +150,7 @@ function trackDownloadClick() {
 const filteredItems = computed(() => {
   if (!searchInput.value) return reversedCollection;
   const searchStr = searchInput.value.toLowerCase();
+  showCopyToast.value = false;
   return reversedCollection.filter((item: any) => {
     return (
       item.title.toLowerCase().includes(searchStr) ||
@@ -245,12 +263,25 @@ section {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  margin-bottom: 1.2rem;
   p {
     color: var(--light-2);
   }
 
-  > * {
-    width: fit-content;
+  > .copy-with-button {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: max-content;
+    width: 100%;
+
+    > input {
+      width: 100%;
+      max-width: 40rem;
+      cursor: pointer;
+    }
   }
 }
 
