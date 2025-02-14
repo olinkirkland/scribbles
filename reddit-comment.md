@@ -1,10 +1,12 @@
-*Check out a book from a library in the Deathlands. Just get back out before the library consumes you.*
+*The Unchained hire a crew of scoundrels to rescue an ancient Hull from Sparkwright Tower.*
 
-[Get the PDF here!](https://olinkirk.land/scribbles/?d=ghosts-in-the-machine)
+[Get the PDF here!](https://olinkirk.land/scribbles/?d=electric-dreams)
 
 Here's my [website](https://olinkirk.land/scribbles) where you can download up-to-date, free PDFs of all the scenarios I've written.
 
 Download, play, and share my work however you see fit.
+
+[❖ Electric Dreams](https://olinkirk.land/scribbles/?d=electric-dreams)
 
 [❖ Ghosts in the Machine](https://olinkirk.land/scribbles/?d=ghosts-in-the-machine)
 

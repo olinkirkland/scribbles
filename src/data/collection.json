@@ -1,6 +1,24 @@
 {
   "scribbles": [
     {
+      "title": "Electric Dreams",
+      "description": "The Unchained hire a crew of scoundrels to rescue an ancient Hull from Sparkwright Tower.",
+      "slug": "electric-dreams",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:unchained",
+        "unchained",
+        "hull",
+        "sparkwright",
+        "prometheus"
+      ],
+      "size": 144608,
+      "pageCount": 2,
+      "createdAt": "2025-02-14T13:53:39.000Z",
+      "lastModified": "2025-02-14T13:53:39.000Z"
+    },
+    {
       "title": "Ghosts in the Machine",
       "description": "Check out a book from a library in the Deathlands. Just get back out before the library consumes you.",
       "slug": "ghosts-in-the-machine",
@@ -564,7 +582,7 @@
     }
   ],
   "archive": {
-    "size": 3483412,
-    "lastModified": "2024-11-19T20:04:48.838Z"
+    "size": 3613025,
+    "lastModified": "2025-02-14T13:59:47.739Z"
   }
 }
