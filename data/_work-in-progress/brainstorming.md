@@ -11,9 +11,7 @@
 
 ### **Spooky, Paranormal, & Dark Themes**
 - Snake
-- Book with notes in the margins warning **NOT TO READ IT!**
 - A secluded cabin in a snowy place
-- Haunted Library
 - A Soul escaped from the Spirit Wardens crematorium
 - The Wardens send Souls through a device called "The Frame" that presumably recycles them into energy to sustain the Emperor
 - Spirit photography https://en.wikipedia.org/wiki/Spirit_photography
@@ -22,8 +20,6 @@
 - A human hanging from the ceiling, like Spider-Man sticking to it w its fingertips 
 - A hanged person in a dark cell
 - A room of clocks on the walls, all stopped at the same time
-- "Aleister Crowley"
-- Parapsychology https://en.wikipedia.org/wiki/Parapsychology; Joseph Banks Rhine (founder)
 - The Canterville Ghost https://en.wikipedia.org/wiki/The_Canterville_Ghost
 
 ---
