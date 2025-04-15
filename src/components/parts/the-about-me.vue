@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="content" :class="{ hide }">
+    <div class="content">
       <h2>
         <span class="decoration">🙥&nbsp;</span><strong>About Me</strong>
         <span class="decoration">&nbsp;🙧</span>
@@ -8,13 +8,37 @@
       <div class="grid">
         <div>
           <div class="row social-buttons">
+            <!-- Olin personal page -->
+            <a
+              class="link social"
+              href="https://olinkirk.land/"
+              target="_blank"
+            >
+              <span>www.olinkirk.land</span>
+            </a>
+            <!-- Scribbles on itch.io -->
+            <a
+              class="link social"
+              href="https://olinkirkland.itch.io/"
+              target="_blank"
+            >
+              <span>Olin on itch.io</span>
+            </a>
+            <!-- Olin on Bluesky -->
+            <a
+              class="link social"
+              href="https://bsky.app/profile/olinkirkland.bsky.social"
+              target="_blank"
+            >
+              <span>Olin on Bluesky</span>
+            </a>
             <!-- Bluesky -->
             <a
               class="link social"
               href="https://bsky.app/profile/olins-scribbles.bsky.social"
               target="_blank"
             >
-              <span>Bluesky</span>
+              <span>Scribbles on Bluesky</span>
             </a>
             <!-- Instagram -->
             <a
@@ -22,17 +46,7 @@
               href="https://www.instagram.com/olins.scribbles/"
               target="_blank"
             >
-              <i class="fab fa-instagram"></i>
-              <span>Instagram</span>
-            </a>
-            <!-- Facebook -->
-            <a
-              class="link social"
-              href="https://www.facebook.com/profile.php?id=61568981033804"
-              target="_blank"
-            >
-              <i class="fab fa-facebook"></i>
-              <span>Facebook</span>
+              <span>Scribbles on Instagram</span>
             </a>
           </div>
         </div>
@@ -59,7 +73,6 @@
           from the footer to use this layout for your own work.
         </p>
       </div>
-      <!-- <button class="collapse" @click="onClickClose"></button> -->
     </div>
   </section>
 </template>
@@ -69,11 +82,6 @@ import { BASE_URL } from '@/main';
 import mixpanel from 'mixpanel-browser';
 
 const templateUrl = `${BASE_URL}data/scenario-template.docx`;
-defineProps<{
-  hide: boolean;
-  onClickClose: () => void;
-}>();
-
 function trackTemplateDownloadClick() {
   mixpanel.track('download', {
     slug: 'template'
@@ -135,53 +143,17 @@ section {
 .content {
   position: relative;
   overflow: hidden;
-
-  &.hide {
-    max-height: 0;
-  }
-
-  button.collapse {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%) translateY(2.6rem) rotate(45deg);
-    margin: 0;
-    padding: 1rem;
-    height: 3.2rem;
-    width: 3.2rem;
-    text-align: center;
-    color: var(--light-0);
-    background-color: var(--primary-1);
-  }
-}
-
-button.show-about-me {
-  position: absolute;
-  z-index: 1;
-  background: none;
-  color: var(--light-1);
-  top: -3.6rem;
-  left: 50%;
-  transform: translateX(-50%);
-  cursor: pointer;
-  transition: opacity 0.4s ease-out;
-
-  &.zero-opacity {
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  &:hover {
-    bottom: unset;
-  }
 }
 
 .social-buttons {
   gap: 0.4rem;
+  padding: 1.2rem;
   width: fit-content;
   margin: 0 auto;
   background: var(--light-1);
   border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
 
   > a {
     padding: 0.2rem 0.8rem;
@@ -193,12 +165,6 @@ button.show-about-me {
 
 // When screen is less than 768px
 @media (max-width: 768px) {
-  section > .content > button.hide-about-me {
-    width: calc(100% - 4rem);
-    margin: 2rem;
-    margin-top: 0;
-  }
-
   section > .content {
     max-height: 96rem;
     > .grid {

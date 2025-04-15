@@ -6,12 +6,14 @@
       and&nbsp;one&#x2011;shots&nbsp;for&nbsp;tabletop&nbsp;games
     </p>
     <div class="row button-shelf">
-      <button @click="onClickToggleAboutMe">
-        <span>About Me</span>
+      <button @click="setDrawer('about-me')">
+        <span>About</span>
       </button>
-      <button @click="onClickToggleAttribution">
-        <i class="fas fa-info-circle"></i>
+      <button @click="setDrawer('attribution')">
         <span>Attribution</span>
+      </button>
+      <button @click="setDrawer('scoundry')">
+        <span>Scoundry</span>
       </button>
     </div>
   </header>
@@ -19,9 +21,8 @@
 
 <script setup lang="ts">
 import { defineProps } from 'vue';
-const { onClickToggleAttribution, onClickToggleAboutMe } = defineProps<{
-  onClickToggleAttribution: () => void;
-  onClickToggleAboutMe: () => void;
+const props = defineProps<{
+  setDrawer: (drawerKey: string) => void;
 }>();
 </script>
 
@@ -41,9 +42,10 @@ header.hero {
 
   h1 {
     font-family: var(--title-font-family);
-    font-size: 6.4rem;
+    font-size: 4.8rem;
     letter-spacing: 0.1rem;
     margin-bottom: 0.2rem;
+    text-transform: uppercase;
   }
 
   p {

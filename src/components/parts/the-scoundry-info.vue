@@ -2,25 +2,47 @@
   <section>
     <div class="content">
       <h2>
-        <span class="decoration">🙥&nbsp;</span><strong>Attribution</strong>
+        <span class="decoration">🙥&nbsp;</span
+        ><strong>Scoundry — character keeper</strong>
         <span class="decoration">&nbsp;🙧</span>
       </h2>
       <div class="grid">
         <p>
-          These works are based on
-          <a class="link" href="http://www.bladesinthedark.com" target="_blank"
-            >Blades in the Dark</a
+          Try out my new Blades in the Dark character keeper!
+          <a href="https://scoundry.com" class="link" target="_blank"
+            >Scoundry.com</a
           >
-          — a product of One Seven Design, developed and authored by John
-          Harper, and licensed for my use under the Creative Commons Attribution
-          3.0
-          <a
-            href="http://creativecommons.org/licenses/by/3.0"
-            class="link"
-            target="_blank"
-            >license</a
-          >.
+          is 100% free with no paywalls.
         </p>
+        <ul class="list">
+          <li>Available in English, German, French, and Spanish.</li>
+          <li>
+            Walk new players through character creation one step at a time with
+            bite-sized lore and choices from the books.
+          </li>
+          <li>
+            Export your character to an image at the end, identical to a
+            printable sheet you would otherwise fill out by hand.
+          </li>
+          <li><strong>New!</strong> Deep Cuts sheets available in English.</li>
+          <li>
+            Send or save your character as a URL so you can edit it later
+            without rewriting everything.
+          </li>
+          <li>
+            <a
+              href="https://github.com/olinkirkland/scoundry"
+              class="link"
+              target="_blank"
+              >Open source</a
+            >
+            and self-hostable.
+          </li>
+        </ul>
+        <a href="https://scoundry.com" class="btn" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+          <span>Try it now!</span>
+        </a>
       </div>
     </div>
   </section>
