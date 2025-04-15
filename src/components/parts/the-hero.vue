@@ -12,7 +12,7 @@
       <button @click="setDrawer('attribution')">
         <span>Attribution</span>
       </button>
-      <button @click="setDrawer('scoundry')">
+      <button @click="props.setDrawer('scoundry')">
         <span>Scoundry</span>
       </button>
     </div>
