@@ -17,6 +17,7 @@
     "archiver": "^6.0.1",
     "pdf-lib": "^1.17.1",
     "pdf-to-png-converter": "^3.3.0",
+    "prettier": "^3.5.3",
     "vue": "^3.3.8"
   },
   "devDependencies": {
