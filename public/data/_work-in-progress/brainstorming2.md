@@ -1,0 +1,3 @@
+- dream/memory of an army landing on a windswept shore, soldiers with round shields being felled by arrows as they fall from their ships onto the sand
+- a tunnel at the bottom of a lake, lake-water drips from the stony ceiling of the tunnel and puddles slosh around your feet
+- burning ships an enemy's ships
