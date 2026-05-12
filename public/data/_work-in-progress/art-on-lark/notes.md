@@ -1,0 +1,1 @@
+A competing boutique owner on Lark Street wants you to steal the debut collection of Elissa Halloran, a local and beloved jewelry and fashion designer. You're to do this the night before she unveils it at her Art on Lark booth. The rival wants to copy the designs and sabotage Halloran
