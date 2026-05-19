@@ -1,588 +1,603 @@
 {
-  "scribbles": [
-    {
-      "title": "Electric Dreams",
-      "description": "The Unchained hire a crew of scoundrels to rescue an ancient Hull from Sparkwright Tower.",
-      "slug": "electric-dreams",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:unchained",
-        "unchained",
-        "hull",
-        "sparkwright",
-        "prometheus"
-      ],
-      "size": 189479,
-      "pageCount": 2,
-      "createdAt": "2025-02-14T13:53:39.000Z",
-      "lastModified": "2025-02-16T09:22:23.000Z"
-    },
-    {
-      "title": "Ghosts in the Machine",
-      "description": "Check out a book from a library in the Deathlands. Just get back out before the library consumes you.",
-      "slug": "ghosts-in-the-machine",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:crowley",
-        "deathlands",
-        "scavengers",
-        "library",
-        "ghosts"
-      ],
-      "size": 107489,
-      "pageCount": 1,
-      "createdAt": "2024-10-23T09:08:11.000Z",
-      "lastModified": "2024-10-23T09:08:11.000Z"
-    },
-    {
-      "title": "Curse of the Red Mariner",
-      "description": "A routine score becomes a nightmare aboard this quarantined Leviathan hunter ship.",
-      "slug": "curse-of-the-red-mariner",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:emissary",
-        "leviathan",
-        "red mariner",
-        "ship",
-        "quarantine"
-      ],
-      "size": 119337,
-      "pageCount": 1,
-      "createdAt": "2024-10-07T09:57:44.000Z",
-      "lastModified": "2024-10-07T09:57:44.000Z"
-    },
-    {
-      "title": "The Haunting of Hyle Hall",
-      "description": "You've been hired to retrieve a family heirloom from the haunted Hyle Hall in Coalridge.",
-      "slug": "the-haunting-of-hyle-hall",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:hyle",
-        "hyle",
-        "stokes",
-        "heirloom",
-        "haunted",
-        "coalridge"
-      ],
-      "size": 100577,
-      "pageCount": 1,
-      "createdAt": "2024-09-16T07:52:39.000Z",
-      "lastModified": "2024-09-16T09:02:39.000Z"
-    },
-    {
-      "title": "Duskwall Memories: Underworld & Strange",
-      "description": "Scenes from Duskwall's Underworld background and bonus Strange scenes, with worldbuilding questions.",
-      "slug": "duskwall-memories-4",
-      "tags": [
-        "game:blades in the dark",
-        "type:memories",
-        "worldbuilding",
-        "scenes",
-        "underworld",
-        "strange"
-      ],
-      "size": 98638,
-      "pageCount": 1,
-      "createdAt": "2024-09-02T09:39:55.000Z",
-      "lastModified": "2024-09-02T09:39:55.000Z"
-    },
-    {
-      "title": "Smuggler's Slip",
-      "description": "Smuggle a shipment of contraband to a contact in the Lost District.",
-      "slug": "smugglers-slip",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:stovetop",
-        "lost district",
-        "smugglers",
-        "canals",
-        "deathlands"
-      ],
-      "size": 115439,
-      "pageCount": 1,
-      "createdAt": "2024-08-23T09:16:35.000Z",
-      "lastModified": "2024-08-23T09:16:35.000Z"
-    },
-    {
-      "title": "Duskwall Memories: Military & Nobility",
-      "description": "Scenes from Duskwall's Military & Nobility backgrounds, with worldbuilding questions.",
-      "slug": "duskwall-memories-3",
-      "tags": [
-        "game:blades in the dark",
-        "type:memories",
-        "worldbuilding",
-        "scenes",
-        "military",
-        "nobility"
-      ],
-      "size": 99936,
-      "pageCount": 1,
-      "createdAt": "2024-07-30T09:41:08.000Z",
-      "lastModified": "2024-07-30T09:41:08.000Z"
-    },
-    {
-      "title": "Heavy Medal",
-      "description": "Retrieve a sentimental Skov pendant from the Governor's Fortress in Whitecrown.",
-      "slug": "heavy-medal",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:skov",
-        "skov",
-        "mulder",
-        "pendant",
-        "medal",
-        "fortress",
-        "whitecrown"
-      ],
-      "size": 119794,
-      "pageCount": 1,
-      "createdAt": "2024-07-03T08:10:51.000Z",
-      "lastModified": "2024-07-29T12:48:03.000Z"
-    },
-    {
-      "title": "Duskwall Memories: Law & Trade",
-      "description": "Scenes from Duskwall's Law and Trade backgrounds, with worldbuilding questions.",
-      "slug": "duskwall-memories-2",
-      "tags": [
-        "game:blades in the dark",
-        "type:memories",
-        "worldbuilding",
-        "scenes",
-        "law",
-        "trade"
-      ],
-      "size": 99772,
-      "pageCount": 1,
-      "createdAt": "2024-06-25T06:02:29.000Z",
-      "lastModified": "2024-06-25T07:22:29.000Z"
-    },
-    {
-      "title": "Duskwall Memories: Academia & Labor",
-      "description": "Scenes from Duskwall's Academia and Labor backgrounds, with worldbuilding questions.",
-      "slug": "duskwall-memories-1",
-      "tags": [
-        "game:blades in the dark",
-        "type:memories",
-        "worldbuilding",
-        "scenes",
-        "academia",
-        "labor"
-      ],
-      "size": 101720,
-      "pageCount": 1,
-      "createdAt": "2024-06-17T12:44:37.000Z",
-      "lastModified": "2024-06-17T12:44:37.000Z"
-    },
-    {
-      "title": "A Murder of Crows",
-      "description": "Infiltrate a Hive warehouse to discover the names of traitors within the Crow's organization that are working to bring down the gang's leader, Lyssa.",
-      "slug": "a-murder-of-crows",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:crows-foot",
-        "crows",
-        "lyssa",
-        "hive",
-        "warehouse"
-      ],
-      "size": 107405,
-      "pageCount": 1,
-      "createdAt": "2024-05-13T13:54:34.000Z",
-      "lastModified": "2024-05-14T09:59:38.000Z"
-    },
-    {
-      "title": "Water Under the Bridge",
-      "description": "Stop a mad scholar from meddling with a Spirit Well in the South Bridge Vaults.",
-      "slug": "water-under-the-bridge",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:stovetop",
-        "south bridge",
-        "vaults",
-        "spirit well",
-        "reconciled"
-      ],
-      "size": 111957,
-      "pageCount": 1,
-      "createdAt": "2024-04-29T20:15:27.000Z",
-      "lastModified": "2024-04-29T20:20:58.000Z"
-    },
-    {
-      "title": "Something Borrowed, Something Blue",
-      "description": "Liberate a family heirloom from a former lover on the day of his wedding.",
-      "slug": "something-borrowed",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:byrd",
-        "byrd",
-        "heirloom",
-        "wedding",
-        "hedge",
-        "garden"
-      ],
-      "size": 110550,
-      "pageCount": 1,
-      "createdAt": "2024-04-18T14:10:34.000Z",
-      "lastModified": "2024-04-18T14:22:47.000Z"
-    },
-    {
-      "title": "The Red Keep",
-      "description": "Steal an astronomical device for the Deathlands Scavengers from an ancient castle.",
-      "slug": "the-red-keep",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:scavengers",
-        "deathlands",
-        "scavengers",
-        "castle",
-        "astrolabe",
-        "demon"
-      ],
-      "size": 97217,
-      "pageCount": 1,
-      "createdAt": "2024-04-12T12:36:15.000Z",
-      "lastModified": "2024-04-18T14:10:34.000Z"
-    },
-    {
-      "title": "On a Knife's Edge",
-      "description": "The Dimmer Sisters hire a crew to steal a dagger from Quarla, Duskvol's most notorious blade-smith.",
-      "slug": "on-a-knifes-edge",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:quarla",
-        "dimmer sisters",
-        "quarla",
-        "dagger",
-        "bladesmith",
-        "illustrated",
-        "perryphery"
-      ],
-      "downloads": [
+    "scribbles": [
         {
-          "path": "on-a-knifes-edge__clean.pdf",
-          "name": "Printer-friendly PDF",
-          "size": 217798
+            "title": "Art on Lark",
+            "description": "Sabotage a rival boutique and sabotage a showcase for the up-coming Nightmarket festival.",
+            "slug": "art-on-lark",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:lark",
+                "fashion",
+                "lark street",
+                "boutique",
+                "red sashes",
+                "nightmarket"
+            ]
+        },
+        {
+            "title": "Electric Dreams",
+            "description": "The Unchained hire a crew of scoundrels to rescue an ancient Hull from Sparkwright Tower.",
+            "slug": "electric-dreams",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:unchained",
+                "unchained",
+                "hull",
+                "sparkwright",
+                "prometheus"
+            ],
+            "size": 189479,
+            "pageCount": 2,
+            "createdAt": "2025-02-14T13:53:39.000Z",
+            "lastModified": "2025-02-16T09:22:23.000Z"
+        },
+        {
+            "title": "Ghosts in the Machine",
+            "description": "Check out a book from a library in the Deathlands. Just get back out before the library consumes you.",
+            "slug": "ghosts-in-the-machine",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:crowley",
+                "deathlands",
+                "scavengers",
+                "library",
+                "ghosts"
+            ],
+            "size": 107489,
+            "pageCount": 1,
+            "createdAt": "2024-10-23T09:08:11.000Z",
+            "lastModified": "2024-10-23T09:08:11.000Z"
+        },
+        {
+            "title": "Curse of the Red Mariner",
+            "description": "A routine score becomes a nightmare aboard this quarantined Leviathan hunter ship.",
+            "slug": "curse-of-the-red-mariner",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:emissary",
+                "leviathan",
+                "red mariner",
+                "ship",
+                "quarantine"
+            ],
+            "size": 119337,
+            "pageCount": 1,
+            "createdAt": "2024-10-07T09:57:44.000Z",
+            "lastModified": "2024-10-07T09:57:44.000Z"
+        },
+        {
+            "title": "The Haunting of Hyle Hall",
+            "description": "You've been hired to retrieve a family heirloom from the haunted Hyle Hall in Coalridge.",
+            "slug": "the-haunting-of-hyle-hall",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:hyle",
+                "hyle",
+                "stokes",
+                "heirloom",
+                "haunted",
+                "coalridge"
+            ],
+            "size": 100577,
+            "pageCount": 1,
+            "createdAt": "2024-09-16T07:52:39.000Z",
+            "lastModified": "2024-09-16T09:02:39.000Z"
+        },
+        {
+            "title": "Duskwall Memories: Underworld & Strange",
+            "description": "Scenes from Duskwall's Underworld background and bonus Strange scenes, with worldbuilding questions.",
+            "slug": "duskwall-memories-4",
+            "tags": [
+                "game:blades in the dark",
+                "type:memories",
+                "worldbuilding",
+                "scenes",
+                "underworld",
+                "strange"
+            ],
+            "size": 98638,
+            "pageCount": 1,
+            "createdAt": "2024-09-02T09:39:55.000Z",
+            "lastModified": "2024-09-02T09:39:55.000Z"
+        },
+        {
+            "title": "Smuggler's Slip",
+            "description": "Smuggle a shipment of contraband to a contact in the Lost District.",
+            "slug": "smugglers-slip",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:stovetop",
+                "lost district",
+                "smugglers",
+                "canals",
+                "deathlands"
+            ],
+            "size": 115439,
+            "pageCount": 1,
+            "createdAt": "2024-08-23T09:16:35.000Z",
+            "lastModified": "2024-08-23T09:16:35.000Z"
+        },
+        {
+            "title": "Duskwall Memories: Military & Nobility",
+            "description": "Scenes from Duskwall's Military & Nobility backgrounds, with worldbuilding questions.",
+            "slug": "duskwall-memories-3",
+            "tags": [
+                "game:blades in the dark",
+                "type:memories",
+                "worldbuilding",
+                "scenes",
+                "military",
+                "nobility"
+            ],
+            "size": 99936,
+            "pageCount": 1,
+            "createdAt": "2024-07-30T09:41:08.000Z",
+            "lastModified": "2024-07-30T09:41:08.000Z"
+        },
+        {
+            "title": "Heavy Medal",
+            "description": "Retrieve a sentimental Skov pendant from the Governor's Fortress in Whitecrown.",
+            "slug": "heavy-medal",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:skov",
+                "skov",
+                "mulder",
+                "pendant",
+                "medal",
+                "fortress",
+                "whitecrown"
+            ],
+            "size": 119794,
+            "pageCount": 1,
+            "createdAt": "2024-07-03T08:10:51.000Z",
+            "lastModified": "2024-07-29T12:48:03.000Z"
+        },
+        {
+            "title": "Duskwall Memories: Law & Trade",
+            "description": "Scenes from Duskwall's Law and Trade backgrounds, with worldbuilding questions.",
+            "slug": "duskwall-memories-2",
+            "tags": [
+                "game:blades in the dark",
+                "type:memories",
+                "worldbuilding",
+                "scenes",
+                "law",
+                "trade"
+            ],
+            "size": 99772,
+            "pageCount": 1,
+            "createdAt": "2024-06-25T06:02:29.000Z",
+            "lastModified": "2024-06-25T07:22:29.000Z"
+        },
+        {
+            "title": "Duskwall Memories: Academia & Labor",
+            "description": "Scenes from Duskwall's Academia and Labor backgrounds, with worldbuilding questions.",
+            "slug": "duskwall-memories-1",
+            "tags": [
+                "game:blades in the dark",
+                "type:memories",
+                "worldbuilding",
+                "scenes",
+                "academia",
+                "labor"
+            ],
+            "size": 101720,
+            "pageCount": 1,
+            "createdAt": "2024-06-17T12:44:37.000Z",
+            "lastModified": "2024-06-17T12:44:37.000Z"
+        },
+        {
+            "title": "A Murder of Crows",
+            "description": "Infiltrate a Hive warehouse to discover the names of traitors within the Crow's organization that are working to bring down the gang's leader, Lyssa.",
+            "slug": "a-murder-of-crows",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:crows-foot",
+                "crows",
+                "lyssa",
+                "hive",
+                "warehouse"
+            ],
+            "size": 107405,
+            "pageCount": 1,
+            "createdAt": "2024-05-13T13:54:34.000Z",
+            "lastModified": "2024-05-14T09:59:38.000Z"
+        },
+        {
+            "title": "Water Under the Bridge",
+            "description": "Stop a mad scholar from meddling with a Spirit Well in the South Bridge Vaults.",
+            "slug": "water-under-the-bridge",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:stovetop",
+                "south bridge",
+                "vaults",
+                "spirit well",
+                "reconciled"
+            ],
+            "size": 111957,
+            "pageCount": 1,
+            "createdAt": "2024-04-29T20:15:27.000Z",
+            "lastModified": "2024-04-29T20:20:58.000Z"
+        },
+        {
+            "title": "Something Borrowed, Something Blue",
+            "description": "Liberate a family heirloom from a former lover on the day of his wedding.",
+            "slug": "something-borrowed",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:byrd",
+                "byrd",
+                "heirloom",
+                "wedding",
+                "hedge",
+                "garden"
+            ],
+            "size": 110550,
+            "pageCount": 1,
+            "createdAt": "2024-04-18T14:10:34.000Z",
+            "lastModified": "2024-04-18T14:22:47.000Z"
+        },
+        {
+            "title": "The Red Keep",
+            "description": "Steal an astronomical device for the Deathlands Scavengers from an ancient castle.",
+            "slug": "the-red-keep",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:scavengers",
+                "deathlands",
+                "scavengers",
+                "castle",
+                "astrolabe",
+                "demon"
+            ],
+            "size": 97217,
+            "pageCount": 1,
+            "createdAt": "2024-04-12T12:36:15.000Z",
+            "lastModified": "2024-04-18T14:10:34.000Z"
+        },
+        {
+            "title": "On a Knife's Edge",
+            "description": "The Dimmer Sisters hire a crew to steal a dagger from Quarla, Duskvol's most notorious blade-smith.",
+            "slug": "on-a-knifes-edge",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:quarla",
+                "dimmer sisters",
+                "quarla",
+                "dagger",
+                "bladesmith",
+                "illustrated",
+                "perryphery"
+            ],
+            "downloads": [
+                {
+                    "path": "on-a-knifes-edge__clean.pdf",
+                    "name": "Printer-friendly PDF",
+                    "size": 217798
+                }
+            ],
+            "size": 543537,
+            "pageCount": 3,
+            "createdAt": "2024-03-20T12:28:04.000Z",
+            "lastModified": "2024-04-26T13:03:20.000Z"
+        },
+        {
+            "title": "Symphony of Secrets",
+            "description": "Swap out Tabitha Slane's harp for a fake before her next concert to expose her as a fraud.",
+            "slug": "symphony-of-secrets",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:slane",
+                "slane",
+                "harp",
+                "fraud",
+                "concert"
+            ],
+            "size": 128226,
+            "pageCount": 1,
+            "createdAt": "2024-03-11T17:28:37.000Z",
+            "lastModified": "2024-03-11T22:38:38.000Z"
+        },
+        {
+            "title": "The Butcher's Bill",
+            "description": "Infiltrate the Billhooks' slaughterhouse and steal a piece of leverage for the Broker.",
+            "slug": "the-butchers-bill",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:billhooks",
+                "billhooks",
+                "slaughterhouse",
+                "broker"
+            ],
+            "size": 129216,
+            "pageCount": 1,
+            "createdAt": "2024-03-03T16:53:34.000Z",
+            "lastModified": "2024-03-03T17:05:46.000Z"
+        },
+        {
+            "title": "Forget Me Not",
+            "description": "Chef Roselle needs one last ingredient to brew a potion that will restore her memory.",
+            "slug": "forget-me-not",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:roselle",
+                "roselle",
+                "potion",
+                "memory",
+                "brightstone",
+                "greenhouse"
+            ],
+            "size": 106720,
+            "pageCount": 1,
+            "createdAt": "2024-02-23T13:59:13.000Z",
+            "lastModified": "2024-04-18T14:10:34.000Z"
+        },
+        {
+            "title": "Heritage Pavilion",
+            "description": "A Severosi mercenary group hires a crew of scoundrels to steal a valuable artifact from the Imperial Museum.",
+            "slug": "heritage-pavilion",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "severos",
+                "artifact",
+                "museum",
+                "silver nails"
+            ],
+            "size": 106357,
+            "pageCount": 1,
+            "createdAt": "2024-02-16T14:05:23.000Z",
+            "lastModified": "2024-02-19T09:31:59.000Z"
+        },
+        {
+            "title": "Forge of the Dead",
+            "description": "The Lampblacks employ scoundrels to disrupt the Red Sashes mysterious drug production.",
+            "slug": "forge-of-the-dead",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:lampblacks",
+                "lampblacks",
+                "red sashes",
+                "drug",
+                "ghosts"
+            ],
+            "size": 111666,
+            "pageCount": 1,
+            "createdAt": "2024-02-05T12:34:45.000Z",
+            "lastModified": "2024-02-05T12:34:45.000Z"
+        },
+        {
+            "title": "Tower of the Mechanist",
+            "description": "Prevent the Mechanist from building a private army of powerful automatons.",
+            "slug": "tower-of-the-mechanist",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:mechanist",
+                "mechanist",
+                "automatons",
+                "sentinels",
+                "ministry of preservation"
+            ],
+            "size": 120132,
+            "pageCount": 1,
+            "createdAt": "2024-01-29T15:32:58.000Z",
+            "lastModified": "2024-01-29T15:35:07.000Z"
+        },
+        {
+            "title": "Portrait of a Whisper",
+            "description": "The leader of the Red Sashes hires a group of scoundrels to steal a painting from the chief Whisper of the Gondoliers.",
+            "slug": "portrait-of-a-whisper",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:emissary",
+                "red sashes",
+                "gondoliers",
+                "painting",
+                "whisper"
+            ],
+            "size": 106166,
+            "pageCount": 1,
+            "createdAt": "2024-01-08T13:41:57.000Z",
+            "lastModified": "2024-01-10T14:01:11.000Z"
+        },
+        {
+            "title": "Cabinet of Curiosities",
+            "description": "Anton Scurlock desires a peculiar creature that's on display at a traveling circus to add to his taxidermy collection.",
+            "slug": "cabinet-of-curiosities",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "animal",
+                "scurlock",
+                "circus",
+                "curiosities",
+                "taxidermy"
+            ],
+            "size": 105343,
+            "pageCount": 1,
+            "createdAt": "2024-01-23T08:51:20.000Z",
+            "lastModified": "2024-01-23T09:11:54.000Z"
+        },
+        {
+            "title": "Lawman on the Line",
+            "description": "Extract an undercover operative from a gang of former Bluecoats on a high-speed train.",
+            "slug": "lawman-on-the-line",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "bluecoat",
+                "train",
+                "gray cloaks",
+                "inspector",
+                "deathlands"
+            ],
+            "size": 98089,
+            "pageCount": 1,
+            "createdAt": "2024-01-03T12:46:27.000Z",
+            "lastModified": "2024-01-08T11:08:08.000Z"
+        },
+        {
+            "title": "Setting Primer",
+            "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
+            "slug": "setting-primer",
+            "tags": [
+                "game:blades in the dark",
+                "type:setting",
+                "setting",
+                "overview"
+            ],
+            "size": 121130,
+            "lastModified": "2024-01-23T09:34:18.000Z",
+            "createdAt": "2023-12-11T13:28:37.000Z",
+            "pageCount": 2
+        },
+        {
+            "title": "The Witching Hour",
+            "description": "The High Priestess of the Cat's Tail Coven has sent her most trusted witches to the Deathlands to find a cure for a horrific plague.",
+            "slug": "the-witching-hour",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:witches",
+                "witches",
+                "deathlands",
+                "plague"
+            ],
+            "size": 130077,
+            "lastModified": "2024-02-29T22:25:10.000Z",
+            "createdAt": "2023-12-12T15:03:20.000Z",
+            "pageCount": 1
+        },
+        {
+            "title": "Devil's Sacrament",
+            "description": "The witches of the Cat's Tail Coven must prevent a cult from unleashing a demon in the heart of Doskvol.",
+            "slug": "devils-sacrament",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:witches",
+                "witches",
+                "demon",
+                "ritual",
+                "veil"
+            ],
+            "size": 112108,
+            "lastModified": "2024-01-27T21:14:31.000Z",
+            "createdAt": "2023-12-18T10:40:21.000Z",
+            "pageCount": 1
+        },
+        {
+            "title": "The Rowan Affair",
+            "description": "Lady Whitethorn's retainers must retrieve a necklace from to convince her bethrothed—the esteemed Lord Rowan—of her innocence.",
+            "slug": "the-rowan-affair",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:whitethorn",
+                "rowan",
+                "necklace",
+                "lady whitethorn"
+            ],
+            "size": 110925,
+            "lastModified": "2024-01-22T16:01:16.000Z",
+            "createdAt": "2023-12-11T13:28:37.000Z",
+            "pageCount": 1
+        },
+        {
+            "title": "Party at Whitethorn House",
+            "description": "Lady Whitethorn is throwing an extravagant party to elevate her social standing. Her retainers must ensure the party goes off without a hitch.",
+            "slug": "party-at-whitethorn-house",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:whitethorn",
+                "party",
+                "lady whitethorn",
+                "socialite",
+                "nobility"
+            ],
+            "size": 103186,
+            "lastModified": "2024-01-27T21:14:31.000Z",
+            "createdAt": "2023-12-11T13:28:37.000Z",
+            "pageCount": 1
+        },
+        {
+            "title": "A Heist for Hire",
+            "description": "A group of thieves are hired to steal a mysterious gemstone from a secure bank vault guarded by lethal automatons.",
+            "slug": "a-heist-for-hire",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:harrow",
+                "brightstone",
+                "bank",
+                "heist",
+                "gemstone"
+            ],
+            "size": 120109,
+            "lastModified": "2024-03-14T23:08:09.000Z",
+            "createdAt": "2023-12-11T13:28:37.000Z",
+            "pageCount": 1
+        },
+        {
+            "title": "Dark Descent",
+            "description": "A group of thieves are tasked with infiltrating the crypts below the Sanctorium of the Church of Ecstasy and aqcuiring a mysterious amulet.",
+            "slug": "dark-descent",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:harrow",
+                "church of ecstasy",
+                "amulet",
+                "sanctorium",
+                "crypt"
+            ],
+            "size": 113480,
+            "lastModified": "2024-01-27T21:14:31.000Z",
+            "createdAt": "2023-12-11T13:28:37.000Z",
+            "pageCount": 1
+        },
+        {
+            "title": "Stranger Tides",
+            "description": "Pirates hire a crew of scoundrels to steal precious leviathan blood from the belly of a leviathan hunter ship.",
+            "slug": "stranger-tides",
+            "tags": [
+                "game:blades in the dark",
+                "type:one-shot",
+                "series:emissary",
+                "leviathan blood",
+                "pirates",
+                "red mariner",
+                "ship"
+            ],
+            "size": 108323,
+            "lastModified": "2024-01-03T11:05:15.000Z",
+            "createdAt": "2023-12-11T13:28:37.000Z",
+            "pageCount": 1
         }
-      ],
-      "size": 543537,
-      "pageCount": 3,
-      "createdAt": "2024-03-20T12:28:04.000Z",
-      "lastModified": "2024-04-26T13:03:20.000Z"
-    },
-    {
-      "title": "Symphony of Secrets",
-      "description": "Swap out Tabitha Slane's harp for a fake before her next concert to expose her as a fraud.",
-      "slug": "symphony-of-secrets",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:slane",
-        "slane",
-        "harp",
-        "fraud",
-        "concert"
-      ],
-      "size": 128226,
-      "pageCount": 1,
-      "createdAt": "2024-03-11T17:28:37.000Z",
-      "lastModified": "2024-03-11T22:38:38.000Z"
-    },
-    {
-      "title": "The Butcher's Bill",
-      "description": "Infiltrate the Billhooks' slaughterhouse and steal a piece of leverage for the Broker.",
-      "slug": "the-butchers-bill",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:billhooks",
-        "billhooks",
-        "slaughterhouse",
-        "broker"
-      ],
-      "size": 129216,
-      "pageCount": 1,
-      "createdAt": "2024-03-03T16:53:34.000Z",
-      "lastModified": "2024-03-03T17:05:46.000Z"
-    },
-    {
-      "title": "Forget Me Not",
-      "description": "Chef Roselle needs one last ingredient to brew a potion that will restore her memory.",
-      "slug": "forget-me-not",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:roselle",
-        "roselle",
-        "potion",
-        "memory",
-        "brightstone",
-        "greenhouse"
-      ],
-      "size": 106720,
-      "pageCount": 1,
-      "createdAt": "2024-02-23T13:59:13.000Z",
-      "lastModified": "2024-04-18T14:10:34.000Z"
-    },
-    {
-      "title": "Heritage Pavilion",
-      "description": "A Severosi mercenary group hires a crew of scoundrels to steal a valuable artifact from the Imperial Museum.",
-      "slug": "heritage-pavilion",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "severos",
-        "artifact",
-        "museum",
-        "silver nails"
-      ],
-      "size": 106357,
-      "pageCount": 1,
-      "createdAt": "2024-02-16T14:05:23.000Z",
-      "lastModified": "2024-02-19T09:31:59.000Z"
-    },
-    {
-      "title": "Forge of the Dead",
-      "description": "The Lampblacks employ scoundrels to disrupt the Red Sashes mysterious drug production.",
-      "slug": "forge-of-the-dead",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:lampblacks",
-        "lampblacks",
-        "red sashes",
-        "drug",
-        "ghosts"
-      ],
-      "size": 111666,
-      "pageCount": 1,
-      "createdAt": "2024-02-05T12:34:45.000Z",
-      "lastModified": "2024-02-05T12:34:45.000Z"
-    },
-    {
-      "title": "Tower of the Mechanist",
-      "description": "Prevent the Mechanist from building a private army of powerful automatons.",
-      "slug": "tower-of-the-mechanist",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:mechanist",
-        "mechanist",
-        "automatons",
-        "sentinels",
-        "ministry of preservation"
-      ],
-      "size": 120132,
-      "pageCount": 1,
-      "createdAt": "2024-01-29T15:32:58.000Z",
-      "lastModified": "2024-01-29T15:35:07.000Z"
-    },
-    {
-      "title": "Portrait of a Whisper",
-      "description": "The leader of the Red Sashes hires a group of scoundrels to steal a painting from the chief Whisper of the Gondoliers.",
-      "slug": "portrait-of-a-whisper",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:emissary",
-        "red sashes",
-        "gondoliers",
-        "painting",
-        "whisper"
-      ],
-      "size": 106166,
-      "pageCount": 1,
-      "createdAt": "2024-01-08T13:41:57.000Z",
-      "lastModified": "2024-01-10T14:01:11.000Z"
-    },
-    {
-      "title": "Cabinet of Curiosities",
-      "description": "Anton Scurlock desires a peculiar creature that's on display at a traveling circus to add to his taxidermy collection.",
-      "slug": "cabinet-of-curiosities",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "animal",
-        "scurlock",
-        "circus",
-        "curiosities",
-        "taxidermy"
-      ],
-      "size": 105343,
-      "pageCount": 1,
-      "createdAt": "2024-01-23T08:51:20.000Z",
-      "lastModified": "2024-01-23T09:11:54.000Z"
-    },
-    {
-      "title": "Lawman on the Line",
-      "description": "Extract an undercover operative from a gang of former Bluecoats on a high-speed train.",
-      "slug": "lawman-on-the-line",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "bluecoat",
-        "train",
-        "gray cloaks",
-        "inspector",
-        "deathlands"
-      ],
-      "size": 98089,
-      "pageCount": 1,
-      "createdAt": "2024-01-03T12:46:27.000Z",
-      "lastModified": "2024-01-08T11:08:08.000Z"
-    },
-    {
-      "title": "Setting Primer",
-      "description": "An unofficial, two-page overview of the Blades in the Dark setting. The perfect handout for new players.",
-      "slug": "setting-primer",
-      "tags": [
-        "game:blades in the dark",
-        "type:setting",
-        "setting",
-        "overview"
-      ],
-      "size": 121130,
-      "lastModified": "2024-01-23T09:34:18.000Z",
-      "createdAt": "2023-12-11T13:28:37.000Z",
-      "pageCount": 2
-    },
-    {
-      "title": "The Witching Hour",
-      "description": "The High Priestess of the Cat's Tail Coven has sent her most trusted witches to the Deathlands to find a cure for a horrific plague.",
-      "slug": "the-witching-hour",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:witches",
-        "witches",
-        "deathlands",
-        "plague"
-      ],
-      "size": 130077,
-      "lastModified": "2024-02-29T22:25:10.000Z",
-      "createdAt": "2023-12-12T15:03:20.000Z",
-      "pageCount": 1
-    },
-    {
-      "title": "Devil's Sacrament",
-      "description": "The witches of the Cat's Tail Coven must prevent a cult from unleashing a demon in the heart of Doskvol.",
-      "slug": "devils-sacrament",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:witches",
-        "witches",
-        "demon",
-        "ritual",
-        "veil"
-      ],
-      "size": 112108,
-      "lastModified": "2024-01-27T21:14:31.000Z",
-      "createdAt": "2023-12-18T10:40:21.000Z",
-      "pageCount": 1
-    },
-    {
-      "title": "The Rowan Affair",
-      "description": "Lady Whitethorn's retainers must retrieve a necklace from to convince her bethrothed—the esteemed Lord Rowan—of her innocence.",
-      "slug": "the-rowan-affair",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:whitethorn",
-        "rowan",
-        "necklace",
-        "lady whitethorn"
-      ],
-      "size": 110925,
-      "lastModified": "2024-01-22T16:01:16.000Z",
-      "createdAt": "2023-12-11T13:28:37.000Z",
-      "pageCount": 1
-    },
-    {
-      "title": "Party at Whitethorn House",
-      "description": "Lady Whitethorn is throwing an extravagant party to elevate her social standing. Her retainers must ensure the party goes off without a hitch.",
-      "slug": "party-at-whitethorn-house",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:whitethorn",
-        "party",
-        "lady whitethorn",
-        "socialite",
-        "nobility"
-      ],
-      "size": 103186,
-      "lastModified": "2024-01-27T21:14:31.000Z",
-      "createdAt": "2023-12-11T13:28:37.000Z",
-      "pageCount": 1
-    },
-    {
-      "title": "A Heist for Hire",
-      "description": "A group of thieves are hired to steal a mysterious gemstone from a secure bank vault guarded by lethal automatons.",
-      "slug": "a-heist-for-hire",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:harrow",
-        "brightstone",
-        "bank",
-        "heist",
-        "gemstone"
-      ],
-      "size": 120109,
-      "lastModified": "2024-03-14T23:08:09.000Z",
-      "createdAt": "2023-12-11T13:28:37.000Z",
-      "pageCount": 1
-    },
-    {
-      "title": "Dark Descent",
-      "description": "A group of thieves are tasked with infiltrating the crypts below the Sanctorium of the Church of Ecstasy and aqcuiring a mysterious amulet.",
-      "slug": "dark-descent",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:harrow",
-        "church of ecstasy",
-        "amulet",
-        "sanctorium",
-        "crypt"
-      ],
-      "size": 113480,
-      "lastModified": "2024-01-27T21:14:31.000Z",
-      "createdAt": "2023-12-11T13:28:37.000Z",
-      "pageCount": 1
-    },
-    {
-      "title": "Stranger Tides",
-      "description": "Pirates hire a crew of scoundrels to steal precious leviathan blood from the belly of a leviathan hunter ship.",
-      "slug": "stranger-tides",
-      "tags": [
-        "game:blades in the dark",
-        "type:one-shot",
-        "series:emissary",
-        "leviathan blood",
-        "pirates",
-        "red mariner",
-        "ship"
-      ],
-      "size": 108323,
-      "lastModified": "2024-01-03T11:05:15.000Z",
-      "createdAt": "2023-12-11T13:28:37.000Z",
-      "pageCount": 1
+    ],
+    "archive": {
+        "size": 3639418,
+        "lastModified": "2025-04-15T08:28:31.759Z"
     }
-  ],
-  "archive": {
-    "size": 3639418,
-    "lastModified": "2025-04-15T08:28:31.759Z"
-  }
 }
