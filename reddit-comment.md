@@ -1,10 +1,12 @@
-*The Unchained hire a crew of scoundrels to rescue an ancient Hull from Sparkwright Tower.*
+*Sabotage a rival boutique and sabotage a showcase for the up-coming Nightmarket festival.*
 
-[Get the PDF here!](https://olinkirk.land/scribbles/?d=electric-dreams)
+[Get the PDF here!](https://olinkirk.land/scribbles/?d=art-on-lark)
 
 Here's my [website](https://olinkirk.land/scribbles) where you can download up-to-date, free PDFs of all the scenarios I've written.
 
 Download, play, and share my work however you see fit.
+
+[❖ Art on Lark](https://olinkirk.land/scribbles/?d=art-on-lark)
 
 [❖ Electric Dreams](https://olinkirk.land/scribbles/?d=electric-dreams)
 
