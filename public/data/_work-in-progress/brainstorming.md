@@ -1,4 +1,3 @@
-### **Music & Magic**
 - Creepy recurring poem or song
 - Music-themed tattoo by an artist collective
 - Music tied to magic
@@ -6,10 +5,6 @@
 - Mortician "Dr. Metzger"
 - Music box
 - **"Smoke & Mirrors"**: A score about a heist involving a magician's secrets at a theater
-
----
-
-### **Spooky, Paranormal, & Dark Themes**
 - Snake
 - A secluded cabin in a snowy place
 - A Soul escaped from the Spirit Wardens crematorium
@@ -21,10 +16,6 @@
 - A hanged person in a dark cell
 - A room of clocks on the walls, all stopped at the same time
 - The Canterville Ghost https://en.wikipedia.org/wiki/The_Canterville_Ghost
-
----
-
-### **Adventure, Crime, & Heists**
 - Infiltrate a party (the party has a theme like animals or masks)
 - Break-out
 - One shot for an isolated Skov tribe breaking into a leviathan hunter ship to rescue one of their members
@@ -55,9 +46,6 @@
   - Project clock: Finding the next location of a portal
 - Explod-y enemy
 - Renn fair/battle reenactors
-
----
-
 ### **Locations & Settings**
 - An abbey (religious community) led by a Mother Superior
 - A secluded cabin in a snowy place
@@ -83,18 +71,10 @@
 - Famous demon hunter "tall tales"
 - Skeletons leading to a vault
 - "You keep dancin' with the devil, one day he's gonna follow you home."
-
----
-
-### **Artifacts & Items**
 - Bookcases hide a secret passage
 - An easel covered by a sheet
 - Serrated blade trap
 - Parmesan or maple syrup reserves
-
----
-
-### **Miscellaneous**
 - Customs for the dead
 - Footprints of water or blood
 - Tomas (person's name)
@@ -114,3 +94,6 @@
 - “I Hunger…” (verb)
 - “Overcharged” Electrician who was scammed/tricked out of money/goods
 - A creature in a waterlogged/flooded basement
+- "You're the meat!" Mysterious meat, cannibals in fine dining, like the White Glove Society from Fallout: New Vegas
+- List of named characters as part of the scenario, for when the players try to find clues or connections during gather-info step
+- Clothing store, mannequins
