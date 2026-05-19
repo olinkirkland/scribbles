@@ -20,7 +20,8 @@ const metadata = {}; // key: slug, value: metadata object
 const ignoredFiles = [
   '_work-in-progress',
   'scribbles-collection.zip',
-  'scenario-template.docx'
+  'scenario-template.docx',
+  '.DS_Store'
 ];
 
 // Generate metadata for each folder
