@@ -9,13 +9,43 @@ Golden Harvest: A cavernous grotto containing grow-boxes of bioluminescent fungu
 
 Golden Harvest Cultists: Unarmed but dedicated, will protect the cave not only as a place of employment, but as their home.
 
-The Knolls: Low hills around the entrance of the grotto with a loading dock, Ravena's office, and some fungus grow-boxes. Communal rooms and bunk-beds for the workers. A bridge leads from here over the pool to the springs at the back of the grotto.
+The Knolls: Low hills around the entrance of the grotto with a loading dock, Ravena's office, and some fungus grow-boxes. Communal rooms and bunk-beds for the workers. A bridge leads from here over the pool to the hot springs at the back of the grotto.
 
-Springs: Cult members convene at these two springs, the deepest point of the grotto and where drinkable, warm water bubbles up from the ground, to meditate and go on spiritual journeys. This is where the gold button mushrooms were originally found and where they're the most common. It's also the spiritual center of the caves.
+Hot Springs: Cult members convene at these two springs, the deepest point of the grotto and where drinkable, warm water bubbles up from the ground, to meditate and go on spiritual journeys. This is where the gold button mushrooms were originally found and where they're the most common. It's also the spiritual center of the caves.
 
 - The water is what gives the gold button mushrooms their power?
 - There's a spirit well here, and the gold button mushrooms exist due to its power?
 
-Sarha: Self-proclaimed spiritual leader of the cultivators, wears a nondescript white toga. Somber, takes the mediation rituals very seriously, and has some permanent effects from consuming gold button, which healed her from bites she got while cave-fishing.
+Charterhall's main shopping street has mostly emptied out by the time you meet with Basil (ruthless, sweaty), owner of the aptly named and aptly spacious 'Endless Apothecary' (where Basil proudly declares if a herb or remedy can't be found, it doesn't exist). Basil leads you through his lengthy store before rummaging through a binder of leaflets before handing you one.
 
-Ravena Glenmont: The head of the farming operation, Ravena doesn't consume any mushrooms. She is highly respected by both her employees and other farmers, and is known for crafting very meticulous contracts. She insists everything grown and caught in the cave is organic and farm-to-table.
+"This only came to my attention last week, and I wouldn't have believed it if I hadn't seen it for myself! I got back from Barrowcleft late last night. The source is closely guarded. Get me a sample, and get rid of wherever they're sourcing it from. When I am the only source of golden mushrooms in Duskwall, I'll be able to charge whatever I want for them!"
+
+The leaflet reads: 'Big Announcement! Golden Button Mushrooms are now available at the Golden Harvest Grotto in Barrowcleft. Heal any wound and soothe your traumas for a small price or a work contribution. Note: We require that our miracle mushroom be consumed on-premises. Signed, Ravena Glenmont' An exact address is hand-written on the bottom of the page.
+
+Ravena Glenmont
+The head of the farming operation, Ravena doesn't consume any mushrooms. She is highly respected by both her employees and other farmers, and is known for crafting very meticulous contracts. She insists everything grown and caught in the cave is organic and farm-to-table.
+Wants: To lead a successful co-op, and make fruitful deals with other farmers and business owners
+Doesn't want: Golden Harvest to suffer or have bad publicity
+
+Sarha
+Self-proclaimed spiritual leader of the cultivators, wears a nondescript white toga. Somber, takes the mediation rituals very seriously, and has some permanent effects from consuming gold button, which healed her from bites she got while cave-fishing.
+Wants: To bring new members into cult, to share the cult's meditation rituals
+Doesn't want: The Hot Springs to be disrespected
+
+Big Tuna
+A surprisingly fast and dangerous fish lurking amidst the cave-weed. The biggest of the cave-fish, at least eight meters in length. Cultists avoid him, there have been a few close calls already. (*basking shark with teeth?)
+Wants: To protect its territory
+Doesn't want: Loud noises or to be disturbed
+
+Gold Button Effects
+Gold Button Mushrooms have unpredictable side effects.
+
++3 Heal Clock or -1 Trauma (describe how you feel as this trauma fades away)
+
+1. Paranoid: +3 Stress
+2. Tranquil: -1 Stress
+3. 4 segment clock: You can speak to mushrooms
+4. Pulsing, blue-glowing veins for one week
+5. Your worst harm transfers onto the nearest person
+6. +1 to your next Insight action or resistance roll
+

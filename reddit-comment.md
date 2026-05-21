@@ -1,10 +1,12 @@
-*Sabotage a rival boutique and sabotage a showcase for the up-coming Nightmarket festival.*
+*Steal a valuable new mushroom from a psychedelic cult in Barrowcleft.*
 
-[Get the PDF here!](https://olinkirk.land/scribbles/?d=art-on-lark)
+[Get the PDF here!](https://olinkirk.land/scribbles/?d=common-side-effects)
 
 Here's my [website](https://olinkirk.land/scribbles) where you can download up-to-date, free PDFs of all the scenarios I've written.
 
 Download, play, and share my work however you see fit.
+
+[❖ Common Side Effects](https://olinkirk.land/scribbles/?d=common-side-effects)
 
 [❖ Art on Lark](https://olinkirk.land/scribbles/?d=art-on-lark)
 
@@ -71,5 +73,3 @@ Download, play, and share my work however you see fit.
 [❖ The Rowan Affair](https://olinkirk.land/scribbles/?d=the-rowan-affair)
 
 [❖ Setting Primer](https://olinkirk.land/scribbles/?d=setting-primer)
-
-[❖ Common Side Effects](https://olinkirk.land/scribbles/?d=common-side-effects)
