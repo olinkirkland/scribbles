@@ -1,6 +1,22 @@
 {
   "scribbles": [
     {
+      "title": "Common Side Effects",
+      "description": "Steal a valuable new mushroom from a psychedelic cult in Barrowcleft.",
+      "slug": "common-side-effects",
+      "tags": [
+        "game:blades in the dark",
+        "type:one-shot",
+        "series:mushroom",
+        "barrowcleft",
+        "mushroom"
+      ],
+      "size": 4008911,
+      "pageCount": 3,
+      "createdAt": "2026-05-21T17:02:50.000Z",
+      "lastModified": "2026-05-21T17:02:50.000Z"
+    },
+    {
       "title": "Art on Lark",
       "description": "Sabotage a rival boutique and sabotage a showcase for the up-coming Nightmarket festival.",
       "slug": "art-on-lark",
@@ -601,7 +617,7 @@
     }
   ],
   "archive": {
-    "size": 3787866,
-    "lastModified": "2026-05-19T22:19:45.074Z"
+    "size": 7733845,
+    "lastModified": "2026-05-21T17:03:21.480Z"
   }
 }
