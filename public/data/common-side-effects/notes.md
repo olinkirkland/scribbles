@@ -16,12 +16,6 @@ Hot Springs: Cult members convene at these two springs, the deepest point of the
 - The water is what gives the gold button mushrooms their power?
 - There's a spirit well here, and the gold button mushrooms exist due to its power?
 
-Charterhall's main shopping street has mostly emptied out by the time you meet with Basil (ruthless, sweaty), owner of the aptly named and aptly spacious 'Endless Apothecary' (where Basil proudly declares if a herb or remedy can't be found, it doesn't exist). Basil leads you through his lengthy store before rummaging through a binder of leaflets before handing you one.
-
-"This only came to my attention last week, and I wouldn't have believed it if I hadn't seen it for myself! I got back from Barrowcleft late last night. The source is closely guarded. Get me a sample, and get rid of wherever they're sourcing it from. When I am the only source of golden mushrooms in Duskwall, I'll be able to charge whatever I want for them!"
-
-The leaflet reads: 'Big Announcement! Golden Button Mushrooms are now available at the Golden Harvest Grotto in Barrowcleft. Heal any wound and soothe your traumas for a small price or a work contribution. Note: We require that our miracle mushroom be consumed on-premises. Signed, Ravena Glenmont' An exact address is hand-written on the bottom of the page.
-
 Ravena Glenmont
 The head of the farming operation, Ravena doesn't consume any mushrooms. She is highly respected by both her employees and other farmers, and is known for crafting very meticulous contracts. She insists everything grown and caught in the cave is organic and farm-to-table.
 Wants: To lead a successful co-op, and make fruitful deals with other farmers and business owners
@@ -33,7 +27,7 @@ Wants: To bring new members into cult, to share the cult's meditation rituals
 Doesn't want: The Hot Springs to be disrespected
 
 Big Tuna
-A surprisingly fast and dangerous fish lurking amidst the cave-weed. The biggest of the cave-fish, at least eight meters in length. Cultists avoid him, there have been a few close calls already. (*basking shark with teeth?)
+A surprisingly fast and dangerous fish lurking amidst the cave-weed. The biggest of the cave-fish, at least eight meters in length. Cultists avoid him, there have been a few close calls already. (\*basking shark with teeth?)
 Wants: To protect its territory
 Doesn't want: Loud noises or to be disturbed
 
@@ -48,4 +42,3 @@ Gold Button Mushrooms have unpredictable side effects.
 4. Pulsing, blue-glowing veins for one week
 5. Your worst harm transfers onto the nearest person
 6. +1 to your next Insight action or resistance roll
-
