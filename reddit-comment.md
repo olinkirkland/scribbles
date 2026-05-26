@@ -1,4 +1,4 @@
-*Steal a valuable new mushroom from a psychedelic cult in Barrowcleft.*
+*Steal a miracle mushroom from a farm in Barrowcleft and sabotage their remaining inventory.*
 
 [Get the PDF here!](https://olinkirk.land/scribbles/?d=common-side-effects)
 
