@@ -2,14 +2,16 @@
   "scribbles": [
     {
       "title": "Common Side Effects",
-      "description": "Steal a valuable new mushroom from a psychedelic cult in Barrowcleft.",
+      "description": "Steal a miracle mushroom from a farm in Barrowcleft and sabotage their remaining inventory.",
       "slug": "common-side-effects",
       "tags": [
         "game:blades in the dark",
         "type:one-shot",
         "series:mushroom",
         "barrowcleft",
-        "mushroom"
+        "mushroom",
+        "cult",
+        "spirit well"
       ],
       "size": 4008911,
       "pageCount": 3,
