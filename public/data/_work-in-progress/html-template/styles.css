@@ -1,0 +1,51 @@
+// Reset
+// https://meyerweb.com/eric/tools/css/reset/
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    background: none !important;
+    color: black !important;
+    font-family: 'Arvo';
+    font-size: 10pt;
+    margin: 0;
+}
+
+.page-break {
+    display: block;
+    page-break-before: always;
+    break-before: page;
+}
+
+section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+a::after {
+    content: ' (' attr(href) ')';
+    color: gray;
+}
+
+@page {
+    size: letter;
+    margin: 0.5in; // Use in, mm
+}
