@@ -3,3 +3,13 @@
 - burning ships an enemy's ships
 
 The clay spires of the old town, narrow twisting streets that split off into even narrower alleys between leaning buildings. Loose cobblestones, and steep stairs that run all the way to the river that splits the city between the rich old, town and the new, cramped apartments in the north. The boom of an explosion, and the yells of the merchant marine and sailors on the river. "Stop them!" Bits of clay and wood explode and splinter around you before you hear the cracks of the redcloaks' guns, aimed at you... Who is responsible for destroying the ship?
+
+Faint jazz floats across the floor of the CENTURALIA CLUB. You’ve been summoned by LADY DRAKE, who beckons you to a booth at the back where she draws heavy, violet curtains before turning to you. She adjusts a pair of delicate spectacles, balancing them carefully on the bridge of her nose.
+
+"Cornucopia"
+Target Faction: The Church of the Ecstasy of the Flesh is throwing a "harvest banquet" to absorb a rural sect from Whitehollow.
+Client Faction: The Dimmer Sisters want to steal the Ember Wick, a black candle made from priest-tallow.
+Third Faction: "Children of the Bloom", the rural sect of the Church of the Ecstasy of the Flesh.
+
+Fierce sea wind whips strands of IMPERATOR VALERIA BENNET’S dark hair across her weathered face as she briefs you on the deck of the commandeered trawler. As she moves her head, the lenses on Bennet’s goggles reflect the still, gray Akorosi coastline and behind her, through swirling silver fog, you make out the twinkling lights of the port city ILYSIA. 
+“Listen up you worthless criminals. Commodore Harkin’s made it clear: there’s no backing out of this job. The  

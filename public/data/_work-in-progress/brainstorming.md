@@ -97,3 +97,6 @@
 - "You're the meat!" Mysterious meat, cannibals in fine dining, like the White Glove Society from Fallout: New Vegas
 - List of named characters as part of the scenario, for when the players try to find clues or connections during gather-info step
 - Clothing store, mannequins
+
+
+The Black Ledger
