@@ -1,0 +1,211 @@
+body {
+    background-color: #e0e0e0;
+    padding: 2rem;
+    font-family: Arvo, serif;
+    line-height: 1.35;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    // Ensure background colors are printed
+    -webkit-print-color-adjust: exact !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.print-page {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    width: 210mm; /* A4 Paper Width */
+    height: 297mm; /* A4 Paper Height */
+    margin: 0 auto;
+    padding: 20mm;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+    > header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.25rem;
+        margin-bottom: 1rem;
+        opacity: 0.75;
+    }
+
+    > footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+
+        * {
+            font-size: 65%;
+        }
+
+        margin-top: auto;
+        font-style: italic;
+
+        > :first-child {
+            text-align: right;
+        }
+    }
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+section {
+    margin-bottom: 1.25rem;
+    > * {
+        margin-bottom: 1rem;
+        text-align: justify;
+    }
+    > :last-child {
+        margin-bottom: 0;
+    }
+    flex-shrink: 0;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: left;
+
+    border-radius: 5px;
+    border-left: 5px solid rgba(0, 0, 0, 0.2);
+}
+
+section * blockquote {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+strong {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    font-size: inherit;
+}
+
+h1,
+h2,
+h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+sub {
+    font-size: 65%;
+    vertical-align: unset;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0.15rem 0.25rem;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+section:has(header) {
+    overflow: hidden;
+    border-radius: 3px;
+
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.75);
+
+    header {
+        display: block;
+        padding: 0.3rem;
+        background-color: rgba(0, 0, 0, 0.75);
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-box-trim: trim-both;
+        margin-bottom: 0;
+    }
+
+    > div {
+        padding: 1rem 1.5rem;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+ul.grid-2 {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 0.5rem;
+}
+
+ul.grid-3 {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 0.5rem;
+}
+
+ul.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    > li {
+        &::before {
+            content: '❖ ';
+        }
+    }
+}
+
+section:has(.caption) {
+    margin-top: -0.5rem;
+    padding: 0 2rem;
+    .caption {
+        font-style: italic;
+        text-align: center;
+        font-size: 75%;
+        opacity: 0.75;
+    }
+}
+
+ul.dice-table {
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+
+    li {
+        display: flex;
+        gap: 0.25rem;
+        align-items: top;
+        padding: 0.25rem 0.35rem;
+
+        &:nth-child(odd) {
+            background-color: rgba(1, 1, 1, 0.05);
+        }
+
+        img {
+            height: 1.25rem;
+        }
+
+        > *:not(img) {
+            flex: 1;
+        }
+    }
+}
+
+ul img {
+    height: 0.85rem; // Clock icon, etc.
+}
