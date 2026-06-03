@@ -203,15 +203,11 @@ ul.dice-table {
     li {
         display: flex;
         gap: 0.25rem;
-        align-items: top;
+        align-items: center;
         padding: 0.25rem 0.35rem;
 
         &:nth-child(odd) {
             background-color: rgba(1, 1, 1, 0.05);
-        }
-
-        img {
-            height: 1.25rem;
         }
 
         > *:not(img) {
@@ -220,8 +216,11 @@ ul.dice-table {
     }
 }
 
-img.icon {
-    height: 0.85rem; // Clock icon, etc.
+img {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    // border: 1px solid red;
 }
 
 q {
