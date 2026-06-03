@@ -59,18 +59,22 @@ body {
 
 p {
     margin-bottom: 0.5rem;
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 section {
     margin-bottom: 1.25rem;
     > * {
         margin-bottom: 1rem;
-        text-align: justify;
     }
-    > :last-child {
-        margin-bottom: 0;
-    }
+
     flex-shrink: 0;
+}
+
+*:last-child {
+    margin-bottom: 0 !important;
 }
 
 blockquote {
@@ -172,6 +176,14 @@ ul.list {
     }
 }
 
+.spaced {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+// ◈ ◆ ◇ ❖ ⬖ ⬗ ⬘ ⬙
+
 section:has(.caption) {
     margin-top: -0.5rem;
     padding: 0 2rem;
@@ -208,6 +220,39 @@ ul.dice-table {
     }
 }
 
-ul img {
+img.icon {
     height: 0.85rem; // Clock icon, etc.
+}
+
+q {
+    &::before {
+        content: '“';
+    }
+
+    &::after {
+        content: '”';
+    }
+}
+
+.choose-one-column {
+    display: flex;
+    flex-direction: column;
+    > ul {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+mark {
+    font-size: 75%;
+    vertical-align: middle;
+    background-color: rgba(1, 1, 1, 0.75);
+    border: none;
+    padding: 0.15rem 0.3rem;
+    border-radius: 3px;
+    color: white;
 }
