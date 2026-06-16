@@ -1,6 +1,6 @@
-header:first-of-type {
+.page > header {
     img {
-        width: 24px;
+        width: 40px;
         height: unset;
         // transform: rotate(180deg);
         padding: 0 1rem;
@@ -29,7 +29,7 @@ body {
     font-size: 14px;
 }
 
-.print-page {
+.page {
     display: flex;
     flex-direction: column;
     background: #ffffff;
@@ -52,9 +52,10 @@ body {
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 1rem;
+        opacity: 0.75;
 
         * {
-            font-size: 65%;
+            font-size: 0.75rem;
         }
 
         margin-top: auto;
@@ -130,6 +131,10 @@ sub {
     padding: 0.15rem 0.25rem;
     border-radius: 5px;
     white-space: nowrap;
+}
+
+a {
+    color: rgb(95, 10, 10);
 }
 
 section:has(header) {
@@ -263,4 +268,27 @@ mark {
     padding: 0.15rem 0.3rem;
     border-radius: 3px;
     color: white;
+}
+
+ul.counter {
+    counter-reset: item-counter;
+    list-style-type: none;
+
+    > li > :first-child::before {
+        counter-increment: item-counter;
+        content: counter(item-counter, upper-alpha);
+
+        display: inline;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 0.75rem;
+        margin-right: 0.5rem;
+        background-color: rgba(1, 1, 1, 0.75);
+        line-height: 2rem;
+        height: 2.5rem;
+        width: 1.25rem;
+        color: white;
+        float: left;
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 0.5rem), 0 100%);
+    }
 }
