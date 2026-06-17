@@ -107,7 +107,6 @@ section {
         overflow: hidden;
         border-radius: 3px;
 
-        background: rgba(0, 0, 0, 0.02);
         border: 1px solid rgba(0, 0, 0, 0.75);
 
         header {
@@ -330,4 +329,14 @@ mark {
         padding: 0.5in;
         break-after: page;
     }
+}
+
+// Utility
+
+.text-center {
+    text-align: center;
+}
+
+.block {
+    display: block;
 }
