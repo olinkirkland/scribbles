@@ -1,4 +1,4 @@
-@use 'styles';
+@import 'styles';
 @import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
 
 .character-sheet {
@@ -89,9 +89,7 @@ ul.grid-5 {
             }
 
             &.filled::before {
-                border: 1px solid $black;
-                border-bottom: 2px solid $black;
-                border-right: 2px solid $black;
+                background-color: $black;
             }
         }
 

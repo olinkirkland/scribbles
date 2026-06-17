@@ -6,6 +6,7 @@ $black: #000000;
 $gray: #4e4e4e;
 $light-gray: #e0e0e0;
 $pale-gray: #eeeeee;
+$red: #7d1414;
 
 body {
     background-color: #e0e0e0;
@@ -194,7 +195,7 @@ sub {
 }
 
 a {
-    color: rgb(125, 20, 20);
+    color: $red;
     text-decoration: none;
 }
 
@@ -265,7 +266,7 @@ ul.counter {
         vertical-align: middle;
         font-size: 0.75rem;
         margin-right: 0.5rem;
-        background-color: rgba(1, 1, 1, 0.75);
+        background-color: $gray;
         line-height: 2rem;
         height: 2.5rem;
         width: 1.25rem;
